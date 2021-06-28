@@ -34,6 +34,7 @@ Ubuntu 16.04 Xenial
  - This infra setup takes about 10-15 mins (as we have a desktop environment, and a VNC server to install/configure), so please allow yourself some time to deploy this when giving a demo (also a good time to hydrate).
 
 ## VNC Instructions (how to screen share your new cloud VM)
+
 (Server)
  - Login as root with `sudo su -`
  - Run command `tightvncserver`
@@ -55,6 +56,7 @@ Ubuntu 16.04 Xenial
  - Exit out of file
  - Kill the vnc server `vncserver -kill :1`
  - Start vnc server again with `vncserver -geometry 1024x640`
+
 (Client - MacOS Only)
 - Install `VNC Viewer`
 - Point to 'Localhost: 5901'
