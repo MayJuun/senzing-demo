@@ -34,5 +34,24 @@ Ubuntu 16.04 Xenial
  - This infra setup takes about 10-15 mins (as we have a desktop environment, and a VNC server to install/configure), so please allow yourself some time to deploy this when giving a demo (also a good time to hydrate).
 
 ## VNC Instructions (how to screen share your new cloud VM)
-Coming Soon
+
+ - Run command `tightvncserver`
+ - Set/Confirm password: `s3NZ1nG`
+ - Answer 'n' for the view-only pw question
+ - Edit file with nano `nano /root/.vnc/xstartup`
+   - Paste the following there:
+     ```
+     #!/bin/sh
+     autocutsel -fork
+     xrdb $HOME/.Xresources
+     xsetroot -solid grey
+     export XKL_XMODMAP_DISABLE=1
+     export XDG_CURRENT_DESKTOP="GNOME-Flashback:Unity"
+     export XDG_MENU_PREFIX="gnome-flashback-"
+     unset DBUS_SESSION_BUS_ADDRESS
+     gnome-session --session=gnome-flashback-metacity --disable-acceleration-check --debug &
+     ```
+ - Exit out of file
+ - Kill the vnc server `vncserver -kill :1`
+ - Start vnc server again with `vncserver -geometry 1024x640`
 
