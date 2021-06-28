@@ -30,6 +30,9 @@ Ubuntu 16.04 Xenial
 ### Other Attributes:
  - Display Device is enabled, as we want to use screen sharing/recording tools (vnc, etc.)
 
+### Other Notes:
+ - This infra setup takes about 10-15 mins (as we have a desktop environment, and a VNC server to install/configure), so please allow yourself some time to deploy this when giving a demo (also a good time to hydrate).
+
 ## VNC Instructions (how to screen share your new cloud VM)
 Coming Soon
 
