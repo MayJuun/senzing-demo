@@ -15,7 +15,7 @@ The services in this stack can be displayed in the web browser after VNC-ing int
 Google Cloud
 
 ### Machine Type: 
-e2-standard-2 (2 vCPUs, 8 GB memory)
+e2-standard-4 (4 vCPUs, 16 GB memory)
 
 ### Image:
 Ubuntu 16.04 Xenial
@@ -35,6 +35,7 @@ Ubuntu 16.04 Xenial
 
 ## VNC Instructions (how to screen share your new cloud VM)
 
+ - Login as root with `sudo su -`
  - Run command `tightvncserver`
  - Set/Confirm password: `s3NZ1nG`
  - Answer 'n' for the view-only pw question
