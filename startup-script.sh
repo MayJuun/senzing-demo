@@ -3,6 +3,8 @@
 # Update Packages
 sudo apt-get update -y
 sudo apt-get upgrade -y
+sudo apt-get install openjdk-8-jdk-headless -y
+sudo apt-get install default-jre -y
 
 # Set up Desktop Environment
 sudo apt-get install gnome-shell -y
