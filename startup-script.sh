@@ -41,13 +41,13 @@ sudo chmod +x /usr/local/bin/docker-compose
 mkdir --parents ~/synthea.git
 cd ~/synthea.git
 git clone  --recurse-submodules https://github.com/synthetichealth/synthea.git
-cd /synthea
+cd ~/synthea.git/synthea
 
 # Build and run the test suite (this takes about 15 mins)
 ./gradlew build check test
 
-# Generate 10000 patients for JSON file
-./run_synthea -p 10000
+# Generate 100 patients for JSON file
+./run_synthea -p 100
 
 # Clone senzing GH repo
 mkdir --parents ${GIT_ACCOUNT_DIR}
