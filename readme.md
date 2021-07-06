@@ -27,7 +27,8 @@ Ubuntu 16.04 Xenial
  - Type: SSD persistent disk
 
 ### Startup Script:
- - included in this repo as `startup-script.sh`
+ - AWS deployment script included in this repo as `aws-startup-script.sh`
+ - GCP deployment script included in this repo as `gcp-startup-script.sh`
 
 ### Other Attributes:
  - Display Device is enabled, as we want to use screen sharing/recording tools (vnc, etc.)
