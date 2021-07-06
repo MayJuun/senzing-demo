@@ -11,11 +11,13 @@ The services in this stack can be displayed in the web browser after VNC-ing int
 
 ## Virtual Machine Info:
 
-### Cloud Provider:
-Google Cloud
+### Cloud Provider Options:
+- AWS
+- Google Cloud
 
 ### Machine Type: 
-e2-standard-4 (4 vCPUs, 16 GB memory)
+- AWS: t2.xlarge (4 vCPUs, 16 GiB memory)
+- GCP: e2-standard-4 (4 vCPUs, 16 GB memory)
 
 ### Image:
 Ubuntu 16.04 Xenial
@@ -33,7 +35,7 @@ Ubuntu 16.04 Xenial
 ### Other Notes:
  - This infra setup takes about 10-15 mins (as we have a desktop environment, and a VNC server to install/configure), so please allow yourself some time to deploy this when giving a demo (also a good time to hydrate).
 
-## VNC Instructions (how to screen share your new cloud VM)
+## VNC Instructions (how to screen share your new cloud VM) - GCP Only
 
 (Server)
  - Login as root with `sudo su -`
