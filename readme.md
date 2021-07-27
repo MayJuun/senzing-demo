@@ -20,7 +20,7 @@ The services in this stack can be displayed in the web browser after VNC-ing int
 - GCP: e2-standard-4 (4 vCPUs, 16 GB memory)
 
 ### Image:
-Ubuntu 16.04 Xenial
+Ubuntu 20.04 Xenial
 
 ### Disk:
  - Size: 250GB
