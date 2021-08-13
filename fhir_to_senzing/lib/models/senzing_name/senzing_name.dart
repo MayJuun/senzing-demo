@@ -1,7 +1,7 @@
+//ignore_for_file: invalid_annotation_target
+
 import 'package:fhir/r4.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-
-import '../models.dart';
 
 part 'senzing_name.freezed.dart';
 part 'senzing_name.g.dart';
