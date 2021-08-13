@@ -1,21 +1,60 @@
 part of 'senzing_person.dart';
 
 SenzingPerson _$SenzingPersonFromFhir(Patient patient) {
+  final passport = _getPassport(patient.identifier);
+  final driversLicense = _getDriversLicense(patient.identifier);
+  final ssn = _getSsn(patient.identifier);
+  final taxId = _getTaxId(patient.identifier);
+  final nameList = patient.name?.map((e) => SenzingName.fromFhir(e)).toList();
+  final singleName =
+      nameList != null && nameList.length == 1 ? nameList.first : null;
+  final addressList =
+      patient.address?.map((e) => SenzingAddress.fromFhir(e)).toList();
+  final singleAddress =
+      addressList != null && addressList.length == 1 ? addressList.first : null;
+  final phoneList = patient.telecom
+      ?.where((e) => e.system == ContactPointSystem.phone)
+      .toList()
+      .map((e) => SenzingPhoneNumber.fromFhir(e))
+      .toList();
+  final singlePhone =
+      phoneList != null && phoneList.length == 1 ? phoneList.first : null;
   return SenzingPerson(
     dataSource: null,
     recordId: patient.id?.toString(),
-    nameList: patient.name?.map((e) => SenzingName.fromFhir(e)).toList(),
-    addressList:
-        patient.address?.map((e) => SenzingAddress.fromFhir(e)).toList(),
-    phoneList: patient.telecom
-        ?.where((e) => e.system == ContactPointSystem.phone)
-        .toList()
-        .map((e) => SenzingPhoneNumber.fromFhir(e))
-        .toList(),
+    nameList: singleName != null ? null : nameList,
+    nameType: singleName?.nameType,
+    nameFull: singleName?.nameFull,
+    nameOrg: singleName?.nameOrg,
+    nameLast: singleName?.nameLast,
+    nameFirst: singleName?.nameFirst,
+    nameMiddle: singleName?.nameMiddle,
+    namePrefix: singleName?.namePrefix,
+    nameSuffix: singleName?.nameSuffix,
+    addressList: singleAddress != null ? null : addressList,
+    addrType: singleAddress?.addrType,
+    addrFull: singleAddress?.addrFull,
+    addrLine1: singleAddress?.addrLine1,
+    addrLine2: singleAddress?.addrLine2,
+    addrLine3: singleAddress?.addrLine3,
+    addrLine4: singleAddress?.addrLine4,
+    addrLine5: singleAddress?.addrLine5,
+    addrLine6: singleAddress?.addrLine6,
+    addrCity: singleAddress?.addrCity,
+    addrState: singleAddress?.addrState,
+    addrPostalCode: singleAddress?.addrPostalCode,
+    addrCountry: singleAddress?.addrCountry,
+    addrFromDate: singleAddress?.addrFromDate,
+    addrThruDate: singleAddress?.addrThruDate,
+    phoneList: singlePhone != null ? null : phoneList,
+    phoneType: singlePhone?.phoneType,
+    phoneNumber: singlePhone?.phoneNumber,
+    phoneFromDate: singlePhone?.phoneFromDate,
+    phoneThruDate: singlePhone?.phoneThruDate,
     gender: patient.gender == PatientGender.female
-        ? 'Female'
+        ? 'F'
         : patient.gender == PatientGender.male
-            ? 'Male'
+            ? 'M'
             : 'N/A',
     dateOfBirth: patient.birthDate?.toString(),
     dateOfDeath: patient.deceasedDateTime?.toString(),
@@ -25,17 +64,17 @@ SenzingPerson _$SenzingPersonFromFhir(Patient patient) {
     recordType: null,
     registrationDate: null,
     registrationCountry: null,
-    passportNumber: null,
-    passportCountry: null,
-    driversLicenseNumber: null,
-    driversLicenseState: null,
-    ssnNumber: null,
-    ssnLast4: null,
+    passportNumber: passport[0],
+    passportCountry: passport[1],
+    driversLicenseNumber: driversLicense[0],
+    driversLicenseState: driversLicense[1],
+    ssnNumber: ssn == null || ssn.length == 4 ? null : ssn,
+    ssnLast4: ssn == null || ssn.length != 4 ? null : ssn,
     nationalIdNumber: null,
     nationalIdCountry: null,
-    taxIdType: null,
-    taxIdNumber: null,
-    taxIdCountry: null,
+    taxIdType: taxId[2],
+    taxIdNumber: taxId[0],
+    taxIdCountry: taxId[1],
     otherIdType: null,
     otherIdNumber: null,
     otherIdCountry: null,
@@ -52,6 +91,29 @@ SenzingPerson _$SenzingPersonFromFhir(Patient patient) {
     dsrcAction: null,
     entityid: null,
   );
+}
+
+List<String?> _getPassport(List<Identifier>? identifierList) {
+  if (identifierList == null) {
+    return [null, null];
+  }
+  final index = identifierList.indexWhere((element) =>
+      element.type?.coding?.first.code == Code('PPN') &&
+      element.type?.coding?.first.system ==
+          FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'));
+  if (index == -1) {
+    return [null, null];
+  } else {
+    return [
+      identifierList[index].value,
+      identifierList[index]
+          .system
+          ?.toString()
+          .split('passport-')
+          .last
+          .toUpperCase(),
+    ];
+  }
 }
 
 Identifier? _passportIdentifier(SenzingPerson instance) => instance
@@ -78,6 +140,24 @@ Identifier? _passportIdentifier(SenzingPerson instance) => instance
         value: instance.passportNumber,
       );
 
+List<String?> _getDriversLicense(List<Identifier>? identifierList) {
+  if (identifierList == null) {
+    return [null, null];
+  }
+  final index = identifierList.indexWhere((element) =>
+      element.type?.coding?.first.code == Code('DL') &&
+      element.type?.coding?.first.system ==
+          FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'));
+  if (index == -1) {
+    return [null, null];
+  } else {
+    return [
+      identifierList[index].value,
+      licenseUriToState[identifierList[index].system?.toString() ?? ''],
+    ];
+  }
+}
+
 Identifier? _driversLicenseIdentifier(SenzingPerson instance) => instance
                 .driversLicenseNumber ==
             null &&
@@ -100,6 +180,21 @@ Identifier? _driversLicenseIdentifier(SenzingPerson instance) => instance
         value: instance.driversLicenseNumber,
       );
 
+String? _getSsn(List<Identifier>? identifierList) {
+  if (identifierList == null) {
+    return null;
+  }
+  final index = identifierList.indexWhere((element) =>
+      element.type?.coding?.first.code == Code('SS') &&
+      element.type?.coding?.first.system ==
+          FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'));
+  if (index == -1) {
+    return null;
+  } else {
+    return identifierList[index].value;
+  }
+}
+
 Identifier? _ssnIdentifier(SenzingPerson instance) =>
     instance.ssnNumber == null && instance.ssnLast4 == null
         ? null
@@ -114,6 +209,30 @@ Identifier? _ssnIdentifier(SenzingPerson instance) =>
             system: FhirUri('http://hl7.org/fhir/sid/us-ssn'),
             value: instance.taxIdNumber,
           );
+
+List<String?> _getTaxId(List<Identifier>? identifierList) {
+  if (identifierList == null) {
+    return [null, null, null];
+  }
+  final index = identifierList.indexWhere((element) =>
+      element.type?.coding?.first.code == Code('TAX') &&
+      element.type?.coding?.first.system ==
+          FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'));
+  if (index == -1) {
+    return [null, null, null];
+  } else {
+    return [
+      identifierList[index].value,
+      identifierList[index]
+          .system
+          ?.toString()
+          .split('taxid-')
+          .last
+          .toUpperCase(),
+      null
+    ];
+  }
+}
 
 Identifier? _taxIdIdentifier(SenzingPerson instance) => instance.taxIdNumber ==
             null &&

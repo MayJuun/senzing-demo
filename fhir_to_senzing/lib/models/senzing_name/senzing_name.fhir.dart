@@ -7,8 +7,10 @@ SenzingName _$SenzingNameFromFhir(HumanName humanName) => SenzingName(
       nameLast: humanName.family,
       nameFirst:
           humanName.given?.isNotEmpty ?? false ? humanName.given!.first : null,
-      nameMiddle:
-          humanName.given?.isNotEmpty ?? false ? humanName.given!.first : null,
+      nameMiddle: (humanName.given?.isNotEmpty ?? false) ||
+              (humanName.given?.length ?? 0) <= 1
+          ? null
+          : humanName.given?[1],
       namePrefix: humanName.prefix?.isNotEmpty ?? false
           ? humanName.prefix!.first
           : null,

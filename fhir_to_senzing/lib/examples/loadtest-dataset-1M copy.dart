@@ -3,24 +3,22 @@ const senzingPeopleList = [
     "DATE_OF_BIRTH": "4/8/1983",
     "ADDR_STATE": "LA",
     "ADDR_POSTAL_CODE": "71232",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Delhi",
     "PHONE_NUMBER": "225-671-0796",
     "NAME_LAST": "SEAMAN",
-    "entityid": "284430058",
+    "RECORD_ID": "284430058",
     "ADDR_LINE1": "772 Armstrong RD"
   },
   {
     "DATE_OF_BIRTH": "6/2/1952",
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "75215",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Dlalas",
     "PHONE_NUMBER": "347-4506",
     "NAME_LAST": "THOMPSON",
-    "entityid": "181734352",
+    "RECORD_ID": "181734352",
     "ADDR_LINE1": "788 Alma ST"
   },
   {
@@ -28,37 +26,34 @@ const senzingPeopleList = [
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "75234",
     "NAME_FIRST": "AUNA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "DalXlas",
     "PHONE_NUMBER": "682-282-9435",
     "NAME_LAST": "HAUPTMAN",
-    "entityid": "260285447",
+    "RECORD_ID": "260285447",
     "ADDR_LINE1": "1438 Albemarle DR"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "90012",
     "NAME_FIRST": "JESSICA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Los Angles",
     "PHONE_NUMBER": "213-862-0665",
     "NAME_LAST": "WHITE",
-    "entityid": "287489572",
+    "RECORD_ID": "287489572",
     "ADDR_LINE1": "2292 1st ST"
   },
   {
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "14626",
     "NAME_FIRST": "KYLE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "RochestHer",
     "PHONE_NUMBER": "669-1853",
     "NAME_LAST": "WILLIAMS",
     "NAME_SUFFIX": "I",
-    "entityid": "298089907",
+    "RECORD_ID": "298089907",
     "ADDR_LINE1": "1874 Brooks AVE"
   },
   {
@@ -66,12 +61,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "43528",
     "NAME_FIRST": "CHANTELLE",
     "PASSPORT_NUMBER": "E01CMT",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Holland",
     "PHONE_NUMBER": "281-5902",
     "NAME_LAST": "HILL",
-    "entityid": "224350783",
+    "RECORD_ID": "224350783",
     "ADDR_LINE1": "8296 Angola "
   },
   {
@@ -80,12 +74,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "30248",
     "NAME_FIRST": "JUSEPH",
     "PASSPORT_NUMBER": "CAMYFZ9MQM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Locust Grove",
     "PHONE_NUMBER": "770-260-6607",
     "NAME_LAST": "EISMANN",
-    "entityid": "282478345",
+    "RECORD_ID": "282478345",
     "ADDR_LINE1": "1126 ChuFli RD"
   },
   {
@@ -93,11 +86,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "92377",
     "NAME_FIRST": "MARY",
     "PASSPORT_NUMBER": "NDD610",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Rialto",
     "NAME_LAST": "HOERR",
-    "entityid": "287479906",
+    "RECORD_ID": "287479906",
     "ADDR_LINE1": "3222 Amberwood AVE"
   },
   {
@@ -105,22 +97,20 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "62301",
     "NAME_FIRST": "M",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "NAME_LAST": "KING",
-    "entityid": "239249927",
+    "RECORD_ID": "239249927",
     "ADDR_LINE1": "6632 12th ST"
   },
   {
     "ADDR_STATE": "MI",
     "ADDR_POSTAL_CODE": "488508",
     "NAME_FIRST": "SHON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Mount Pleasant",
     "PHONE_NUMBER": "642-2413",
     "NAME_LAST": "SUMMERS",
-    "entityid": "276407980",
+    "RECORD_ID": "276407980",
     "ADDR_LINE1": "4542 Airport RD"
   },
   {
@@ -128,23 +118,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "90242",
     "NAME_FIRST": "STEPHANIE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Downey",
     "PHONE_NUMBER": "260-7050",
     "NAME_LAST": "GROSS",
-    "entityid": "299327256",
+    "RECORD_ID": "299327256",
     "ADDR_LINE1": "44179 Bergman LN"
   },
   {
     "ADDR_STATE": "NJ",
     "NAME_FIRST": "G",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Hamburg",
     "PHONE_NUMBER": "848-313-5584",
     "NAME_LAST": "H",
-    "entityid": "304146054",
+    "RECORD_ID": "304146054",
     "ADDR_LINE1": "1094 BigSpring RD"
   },
   {
@@ -152,11 +140,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "18055",
     "NAME_FIRST": "ROGER",
     "PASSPORT_NUMBER": "3W6D4CIVC",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "HKellertown",
     "NAME_LAST": "CHRISTENSON",
-    "entityid": "270400776",
+    "RECORD_ID": "270400776",
     "ADDR_LINE1": "1418 Applebutter RD"
   },
   {
@@ -165,25 +152,23 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "76248",
     "NAME_FIRST": "KENNETH",
     "PASSPORT_NUMBER": "C85CBOJ9P",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Keller",
     "PHONE_NUMBER": "979-232-4392",
     "NAME_LAST": "DONEHOO",
-    "entityid": "319480286",
+    "RECORD_ID": "319480286",
     "ADDR_LINE1": "7142  DRIVE"
   },
   {
     "ADDR_POSTAL_CODE": "604435",
     "NAME_FIRST": "ANNETTE",
     "PASSPORT_NUMBER": "M1PIGR",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Joliet",
     "PHONE_NUMBER": "217-932-9005",
     "NAME_LAST": "REID",
     "NAME_SUFFIX": "Jr.",
-    "entityid": "262362418",
+    "RECORD_ID": "262362418",
     "ADDR_LINE1": "403  DR"
   },
   {
@@ -193,9 +178,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "539-675-6387",
     "NAME_FIRST": "NIKKI",
     "NAME_LAST": "HIRSCHE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "90842150",
+    "RECORD_ID": "90842150",
     "ADDR_LINE1": "3818 129thWest AVE"
   },
   {
@@ -204,12 +188,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "21162",
     "NAME_FIRST": "D",
     "PASSPORT_NUMBER": "Y2V52OE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "White Marsh",
     "PHONE_NUMBER": "240-376-9809",
     "NAME_LAST": "BUTHER",
-    "entityid": "181508684",
+    "RECORD_ID": "181508684",
     "ADDR_LINE1": "11172 Beach RD"
   },
   {
@@ -219,45 +202,41 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "970-620-5136",
     "NAME_FIRST": "JUAN",
     "NAME_LAST": "SULLIVAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "6144472",
+    "RECORD_ID": "6144472",
     "ADDR_LINE1": "2150 35thStreet CT"
   },
   {
     "DATE_OF_BIRTH": "16/7/1974",
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "257609",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Raleigh",
     "PHONE_NUMBER": "984-881-8384",
     "NAME_LAST": "OBERMOELLER",
-    "entityid": "151110080",
+    "RECORD_ID": "151110080",
     "ADDR_LINE1": "3802 eBllevue RD"
   },
   {
     "ADDR_STATE": "LA",
     "ADDR_POSTAL_CODE": "70706",
     "NAME_FIRST": "DEVIN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Denham Springs",
     "PHONE_NUMBER": "318-398-0649",
     "NAME_LAST": "LOVELL",
-    "entityid": "151267101",
+    "RECORD_ID": "151267101",
     "ADDR_LINE1": "8487 Ashley "
   },
   {
     "ADDR_STATE": "PA",
     "ADDR_POSTAL_CODE": "18037",
     "NAME_FIRST": "JOANN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Coplay",
     "PHONE_NUMBER": "244-7871",
     "NAME_LAST": "WOOD",
-    "entityid": "145086124",
+    "RECORD_ID": "145086124",
     "ADDR_LINE1": "213 2nd ST"
   },
   {
@@ -266,12 +245,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "49920",
     "NAME_FIRST": "LINDA",
     "PASSPORT_NUMBER": "NGI433B",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Saint Helena Island",
     "PHONE_NUMBER": "864-690-8492",
     "NAME_LAST": "GARZA",
-    "entityid": "323082889",
+    "RECORD_ID": "323082889",
     "ADDR_LINE1": "420 BBSams DR"
   },
   {
@@ -280,11 +258,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "98908",
     "NAME_FIRST": "JIMMY",
     "PASSPORT_NUMBER": "C8BVVDTD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Yakima",
     "NAME_LAST": "BEAILY",
-    "entityid": "224269688",
+    "RECORD_ID": "224269688",
     "ADDR_LINE1": "1414 40th AVE"
   },
   {
@@ -292,12 +269,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "39140",
     "NAME_FIRST": "MINNIE",
     "PASSPORT_NUMBER": "HDBZREGC3",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Newhebron",
     "PHONE_NUMBER": "809-4183",
     "NAME_LAST": "STAMBAUGH",
-    "entityid": "115079428",
+    "RECORD_ID": "115079428",
     "ADDR_LINE1": "103 Cherry AVE"
   },
   {
@@ -305,12 +281,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "AL",
     "ADDR_POSTAL_CODE": "35981",
     "NAME_FIRST": "CHRISTOPHER",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "dIer",
     "PHONE_NUMBER": "205-899-4790",
     "NAME_LAST": "RINGEN",
-    "entityid": "30285229",
+    "RECORD_ID": "30285229",
     "ADDR_LINE1": "287 Crabapple "
   },
   {
@@ -318,11 +293,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "IN",
     "ADDR_POSTAL_CODE": "46143",
     "NAME_FIRST": "CONNIE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Greenwood",
     "NAME_LAST": "MEYERS",
-    "entityid": "121198913",
+    "RECORD_ID": "121198913",
     "ADDR_LINE1": "6486 Averitt ROAD"
   },
   {
@@ -330,12 +304,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "12211",
     "NAME_FIRST": "ALEJANDRO",
     "PASSPORT_NUMBER": "CJFJS02TVX",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "AAHlbany",
     "PHONE_NUMBER": "212-55-5001",
     "NAME_LAST": "W",
-    "entityid": "236395221",
+    "RECORD_ID": "236395221",
     "ADDR_LINE1": "100 Eden LN"
   },
   {
@@ -343,12 +316,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "76426",
     "NAME_FIRST": "EMILY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Bridgeprot",
     "PHONE_NUMBER": "915-242-3384",
     "NAME_LAST": "TYSON",
-    "entityid": "312641786",
+    "RECORD_ID": "312641786",
     "ADDR_LINE1": "880 2nd ST"
   },
   {
@@ -357,12 +329,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "62661",
     "NAME_FIRST": "BRANDON",
     "PASSPORT_NUMBER": "CRIERK1HR",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Loami",
     "PHONE_NUMBER": "320-4462",
     "NAME_LAST": "G",
-    "entityid": "48501163",
+    "RECORD_ID": "48501163",
     "ADDR_LINE1": "10370 Alexander RD"
   },
   {
@@ -371,12 +342,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "27284",
     "NAME_FIRST": "HENRY",
     "PASSPORT_NUMBER": "CG027OBOB",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Kernersville",
     "PHONE_NUMBER": "704-208-5358",
     "NAME_LAST": "GRAYSON",
-    "entityid": "318732554",
+    "RECORD_ID": "318732554",
     "ADDR_LINE1": "904 AngelaRun DR"
   },
   {
@@ -384,47 +354,43 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "60126",
     "NAME_FIRST": "LEE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Elmhurst",
     "PHONE_NUMBER": "312-223-2188",
     "NAME_LAST": "BURCHETTE",
-    "entityid": "145240343",
+    "RECORD_ID": "145240343",
     "ADDR_LINE1": "710 Cayuga AVE"
   },
   {
     "ADDR_STATE": "KY",
     "ADDR_POSTAL_CODE": "42301",
     "NAME_FIRST": "TRENA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Owesnboro",
     "PHONE_NUMBER": "270-483-3339",
     "NAME_LAST": "HAMMOND",
-    "entityid": "302952304",
+    "RECORD_ID": "302952304",
     "ADDR_LINE1": "7222  RD"
   },
   {
     "DATE_OF_BIRTH": "22/12/1938",
     "NAME_FIRST": "CHAD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Miami",
     "NAME_LAST": "BLEVINS",
     "NAME_SUFFIX": "Sr.",
-    "entityid": "268349428",
+    "RECORD_ID": "268349428",
     "ADDR_LINE1": "2346 27th ST"
   },
   {
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "28277",
     "PASSPORT_NUMBER": "0LPZP2JO0",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Charlotte",
     "PHONE_NUMBER": "941-1744",
     "NAME_LAST": "ANDERS",
-    "entityid": "133174072",
+    "RECORD_ID": "133174072",
     "ADDR_LINE1": "6348 BirkdaleValley DR"
   },
   {
@@ -433,23 +399,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "60915",
     "NAME_FIRST": "OTTO",
     "PASSPORT_NUMBER": "1WHODV7KO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Bradley",
     "PHONE_NUMBER": "217-995-8095",
     "NAME_LAST": "NEWMAN",
-    "entityid": "323062821",
+    "RECORD_ID": "323062821",
     "ADDR_LINE1": "1034 Broadway STREET"
   },
   {
     "DATE_OF_BIRTH": "5/2/1997",
     "ADDR_STATE": "IL",
     "PASSPORT_NUMBER": "3LYLEBIL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Joliet",
     "NAME_LAST": "MARTIN",
-    "entityid": "175283656",
+    "RECORD_ID": "175283656",
     "ADDR_LINE1": "188 Bissel ST"
   },
   {
@@ -458,12 +422,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "4982",
     "NAME_FIRST": "S",
     "PASSPORT_NUMBER": "GWQZBR",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Escanaba",
     "PHONE_NUMBER": "810-757-0105",
     "NAME_LAST": "HOLCOMB",
-    "entityid": "268403887",
+    "RECORD_ID": "268403887",
     "ADDR_LINE1": "738 10th ST"
   },
   {
@@ -471,11 +434,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "28394",
     "PASSPORT_NUMBER": "BXRB0SCZ1",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "aVss",
     "NAME_LAST": "BRANSEUM",
-    "entityid": "299317532",
+    "RECORD_ID": "299317532",
     "ADDR_LINE1": "402 Alma ST"
   },
   {
@@ -483,11 +445,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "NAME_FIRST": "JENNIFER",
     "PASSPORT_NUMBER": "0V9CI9844",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Greenview",
     "NAME_LAST": "RUSSELL",
-    "entityid": "288938316",
+    "RECORD_ID": "288938316",
     "ADDR_LINE1": "675 Adams ST"
   },
   {
@@ -495,12 +456,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "060614",
     "NAME_FIRST": "JOHN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Chicago",
     "PHONE_NUMBER": "847-426-9861",
     "NAME_LAST": "GANN",
-    "entityid": "278537885",
+    "RECORD_ID": "278537885",
     "ADDR_LINE1": "1390 Hudso AVE"
   },
   {
@@ -508,24 +468,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "99517",
     "NAME_FIRST": "AARON",
     "PASSPORT_NUMBER": "XVTDCHG",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Anchorage",
     "PHONE_NUMBER": "907-620-8899",
     "NAME_LAST": "SHERMAN",
-    "entityid": "287448686",
+    "RECORD_ID": "287448686",
     "ADDR_LINE1": "2574 27th AVE"
   },
   {
     "DATE_OF_BIRTH": "15/4/1939",
     "ADDR_POSTAL_CODE": "38326",
     "NAME_FIRST": "LYDIA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Counce",
     "PHONE_NUMBER": "670-6434",
     "NAME_LAST": "HARDER",
-    "entityid": "264306826",
+    "RECORD_ID": "264306826",
     "ADDR_LINE1": "62 Apache LN"
   },
   {
@@ -533,34 +491,31 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "15212",
     "NAME_FIRST": "J",
     "PASSPORT_NUMBER": "CMWOEE9RJ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Pittsburgh",
     "NAME_LAST": "CORKUM",
-    "entityid": "322394733",
+    "RECORD_ID": "322394733",
     "ADDR_LINE1": "1220 Ach ST"
   },
   {
     "DATE_OF_BIRTH": "2/9/1962",
     "NAME_FIRST": "CRAIG",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Pensacola",
     "PHONE_NUMBER": "726-9028",
     "NAME_LAST": "ROBINBSON",
     "NAME_SUFFIX": "Sr.",
-    "entityid": "300449616",
+    "RECORD_ID": "300449616",
     "ADDR_LINE1": "1192  "
   },
   {
     "ADDR_STATE": "PA",
     "ADDR_POSTAL_CODE": "154942",
     "NAME_FIRST": "SAZNDRA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "878-757-1563",
     "NAME_LAST": "HOPKINS",
-    "entityid": "227349007",
+    "RECORD_ID": "227349007",
     "ADDR_LINE1": "186 2nd STREET"
   },
   {
@@ -569,24 +524,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "30815",
     "NAME_FIRST": "DALLAS",
     "PASSPORT_NUMBER": "B759D1H",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Hephzibah",
     "PHONE_NUMBER": "678-211-7368",
     "NAME_LAST": "STAHLNECKER",
-    "entityid": "18519026",
+    "RECORD_ID": "18519026",
     "ADDR_LINE1": "4378 Gspen CT"
   },
   {
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "79088",
     "NAME_FIRST": "ALBA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "TulIa",
     "PHONE_NUMBER": "903-600-3470",
     "NAME_LAST": "LINARES",
-    "entityid": "212241712",
+    "RECORD_ID": "212241712",
     "ADDR_LINE1": "418  STREET"
   },
   {
@@ -595,9 +548,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "995-0359",
     "NAME_FIRST": "M",
     "NAME_LAST": "JACKSON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "54435029",
+    "RECORD_ID": "54435029",
     "ADDR_LINE1": "440 Broad ST"
   },
   {
@@ -605,12 +557,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "45750",
     "NAME_FIRST": "ROSEMARY",
     "PASSPORT_NUMBER": "AUTO16S",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Marietta",
     "PHONE_NUMBER": "365-3957",
     "NAME_LAST": "CAVAN",
-    "entityid": "313662428",
+    "RECORD_ID": "313662428",
     "ADDR_LINE1": "392  DR"
   },
   {
@@ -619,11 +570,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "34232",
     "NAME_FIRST": "WILLIAM",
     "PASSPORT_NUMBER": "CH2RQ5U6G",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Sarasota",
     "NAME_LAST": "PERRY",
-    "entityid": "307616129",
+    "RECORD_ID": "307616129",
     "ADDR_LINE1": "3908 BahiaVista "
   },
   {
@@ -631,23 +581,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "94149",
     "NAME_FIRST": "BARBARA",
     "PASSPORT_NUMBER": "CD1RJE4",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "TLafayette",
     "PHONE_NUMBER": "935-7368",
     "NAME_LAST": "RIOS",
-    "entityid": "224185651",
+    "RECORD_ID": "224185651",
     "ADDR_LINE1": "980 Acalanes RD"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "92596",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Winchester",
     "PHONE_NUMBER": "818-241-7056",
     "NAME_LAST": "LEGG",
-    "entityid": "215261689",
+    "RECORD_ID": "215261689",
     "ADDR_LINE1": "32248 AnoCrest RD"
   },
   {
@@ -655,71 +603,65 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "1412",
     "NAME_FIRST": "JYNE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Beaver Dams",
     "PHONE_NUMBER": "718-533-2226",
     "NAME_LAST": "ETSEP",
-    "entityid": "193750133",
+    "RECORD_ID": "193750133",
     "ADDR_LINE1": "2630 BeaverDamsMoreland RD"
   },
   {
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "77379",
     "NAME_FIRST": "HATHER",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Spring",
     "PHONE_NUMBER": "469-536-7083",
     "NAME_LAST": "SWARTZENDRUBE",
-    "entityid": "313597448",
+    "RECORD_ID": "313597448",
     "ADDR_LINE1": "524920 AbbUy LN"
   },
   {
     "DATE_OF_BIRTH": "20/12/1949",
     "ADDR_POSTAL_CODE": "82070",
     "NAME_FIRST": "JOHN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "LaraEie",
     "NAME_LAST": "GONZALEZ",
-    "entityid": "257532525",
+    "RECORD_ID": "257532525",
     "ADDR_LINE1": "36158 SanCdreek RD"
   },
   {
     "ADDR_STATE": "SC",
     "ADDR_POSTAL_CODE": "2965",
     "NAME_FIRST": "DENNIS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Latta",
     "PHONE_NUMBER": "483-962-5759",
     "NAME_LAST": "DAVENPORT",
-    "entityid": "54682001",
+    "RECORD_ID": "54682001",
     "ADDR_LINE1": "214 Academy ST"
   },
   {
     "ADDR_STATE": "AZ",
     "ADDR_POSTAL_CODE": "85023",
     "NAME_FIRST": "NONA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Phoenix",
     "PHONE_NUMBER": "250-324-9894",
     "NAME_LAST": "STRIEKER",
-    "entityid": "215145471",
+    "RECORD_ID": "215145471",
     "ADDR_LINE1": "13460 14th "
   },
   {
     "ADDR_STATE": "CA",
     "NAME_FIRST": "WENDELL",
     "PASSPORT_NUMBER": "988IVLDM5",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "ValleOjo",
     "PHONE_NUMBER": "408-344-8561",
     "NAME_LAST": "JANISCH",
-    "entityid": "313630163",
+    "RECORD_ID": "313630163",
     "ADDR_LINE1": "216 Alhambra AVE"
   },
   {
@@ -727,12 +669,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "TN",
     "ADDR_POSTAL_CODE": "38128",
     "PASSPORT_NUMBER": "CGOZPITS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Memphis",
     "PHONE_NUMBER": "615-326-5128",
     "NAME_LAST": "BOWER",
-    "entityid": "205571707",
+    "RECORD_ID": "205571707",
     "ADDR_LINE1": "4402 BishopHills DR"
   },
   {
@@ -740,12 +681,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "VA",
     "ADDR_POSTAL_CODE": "23043",
     "NAME_FIRST": "WILLIAM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Deltaville",
     "PHONE_NUMBER": "434-897-6073",
     "NAME_LAST": "PEKAR",
-    "entityid": "127268393",
+    "RECORD_ID": "127268393",
     "ADDR_LINE1": "10 Persimmo DR"
   },
   {
@@ -753,12 +693,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "13045",
     "NAME_FIRST": "JAMES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Cortland",
     "PHONE_NUMBER": "557-9648",
     "NAME_LAST": "RIGGS",
-    "entityid": "322375455",
+    "RECORD_ID": "322375455",
     "ADDR_LINE1": "256 Bell DR"
   },
   {
@@ -768,9 +707,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "ColumCia",
     "NAME_FIRST": "PEGGIE",
     "NAME_LAST": "CLARK",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "320234306",
+    "RECORD_ID": "320234306",
     "ADDR_LINE1": "4922 Beaverbrook RD"
   },
   {
@@ -778,12 +716,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "OR",
     "ADDR_POSTAL_CODE": "97467",
     "NAME_FIRST": "IRMA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Reedsport",
     "PHONE_NUMBER": "541-494-8571",
     "NAME_LAST": "B",
-    "entityid": "215112233",
+    "RECORD_ID": "215112233",
     "ADDR_LINE1": "118 10th ST"
   },
   {
@@ -792,24 +729,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "11368",
     "NAME_FIRST": "FRANK",
     "PASSPORT_NUMBER": "MMFBL9AW2",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Corona",
     "PHONE_NUMBER": "646-348-8252",
     "NAME_LAST": "BARRERA",
-    "entityid": "193414519",
+    "RECORD_ID": "193414519",
     "ADDR_LINE1": "4144 102dn ST"
   },
   {
     "DATE_OF_BIRTH": "18/2/1981",
     "ADDR_STATE": "GA",
     "NAME_FIRST": "SHAWN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Hartwell",
     "PHONE_NUMBER": "706-836-8569",
     "NAME_LAST": "DUNHAM",
-    "entityid": "334792",
+    "RECORD_ID": "334792",
     "ADDR_LINE1": "338 ArtDhur ST"
   },
   {
@@ -817,23 +752,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "7046",
     "NAME_FIRST": "NORMAN",
     "PASSPORT_NUMBER": "C1WWX4YU",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Laredo",
     "PHONE_NUMBER": "832-581-0337",
     "NAME_LAST": "M",
-    "entityid": "24449725",
+    "RECORD_ID": "24449725",
     "ADDR_LINE1": "8509 Chibcha CT"
   },
   {
     "ADDR_POSTAL_CODE": "48103",
     "NAME_FIRST": "MICHAEL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Ann Arbor",
     "PHONE_NUMBER": "727-2248",
     "NAME_LAST": "MCBRIDE",
-    "entityid": "305362998",
+    "RECORD_ID": "305362998",
     "ADDR_LINE1": "554  ST"
   },
   {
@@ -842,12 +775,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "41164",
     "NAME_FIRST": "CONNIE",
     "PASSPORT_NUMBER": "L76AMQD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Olive Hill",
     "PHONE_NUMBER": "590-6432",
     "NAME_LAST": "ALVAREZ",
-    "entityid": "48743213",
+    "RECORD_ID": "48743213",
     "ADDR_LINE1": "44 Armory DR"
   },
   {
@@ -856,46 +788,42 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "71301",
     "NAME_FIRST": "NETTIE",
     "PASSPORT_NUMBER": "CP61X3MVD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Alexandria",
     "NAME_LAST": "G",
-    "entityid": "274463373",
+    "RECORD_ID": "274463373",
     "ADDR_LINE1": "582 14t "
   },
   {
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "14580",
     "NAME_FIRST": "LYNN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Webster",
     "PHONE_NUMBER": "296-2698",
     "NAME_LAST": "SIDDON",
-    "entityid": "254400986",
+    "RECORD_ID": "254400986",
     "ADDR_LINE1": "58 Anean DR"
   },
   {
     "ADDR_POSTAL_CODE": "75229",
     "NAME_FIRST": "RUSSELL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Dalls",
     "PHONE_NUMBER": "491-7593",
     "NAME_LAST": "MORSE",
-    "entityid": "321715156",
+    "RECORD_ID": "321715156",
     "ADDR_LINE1": "4854 Bobbitt DR"
   },
   {
     "ADDR_STATE": "MN",
     "ADDR_POSTAL_CODE": "55328",
     "NAME_FIRST": "LOIUSE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Delano",
     "PHONE_NUMBER": "507-796-8511",
     "NAME_LAST": "SHEALY",
-    "entityid": "54624003",
+    "RECORD_ID": "54624003",
     "ADDR_LINE1": "1914  ST"
   },
   {
@@ -904,12 +832,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "18058",
     "NAME_FIRST": "DIMNNE",
     "PASSPORT_NUMBER": "CGSLNYHGH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Kunkletown",
     "PHONE_NUMBER": "610-999-6406",
     "NAME_LAST": "KEEL",
-    "entityid": "302909089",
+    "RECORD_ID": "302909089",
     "ADDR_LINE1": "3112 Cherry RD"
   },
   {
@@ -918,12 +845,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "33157",
     "NAME_FIRST": "EDWARD",
     "PASSPORT_NUMBER": "R4ESEO76",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Mimi",
     "PHONE_NUMBER": "786-596-8042",
     "NAME_LAST": "BACHAR",
-    "entityid": "321719384",
+    "RECORD_ID": "321719384",
     "ADDR_LINE1": "176664  AVENUE"
   },
   {
@@ -932,12 +858,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "98271",
     "NAME_FIRST": "J",
     "PASSPORT_NUMBER": "HKFIGD87",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Marysville",
     "PHONE_NUMBER": "206-690-2276",
     "NAME_LAST": "DICHIARA",
-    "entityid": "323043237",
+    "RECORD_ID": "323043237",
     "ADDR_LINE1": "072 109th ST"
   },
   {
@@ -947,34 +872,31 @@ const senzingPeopleList = [
     "ADDR_CITY": "Hamilton",
     "NAME_FIRST": "CINDY",
     "NAME_LAST": "L",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "300468142",
+    "RECORD_ID": "300468142",
     "ADDR_LINE1": "7236 aBven RD"
   },
   {
     "ADDR_STATE": "California",
     "ADDR_POSTAL_CODE": "492618",
     "NAME_FIRST": "ERNEST",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Irvine",
     "PHONE_NUMBER": "657-892-1805",
     "NAME_LAST": "SHIRER",
     "NAME_SUFFIX": "I",
-    "entityid": "151368553",
+    "RECORD_ID": "151368553",
     "ADDR_LINE1": "7029 Barranca PKY"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "90221",
     "NAME_FIRST": "LOREN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Compton",
     "PHONE_NUMBER": "722-1500",
     "NAME_LAST": "MOYER",
-    "entityid": "48746951",
+    "RECORD_ID": "48746951",
     "ADDR_LINE1": "522 Arlington ST"
   },
   {
@@ -982,12 +904,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "97063",
     "NAME_FIRST": "JOHN",
     "PASSPORT_NUMBER": "C1D161T",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "La Habra",
     "PHONE_NUMBER": "760-306-8287",
     "NAME_LAST": "MCCLAIN",
-    "entityid": "292018918",
+    "RECORD_ID": "292018918",
     "ADDR_LINE1": "155 Bedford ST"
   },
   {
@@ -995,23 +916,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "MI",
     "ADDR_POSTAL_CODE": "49008",
     "NAME_FIRST": "CARLOS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Kalamazoo",
     "NAME_LAST": "DUNN",
-    "entityid": "54830163",
+    "RECORD_ID": "54830163",
     "ADDR_LINE1": "2402  AVE"
   },
   {
     "ADDR_STATE": "MS",
     "NAME_FIRST": "SHANNON",
     "PASSPORT_NUMBER": "Q31CX5H",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "NHeUton",
     "PHONE_NUMBER": "662-965-0249",
     "NAME_LAST": "FOX",
-    "entityid": "212246361",
+    "RECORD_ID": "212246361",
     "ADDR_LINE1": "102 6th AVE"
   },
   {
@@ -1019,9 +938,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "360-548-4159",
     "NAME_FIRST": "JEAN",
     "NAME_LAST": "COGGINS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "295000997",
+    "RECORD_ID": "295000997",
     "ADDR_LINE1": "2968 13th PL"
   },
   {
@@ -1029,24 +947,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "OH",
     "ADDR_POSTAL_CODE": "44109",
     "PASSPORT_NUMBER": "74P84V",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Clevland",
     "PHONE_NUMBER": "440-747-9515",
     "NAME_LAST": "CATALDI",
-    "entityid": "309654570",
+    "RECORD_ID": "309654570",
     "ADDR_LINE1": "3844 12tGh PL"
   },
   {
     "ADDR_STATE": "MI",
     "ADDR_POSTAL_CODE": "48346",
     "NAME_FIRST": "JULIUS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Clarkston",
     "PHONE_NUMBER": "460-8398",
     "NAME_LAST": "ADASM",
-    "entityid": "78594687",
+    "RECORD_ID": "78594687",
     "ADDR_LINE1": "10096 Andersonville RD"
   },
   {
@@ -1054,11 +970,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "VA",
     "ADDR_POSTAL_CODE": "22903",
     "NAME_FIRST": "J",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "CharlotteGville",
     "NAME_LAST": "ACRSON",
-    "entityid": "78564006",
+    "RECORD_ID": "78564006",
     "ADDR_LINE1": "650 9th "
   },
   {
@@ -1066,11 +981,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "834404",
     "NAME_FIRST": "JUSTIN",
     "PASSPORT_NUMBER": "CQO87QPOD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Ogden",
     "NAME_LAST": "PILOT",
-    "entityid": "242286786",
+    "RECORD_ID": "242286786",
     "ADDR_LINE1": "4980 1500North ST"
   },
   {
@@ -1078,12 +992,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "92008",
     "NAME_FIRST": "SHEREE",
     "PASSPORT_NUMBER": "MOQYC00",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Carlsbad",
     "PHONE_NUMBER": "805-384-6528",
     "NAME_LAST": "RAMIREZ",
-    "entityid": "270493518",
+    "RECORD_ID": "270493518",
     "ADDR_LINE1": "3424 Blff CT"
   },
   {
@@ -1092,12 +1005,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "99207",
     "NAME_FIRST": "IRENE",
     "PASSPORT_NUMBER": "150GZCDSZ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Spokane",
     "PHONE_NUMBER": "509-867-5787",
     "NAME_LAST": "WULFFRAAT",
-    "entityid": "296486334",
+    "RECORD_ID": "296486334",
     "ADDR_LINE1": "4926 Addison ST"
   },
   {
@@ -1105,47 +1017,43 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "12780",
     "NAME_FIRST": "ESPERANZA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Sparrow Bush",
     "PHONE_NUMBER": "914-945-0007",
     "NAME_LAST": "HASKELL",
-    "entityid": "133239890",
+    "RECORD_ID": "133239890",
     "ADDR_LINE1": "69 Augusine ST"
   },
   {
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "33777",
     "NAME_FIRST": "DONAWLD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Seminole",
     "PHONE_NUMBER": "784-2815",
     "NAME_LAST": "BRYANT",
-    "entityid": "24414884",
+    "RECORD_ID": "24414884",
     "ADDR_LINE1": "10908 76th CT"
   },
   {
     "ADDR_STATE": "SC",
     "ADDR_POSTAL_CODE": "29555",
     "NAME_FIRST": "CATHY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Jhonsonville",
     "PHONE_NUMBER": "876-8033",
     "NAME_LAST": "SCHINDEWOLF",
-    "entityid": "321699322",
+    "RECORD_ID": "321699322",
     "ADDR_LINE1": "1536 AllisonLanding RD"
   },
   {
     "ADDR_STATE": "OK",
     "ADDR_POSTAL_CODE": "74343",
     "NAME_FIRST": "KATHERINE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Fairland",
     "NAME_LAST": "MCDONALD",
-    "entityid": "309610352",
+    "RECORD_ID": "309610352",
     "ADDR_LINE1": "57462 150 RD"
   },
   {
@@ -1153,11 +1061,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "91941",
     "NAME_FIRST": "ANN",
     "PASSPORT_NUMBER": "CO3VZDI",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "951-845-7142",
     "NAME_LAST": "WECKERLY",
-    "entityid": "102722155",
+    "RECORD_ID": "102722155",
     "ADDR_LINE1": "5068  DR"
   },
   {
@@ -1165,12 +1072,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "33432",
     "NAME_FIRST": "LOU",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Bca Raton",
     "PHONE_NUMBER": "813-703-3499",
     "NAME_LAST": "LUCAS",
-    "entityid": "268356428",
+    "RECORD_ID": "268356428",
     "ADDR_LINE1": "4940 15th TER"
   },
   {
@@ -1178,11 +1084,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "3388",
     "NAME_FIRST": "LEONARDO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Winter Haven",
     "NAME_LAST": "ORTICZ",
-    "entityid": "316253681",
+    "RECORD_ID": "316253681",
     "ADDR_LINE1": "204 10th ST"
   },
   {
@@ -1190,23 +1095,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "06512",
     "NAME_FIRST": "K",
     "PASSPORT_NUMBER": "CV7M7GOYS7",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "475-375-7026",
     "NAME_LAST": "VIGIL",
-    "entityid": "319497246",
+    "RECORD_ID": "319497246",
     "ADDR_LINE1": "347 Burr ST"
   },
   {
     "ADDR_STATE": "SC",
     "ADDR_POSTAL_CODE": "29902",
     "NAME_FIRST": "SHEURRY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Beaufort",
     "PHONE_NUMBER": "622-1751",
     "NAME_LAST": "KENNIE",
-    "entityid": "72764889",
+    "RECORD_ID": "72764889",
     "ADDR_LINE1": "25334 5th ST"
   },
   {
@@ -1214,23 +1117,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "92708",
     "NAME_FIRST": "WILLIAM",
     "PASSPORT_NUMBER": "4CFANHSNQI",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Fountain VaGley",
     "PHONE_NUMBER": "747-677-9460",
     "NAME_LAST": "SIEGFREID",
-    "entityid": "321693488",
+    "RECORD_ID": "321693488",
     "ADDR_LINE1": "9630 AzaleM CIR"
   },
   {
     "ADDR_STATE": "AR",
     "ADDR_POSTAL_CODE": "71602",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "White Hall",
     "PHONE_NUMBER": "994-9773",
     "NAME_LAST": "OLIVER",
-    "entityid": "315393136",
+    "RECORD_ID": "315393136",
     "ADDR_LINE1": "5884 4th AVE"
   },
   {
@@ -1238,24 +1139,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "95355",
     "NAME_FIRST": "T",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Modesto",
     "PHONE_NUMBER": "900-7382",
     "NAME_LAST": "YOUNG",
-    "entityid": "187350884",
+    "RECORD_ID": "187350884",
     "ADDR_LINE1": "590 Brighton AVE"
   },
   {
     "ADDR_STATE": "NJ",
     "ADDR_POSTAL_CODE": "08743",
     "NAME_FIRST": "ROSE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Point Pleasant Beach",
     "PHONE_NUMBER": "212-8757",
     "NAME_LAST": "PAI",
-    "entityid": "309623953",
+    "RECORD_ID": "309623953",
     "ADDR_LINE1": "1230 BeaverDam RD"
   },
   {
@@ -1263,24 +1162,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "11263",
     "NAME_FIRST": "JERRY",
     "PASSPORT_NUMBER": "CV53M15I",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Brooklyn",
     "PHONE_NUMBER": "641-9969",
     "NAME_LAST": "R",
-    "entityid": "151492715",
+    "RECORD_ID": "151492715",
     "ADDR_LINE1": "38 Village RD"
   },
   {
     "ADDR_STATE": "Ohio",
     "ADDR_POSTAL_CODE": "43624",
     "NAME_FIRST": "JAME",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Toledo",
     "PHONE_NUMBER": "419-531-2925",
     "NAME_LAST": "GROWDEN",
-    "entityid": "304105043",
+    "RECORD_ID": "304105043",
     "ADDR_LINE1": "3116 Arlington AVE"
   },
   {
@@ -1289,35 +1186,32 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "325836",
     "NAME_FIRST": "BRANDON",
     "PASSPORT_NUMBER": "C356WUJ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Orlando",
     "PHONE_NUMBER": "863-698-4743",
     "NAME_LAST": "MCKEON",
-    "entityid": "114910185",
+    "RECORD_ID": "114910185",
     "ADDR_LINE1": "8834 ApopkaVineland RD"
   },
   {
     "ADDR_STATE": "WI",
     "ADDR_POSTAL_CODE": "54725",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Boyceville",
     "PHONE_NUMBER": "262-447-7588",
     "NAME_LAST": "GRABF",
-    "entityid": "42357892",
+    "RECORD_ID": "42357892",
     "ADDR_LINE1": "1702 1020th AVE"
   },
   {
     "DATE_OF_BIRTH": "28/9/1991",
     "ADDR_POSTAL_CODE": "638603",
     "NAME_FIRST": "REIC",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Malden",
     "PHONE_NUMBER": "557-894-1310",
     "NAME_LAST": "KIMMET",
-    "entityid": "317088421",
+    "RECORD_ID": "317088421",
     "ADDR_LINE1": "586 Allens ALY"
   },
   {
@@ -1326,12 +1220,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "0080",
     "NAME_FIRST": "S",
     "PASSPORT_NUMBER": "C453F20",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Smyrna",
     "PHONE_NUMBER": "241-0180",
     "NAME_LAST": "PARIS",
-    "entityid": "242323669",
+    "RECORD_ID": "242323669",
     "ADDR_LINE1": "1040 Belmont CIR"
   },
   {
@@ -1339,12 +1232,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "VA",
     "ADDR_POSTAL_CODE": "20147",
     "NAME_FIRST": "JUYDY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Ashburn",
     "PHONE_NUMBER": "703-561-0336",
     "NAME_LAST": "BLACK",
-    "entityid": "319452353",
+    "RECORD_ID": "319452353",
     "ADDR_LINE1": "20656 BNeezyhill DR"
   },
   {
@@ -1353,11 +1245,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "30062",
     "NAME_FIRST": "HATTIE",
     "PASSPORT_NUMBER": "CSAUIE3ZD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "404-425-0425",
     "NAME_LAST": "BERGER",
-    "entityid": "127156688",
+    "RECORD_ID": "127156688",
     "ADDR_LINE1": "2578  RD"
   },
   {
@@ -1366,12 +1257,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "2380",
     "NAME_FIRST": "ROBERT",
     "PASSPORT_NUMBER": "CTBHAO6",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Dewitt",
     "PHONE_NUMBER": "708-4379",
     "NAME_LAST": "REAVIS",
-    "entityid": "12235553",
+    "RECORD_ID": "12235553",
     "ADDR_LINE1": "15776 Branches RD"
   },
   {
@@ -1380,69 +1270,63 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "55110",
     "NAME_FIRST": "JEANNETTE",
     "PASSPORT_NUMBER": "CGZOI70Y",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Saint Paul",
     "PHONE_NUMBER": "763-789-8279",
     "NAME_LAST": "MARTINOV",
-    "entityid": "72528575",
+    "RECORD_ID": "72528575",
     "ADDR_LINE1": "702 11th ST"
   },
   {
     "DATE_OF_BIRTH": "2/8/1931",
     "ADDR_STATE": "WI",
     "ADDR_POSTAL_CODE": "53503",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Arna",
     "PHONE_NUMBER": "920-727-9275",
     "NAME_LAST": "POSEY",
-    "entityid": "48401778",
+    "RECORD_ID": "48401778",
     "ADDR_LINE1": "326 Adelin ST"
   },
   {
     "ADDR_POSTAL_CODE": "37027",
     "NAME_FIRST": "MOLLY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Brentwood",
     "NAME_LAST": "RYAN",
-    "entityid": "308622437",
+    "RECORD_ID": "308622437",
     "ADDR_LINE1": "620 Banbury PL"
   },
   {
     "ADDR_STATE": "LA",
     "ADDR_POSTAL_CODE": "71106",
     "NAME_FIRST": "JUDY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Shreveport",
     "PHONE_NUMBER": "390-8464",
     "NAME_LAST": "EDER",
-    "entityid": "282473969",
+    "RECORD_ID": "282473969",
     "ADDR_LINE1": "696 65th ST"
   },
   {
     "ADDR_STATE": "MN",
     "ADDR_POSTAL_CODE": "55409",
     "NAME_FIRST": "STEVE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Minneapolis",
     "PHONE_NUMBER": "645-0375",
     "NAME_LAST": "M",
-    "entityid": "30473718",
+    "RECORD_ID": "30473718",
     "ADDR_LINE1": "710 37th ST"
   },
   {
     "ADDR_STATE": "Missouri",
     "NAME_FIRST": "LISA",
     "PASSPORT_NUMBER": "CJ4FDFX8M",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "HZnnibal",
     "NAME_LAST": "YCLARKE",
-    "entityid": "288952596",
+    "RECORD_ID": "288952596",
     "ADDR_LINE1": "14392 30th ST"
   },
   {
@@ -1452,21 +1336,19 @@ const senzingPeopleList = [
     "ADDR_CITY": "Goleta",
     "NAME_FIRST": "YVONNE",
     "NAME_LAST": "WELLSPEAK",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "300459110",
+    "RECORD_ID": "300459110",
     "ADDR_LINE1": "7192  RD"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "95361",
     "NAME_FIRST": "DBEORAH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Oakdael",
     "PHONE_NUMBER": "909-641-1399",
     "NAME_LAST": "HORNER",
-    "entityid": "320957597",
+    "RECORD_ID": "320957597",
     "ADDR_LINE1": "17214 K26Mile "
   },
   {
@@ -1474,12 +1356,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "93030",
     "NAME_FIRST": "WILLARD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Oxnadr",
     "PHONE_NUMBER": "657-859-9499",
     "NAME_LAST": "KEENE",
-    "entityid": "181439374",
+    "RECORD_ID": "181439374",
     "ADDR_LINE1": "78 1st ST"
   },
   {
@@ -1487,12 +1368,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "34207",
     "NAME_FIRST": "MILES",
     "PASSPORT_NUMBER": "WQU1YN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "BradentOn",
     "PHONE_NUMBER": "904-650-5280",
     "NAME_LAST": "HILLENBRAND",
-    "entityid": "280411446",
+    "RECORD_ID": "280411446",
     "ADDR_LINE1": "6594 12Ith ST"
   },
   {
@@ -1500,23 +1380,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "OK",
     "ADDR_POSTAL_CODE": "73521",
     "NAME_FIRST": "LPUCY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Altus",
     "NAME_LAST": "PAVLAT",
-    "entityid": "6226798",
+    "RECORD_ID": "6226798",
     "ADDR_LINE1": "437 6ht ST"
   },
   {
     "ADDR_STATE": "Ohio",
     "ADDR_POSTAL_CODE": "44004",
     "NAME_FIRST": "JUAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "sAhtabula",
     "PHONE_NUMBER": "216-433-2634",
     "NAME_LAST": "SOROA",
-    "entityid": "289036152",
+    "RECORD_ID": "289036152",
     "ADDR_LINE1": "1242 23rd ST"
   },
   {
@@ -1525,11 +1403,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "01560",
     "NAME_FIRST": "KELLY",
     "PASSPORT_NUMBER": "SQTOF4",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "South Grafton",
     "NAME_LAST": "MCNEAL",
-    "entityid": "285986100",
+    "RECORD_ID": "285986100",
     "ADDR_LINE1": "108 FerrJy "
   },
   {
@@ -1537,12 +1414,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "11226",
     "NAME_FIRST": "THOMAS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Brooklyn",
     "PHONE_NUMBER": "708-2522",
     "NAME_LAST": "MORSE",
-    "entityid": "248459641",
+    "RECORD_ID": "248459641",
     "ADDR_LINE1": "6 Woods PL"
   },
   {
@@ -1551,11 +1427,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "49082",
     "NAME_FIRST": "SETH",
     "PASSPORT_NUMBER": "9EQGTWHP",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Quincy",
     "NAME_LAST": "ANGEL",
-    "entityid": "314479909",
+    "RECORD_ID": "314479909",
     "ADDR_LINE1": "10388 Bankers RD"
   },
   {
@@ -1563,11 +1438,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "12065",
     "NAME_FIRST": "JEREMY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Clifton Park",
     "NAME_LAST": "HERNANDEZ",
-    "entityid": "315390524",
+    "RECORD_ID": "315390524",
     "ADDR_LINE1": "1020 CliftonRCorporate PKY"
   },
   {
@@ -1576,24 +1450,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "33186",
     "NAME_FIRST": "JOHN",
     "PASSPORT_NUMBER": "CNZNX5DWG0",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "MiLmi",
     "PHONE_NUMBER": "969-7158",
     "NAME_LAST": "BOURGOIS",
-    "entityid": "221209550",
+    "RECORD_ID": "221209550",
     "ADDR_LINE1": "1185  LN"
   },
   {
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "77539",
     "NAME_FIRST": "RICHARD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "aDnbury",
     "PHONE_NUMBER": "883-1708",
     "NAME_LAST": "MOSHER",
-    "entityid": "227227075",
+    "RECORD_ID": "227227075",
     "ADDR_LINE1": "4680 10th ST"
   },
   {
@@ -1601,9 +1473,8 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "98908",
     "NAME_FIRST": "PRIL",
     "NAME_LAST": "TURNER",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "42481498",
+    "RECORD_ID": "42481498",
     "ADDR_LINE1": "129 41st AVE"
   },
   {
@@ -1611,11 +1482,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "33565",
     "NAME_FIRST": "DOLORES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Plant City",
     "NAME_LAST": "APRE",
-    "entityid": "151286459",
+    "RECORD_ID": "151286459",
     "ADDR_LINE1": "6105 Barton "
   },
   {
@@ -1623,11 +1493,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "95209",
     "NAME_FIRST": "MERLE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Stockton",
     "NAME_LAST": "POWELL",
-    "entityid": "278457607",
+    "RECORD_ID": "278457607",
     "ADDR_LINE1": "3476 Banyon DR"
   },
   {
@@ -1637,9 +1506,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "Kokomo",
     "NAME_FIRST": "ROSE",
     "NAME_LAST": "RYAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "260307088",
+    "RECORD_ID": "260307088",
     "ADDR_LINE1": "5218 Apperson WAY"
   },
   {
@@ -1647,13 +1515,12 @@ const senzingPeopleList = [
     "ADDR_STATE": "GA",
     "ADDR_POSTAL_CODE": "30531",
     "NAME_FIRST": "ESTHER",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Cornelia",
     "PHONE_NUMBER": "478-837-6728",
     "NAME_LAST": "R",
     "NAME_SUFFIX": "II",
-    "entityid": "236415505",
+    "RECORD_ID": "236415505",
     "ADDR_LINE1": "23291 BCGrant "
   },
   {
@@ -1661,9 +1528,8 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "72855",
     "ADDR_CITY": "Paris",
     "NAME_LAST": "PARTRIDGE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "317956281",
+    "RECORD_ID": "317956281",
     "ADDR_LINE1": "52 10th "
   },
   {
@@ -1671,24 +1537,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "85382",
     "NAME_FIRST": "RODNEY",
     "PASSPORT_NUMBER": "C9GVYW1B",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Peoria",
     "PHONE_NUMBER": "928-772-7183",
     "NAME_LAST": "WILLIAMS",
-    "entityid": "276440387",
+    "RECORD_ID": "276440387",
     "ADDR_LINE1": "15410 101st AVE"
   },
   {
     "ADDR_STATE": "Illinois",
     "ADDR_POSTAL_CODE": "60643",
     "NAME_FIRST": "JANE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Chicago",
     "PHONE_NUMBER": "217-513-6627",
     "NAME_LAST": "SCOTT",
-    "entityid": "323734723",
+    "RECORD_ID": "323734723",
     "ADDR_LINE1": "1407 103rd PL"
   },
   {
@@ -1696,48 +1560,44 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "64429",
     "NAME_FIRST": "PHYLLIS",
     "PASSPORT_NUMBER": "1ALWLHM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Cameron",
     "PHONE_NUMBER": "975-609-9670",
     "NAME_LAST": "OENNETT",
-    "entityid": "257461730",
+    "RECORD_ID": "257461730",
     "ADDR_LINE1": "9054 292nd ST"
   },
   {
     "DATE_OF_BIRTH": "23/11/1991",
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "10038",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "New York",
     "PHONE_NUMBER": "347-548-4246",
     "NAME_LAST": "HARRIS",
-    "entityid": "48498508",
+    "RECORD_ID": "48498508",
     "ADDR_LINE1": "98 WiTliam ST"
   },
   {
     "ADDR_STATE": "CT",
     "NAME_FIRST": "ANDREW",
     "PASSPORT_NUMBER": "C3WPDZWJ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Westerly",
     "PHONE_NUMBER": "475-255-3124",
     "NAME_LAST": "AUSTIN",
-    "entityid": "175427965",
+    "RECORD_ID": "175427965",
     "ADDR_LINE1": "35 Falco CIR"
   },
   {
     "ADDR_POSTAL_CODE": "31525",
     "NAME_FIRST": "ADAM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Brunswick",
     "PHONE_NUMBER": "783-7712",
     "NAME_LAST": "OLIVER",
     "NAME_SUFFIX": "Sr.",
-    "entityid": "295005717",
+    "RECORD_ID": "295005717",
     "ADDR_LINE1": "74 CedarPoint RD"
   },
   {
@@ -1746,13 +1606,12 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "27587",
     "NAME_FIRST": "JEAN",
     "PASSPORT_NUMBER": "CFTEZW55",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Wake Forest",
     "PHONE_NUMBER": "919-533-2658",
     "NAME_LAST": "COLLETT",
     "NAME_SUFFIX": "II",
-    "entityid": "316186748",
+    "RECORD_ID": "316186748",
     "ADDR_LINE1": "586 Averette RD"
   },
   {
@@ -1760,12 +1619,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "85213",
     "NAME_FIRST": "ALLEN",
     "PASSPORT_NUMBER": "CC3CGYHDF",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Mesa",
     "PHONE_NUMBER": "602-304-9638",
     "NAME_LAST": "BTAKEI",
-    "entityid": "319493567",
+    "RECORD_ID": "319493567",
     "ADDR_LINE1": "2773 Adobe ST"
   },
   {
@@ -1774,24 +1632,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "7501",
     "NAME_FIRST": "CONSTANCE",
     "PASSPORT_NUMBER": "5LBD9WN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Allen",
     "PHONE_NUMBER": "409-412-6067",
     "NAME_LAST": "ROZEMA",
-    "entityid": "313625053",
+    "RECORD_ID": "313625053",
     "ADDR_LINE1": "586  DR"
   },
   {
     "DATE_OF_BIRTH": "21/5/1979",
     "ADDR_POSTAL_CODE": "2258",
     "NAME_FIRST": "EDWARD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "JacksonvOille",
     "PHONE_NUMBER": "689-386-8117",
     "NAME_LAST": "BOWLES",
-    "entityid": "145362492",
+    "RECORD_ID": "145362492",
     "ADDR_LINE1": "767 BleuberryWoods CIR"
   },
   {
@@ -1799,21 +1655,19 @@ const senzingPeopleList = [
     "ADDR_STATE": "AR",
     "ADDR_POSTAL_CODE": "7219",
     "NAME_FIRST": "DEBRA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Little Rock",
     "NAME_LAST": "HARMAN",
-    "entityid": "268361352",
+    "RECORD_ID": "268361352",
     "ADDR_LINE1": "6036 59th "
   },
   {
     "ADDR_STATE": "GA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Reidsville",
     "PHONE_NUMBER": "453-8802",
     "NAME_LAST": "WALSH",
-    "entityid": "218270678",
+    "RECORD_ID": "218270678",
     "ADDR_LINE1": "313 rBumby AVE"
   },
   {
@@ -1821,11 +1675,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "76249",
     "NAME_FIRST": "STUART",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Krm",
     "NAME_LAST": "OZUNA",
-    "entityid": "209135835",
+    "RECORD_ID": "209135835",
     "ADDR_LINE1": "1946  ST"
   },
   {
@@ -1834,9 +1687,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "567-844-2678",
     "NAME_FIRST": "J",
     "NAME_LAST": "SHEELEY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "318685317",
+    "RECORD_ID": "318685317",
     "ADDR_LINE1": "298 16th ST"
   },
   {
@@ -1844,11 +1696,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "MO",
     "ADDR_POSTAL_CODE": "63074",
     "NAME_FIRST": "STEPHEN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "PHONE_NUMBER": "722-3378",
     "NAME_LAST": "SHANNON",
-    "entityid": "60642453",
+    "RECORD_ID": "60642453",
     "ADDR_LINE1": "3040 Bellecote AVE"
   },
   {
@@ -1857,11 +1708,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "87825",
     "NAME_FIRST": "CYNTHIA",
     "PASSPORT_NUMBER": "CB9BB2ZD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "575-866-2170",
     "NAME_LAST": "HARPER",
-    "entityid": "227361786",
+    "RECORD_ID": "227361786",
     "ADDR_LINE1": "2666 Elm ST"
   },
   {
@@ -1869,47 +1719,43 @@ const senzingPeopleList = [
     "ADDR_STATE": "MN",
     "ADDR_POSTAL_CODE": "56001",
     "NAME_FIRST": "VFRANCISCO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Mankato",
     "NAME_LAST": "BOLTON",
-    "entityid": "169228968",
+    "RECORD_ID": "169228968",
     "ADDR_LINE1": "820 Z4th ST"
   },
   {
     "ADDR_STATE": "Ohio",
     "ADDR_POSTAL_CODE": "45715",
     "NAME_FIRST": "KEVIN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Bevelry",
     "PHONE_NUMBER": "212-2101",
     "NAME_LAST": "ROSENTRATER",
-    "entityid": "233371762",
+    "RECORD_ID": "233371762",
     "ADDR_LINE1": "166 CenterBend RD"
   },
   {
     "ADDR_STATE": "WI",
     "ADDR_POSTAL_CODE": "54901",
     "NAME_FIRST": "JULIE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Oshkosh",
     "PHONE_NUMBER": "715-633-9399",
     "NAME_LAST": "JOHNOON",
-    "entityid": "318718196",
+    "RECORD_ID": "318718196",
     "ADDR_LINE1": "761 18th AVE"
   },
   {
     "ADDR_STATE": "TN",
     "ADDR_POSTAL_CODE": "37862",
     "NAME_FIRST": "WILLIAM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Sevierville",
     "PHONE_NUMBER": "731-483-6643",
     "NAME_LAST": "HENRY",
-    "entityid": "319472517",
+    "RECORD_ID": "319472517",
     "ADDR_LINE1": "814 Bruce ST"
   },
   {
@@ -1918,21 +1764,19 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "773-225-7988",
     "NAME_FIRST": "DARREL",
     "NAME_LAST": "PROCH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "290485093",
+    "RECORD_ID": "290485093",
     "ADDR_LINE1": "1110 Barber ST"
   },
   {
     "DATE_OF_BIRTH": "14/9/1963",
     "ADDR_STATE": "RI",
     "ADDR_POSTAL_CODE": "02879",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "WRkefield",
     "PHONE_NUMBER": "788-7281",
     "NAME_LAST": "TORRES",
-    "entityid": "221114629",
+    "RECORD_ID": "221114629",
     "ADDR_LINE1": "4 Beach ROW"
   },
   {
@@ -1941,11 +1785,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "27606",
     "NAME_FIRST": "CECILIA",
     "PASSPORT_NUMBER": "Y1OKQ2FEH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Raleigh",
     "NAME_LAST": "ZAMORA",
-    "entityid": "72861715",
+    "RECORD_ID": "72861715",
     "ADDR_LINE1": "1270 Ashburton RD"
   },
   {
@@ -1953,12 +1796,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "60649",
     "NAME_FIRST": "MICHAEL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Chicago",
     "PHONE_NUMBER": "312-756-9313",
     "NAME_LAST": "HICKERSON",
-    "entityid": "318725366",
+    "RECORD_ID": "318725366",
     "ADDR_LINE1": "2290  "
   },
   {
@@ -1966,23 +1808,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "TX",
     "NAME_FIRST": "IGOACIA",
     "PASSPORT_NUMBER": "3L9N9SHF",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Dalls",
     "PHONE_NUMBER": "912-2230",
     "NAME_LAST": "CHAPMAN",
-    "entityid": "36698656",
+    "RECORD_ID": "36698656",
     "ADDR_LINE1": "9492 Amberton PKY"
   },
   {
     "ADDR_STATE": "WA",
     "NAME_FIRST": "STEVEYN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "SpokaHne",
     "PHONE_NUMBER": "712-3485",
     "NAME_LAST": "KULHANEK",
-    "entityid": "218090065",
+    "RECORD_ID": "218090065",
     "ADDR_LINE1": "6182 AdCison ST"
   },
   {
@@ -1990,12 +1830,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "VA",
     "ADDR_POSTAL_CODE": "22815",
     "NAME_FIRST": "ASHLEY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Broadway",
     "PHONE_NUMBER": "277-611-8807",
     "NAME_LAST": "LUNA",
-    "entityid": "317950985",
+    "RECORD_ID": "317950985",
     "ADDR_LINE1": "10678 Acorn LN"
   },
   {
@@ -2003,11 +1842,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "11580",
     "NAME_FIRST": "PETER",
     "PASSPORT_NUMBER": "C73K4957A",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Valley Stream",
     "NAME_LAST": "PENDERGRASG",
-    "entityid": "274396036",
+    "RECORD_ID": "274396036",
     "ADDR_LINE1": "838 Charles ST"
   },
   {
@@ -2015,22 +1853,20 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "85258",
     "NAME_FIRST": "JEWEL",
     "PASSPORT_NUMBER": "CHA1HSSL4N",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Scottsdale",
     "NAME_LAST": "HARRIS",
-    "entityid": "322398592",
+    "RECORD_ID": "322398592",
     "ADDR_LINE1": "9298 101st PL"
   },
   {
     "ADDR_STATE": "OK",
     "NAME_FIRST": "LEON",
     "PASSPORT_NUMBER": "N2K4S3JXS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "PHONE_NUMBER": "918-304-4827",
     "NAME_LAST": "ADDISON",
-    "entityid": "314476267",
+    "RECORD_ID": "314476267",
     "ADDR_LINE1": "220 11th ST"
   },
   {
@@ -2039,23 +1875,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "89141",
     "NAME_FIRST": "RICHARD",
     "PASSPORT_NUMBER": "2VU11CGN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Las Vegas",
     "NAME_LAST": "W",
-    "entityid": "221143883",
+    "RECORD_ID": "221143883",
     "ADDR_LINE1": "3458 Rush "
   },
   {
     "ADDR_STATE": "TX",
     "NAME_FIRST": "B",
     "PASSPORT_NUMBER": "KJDZNS0BO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Harker Heights",
     "PHONE_NUMBER": "915-624-3378",
     "NAME_LAST": "LANGO",
-    "entityid": "6274983",
+    "RECORD_ID": "6274983",
     "ADDR_LINE1": "261 Ann BLVD"
   },
   {
@@ -2063,35 +1897,32 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "03301",
     "NAME_FIRST": "NICKI",
     "PASSPORT_NUMBER": "K9FD5PA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "CoSncord",
     "PHONE_NUMBER": "603-641-6628",
     "NAME_LAST": "SIMPSON",
-    "entityid": "274497753",
+    "RECORD_ID": "274497753",
     "ADDR_LINE1": "943  RD"
   },
   {
     "ADDR_STATE": "OH",
     "ADDR_POSTAL_CODE": "45242",
     "NAME_FIRST": "J",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Cincinnati",
     "PHONE_NUMBER": "614-494-5036",
     "NAME_LAST": "DUTTON",
-    "entityid": "109185611",
+    "RECORD_ID": "109185611",
     "ADDR_LINE1": "5496 Baybery DR"
   },
   {
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "11520",
     "NAME_FIRST": "PATRICIA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Freeport",
     "NAME_LAST": "HUDDLESTON",
-    "entityid": "315353910",
+    "RECORD_ID": "315353910",
     "ADDR_LINE1": "30 GuyLombardo AVE"
   },
   {
@@ -2100,35 +1931,32 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "30786",
     "NAME_FIRST": "ROBERT",
     "PASSPORT_NUMBER": "UP647Y",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Windermere",
     "PHONE_NUMBER": "689-685-5954",
     "NAME_LAST": "ADAMS",
-    "entityid": "313605404",
+    "RECORD_ID": "313605404",
     "ADDR_LINE1": "9629 AmbDleside DR"
   },
   {
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "33068",
     "NAME_FIRST": "ELLIS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Pompano Beach",
     "PHONE_NUMBER": "386-502-2789",
     "NAME_LAST": "MANWILL",
-    "entityid": "6235228",
+    "RECORD_ID": "6235228",
     "ADDR_LINE1": "5510 10th ST"
   },
   {
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "131901",
     "NAME_FIRST": "DAVID",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Riverhead",
     "NAME_LAST": "PARKER",
-    "entityid": "306551845",
+    "RECORD_ID": "306551845",
     "ADDR_LINE1": "62 Crystal DR"
   },
   {
@@ -2137,12 +1965,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "98199",
     "NAME_FIRST": "LORI",
     "PASSPORT_NUMBER": "CNYDGR3",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Seattle",
     "PHONE_NUMBER": "425-387-4471",
     "NAME_LAST": "DOMINGUEZ",
-    "entityid": "163554581",
+    "RECORD_ID": "163554581",
     "ADDR_LINE1": "2966 24th AVE"
   },
   {
@@ -2152,21 +1979,19 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "775-983-2916",
     "NAME_FIRST": "LXISA",
     "NAME_LAST": "CONRAD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "304091301",
+    "RECORD_ID": "304091301",
     "ADDR_LINE1": "7098  WAY"
   },
   {
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "274",
     "NAME_FIRST": "ROBERT",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Altamonte Springs",
     "PHONE_NUMBER": "689-744-9249",
     "NAME_LAST": "MAOTY",
-    "entityid": "151403152",
+    "RECORD_ID": "151403152",
     "ADDR_LINE1": "694 Airmont AVE"
   },
   {
@@ -2174,11 +1999,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "38112",
     "NAME_FIRST": "GLEN",
     "PASSPORT_NUMBER": "C3B0IUX9W",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Memphis",
     "NAME_LAST": "DOSTER",
-    "entityid": "212064095",
+    "RECORD_ID": "212064095",
     "ADDR_LINE1": "1999  "
   },
   {
@@ -2186,12 +2010,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "17042",
     "NAME_FIRST": "JULI",
     "PASSPORT_NUMBER": "CN67JFB",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "LebQnon",
     "PHONE_NUMBER": "878-705-3360",
     "NAME_LAST": "PILLETTE",
-    "entityid": "18376582",
+    "RECORD_ID": "18376582",
     "ADDR_LINE1": "2505 5th AVE"
   },
   {
@@ -2199,12 +2022,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "GA",
     "ADDR_POSTAL_CODE": "351419",
     "PASSPORT_NUMBER": "CW66I7MF1F",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Savannah",
     "PHONE_NUMBER": "706-450-6778",
     "NAME_LAST": "SCHOONOVER",
-    "entityid": "145190487",
+    "RECORD_ID": "145190487",
     "ADDR_LINE1": "322 Briarcliff CIR"
   },
   {
@@ -2213,9 +2035,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "New Albany",
     "NAME_FIRST": "ANTHONY",
     "NAME_LAST": "BRUMNON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "254401867",
+    "RECORD_ID": "254401867",
     "ADDR_LINE1": "670 Peach ALY"
   },
   {
@@ -2223,13 +2044,12 @@ const senzingPeopleList = [
     "ADDR_STATE": "OR",
     "ADDR_POSTAL_CODE": "97123",
     "NAME_FIRST": "LORA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Hillsboro",
     "PHONE_NUMBER": "467-6405",
     "NAME_LAST": "GRIFFIS",
     "NAME_SUFFIX": "Jr.",
-    "entityid": "151184332",
+    "RECORD_ID": "151184332",
     "ADDR_LINE1": "968 8th AVE"
   },
   {
@@ -2237,23 +2057,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "55811",
     "NAME_FIRST": "BARBARA",
     "PASSPORT_NUMBER": "4WNNYOS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "PHONE_NUMBER": "218-875-4124",
     "NAME_LAST": "PHILBECK",
-    "entityid": "298091673",
+    "RECORD_ID": "298091673",
     "ADDR_LINE1": "638 Anderson RD"
   },
   {
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "60099",
     "NAME_FIRST": "ELIZBETH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Zion",
     "PHONE_NUMBER": "779-777-2090",
     "NAME_LAST": "ROULEAU",
-    "entityid": "268352955",
+    "RECORD_ID": "268352955",
     "ADDR_LINE1": "210822 13th ST"
   },
   {
@@ -2262,21 +2080,19 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "878-817-8319",
     "NAME_FIRST": "J",
     "NAME_LAST": "B",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "18304536",
+    "RECORD_ID": "18304536",
     "ADDR_LINE1": "809 Aurora AVE"
   },
   {
     "ADDR_STATE": "MI",
     "ADDR_POSTAL_CODE": "48813",
     "NAME_FIRST": "SCOTT",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Charlotte",
     "PHONE_NUMBER": "248-589-9438",
     "NAME_LAST": "WILSON",
-    "entityid": "317923085",
+    "RECORD_ID": "317923085",
     "ADDR_LINE1": "4766 5Point HWY"
   },
   {
@@ -2284,23 +2100,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "525535",
     "NAME_FIRST": "VIRGINIA",
     "PASSPORT_NUMBER": "C908NOEJJ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Lavalette",
     "NAME_LAST": "LEINGANG",
-    "entityid": "109187528",
+    "RECORD_ID": "109187528",
     "ADDR_LINE1": "5468 CaXmp RD"
   },
   {
     "DATE_OF_BIRTH": "15/5/1971",
     "ADDR_STATE": "CA",
     "NAME_FIRST": "GILBERT",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Los Alamitos",
     "PHONE_NUMBER": "657-628-8035",
     "NAME_LAST": "GULLEDGE",
-    "entityid": "127138439",
+    "RECORD_ID": "127138439",
     "ADDR_LINE1": "12424 Ballnatine DR"
   },
   {
@@ -2308,12 +2122,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "Connecticut",
     "ADDR_POSTAL_CODE": "06297",
     "NAME_FIRST": "AMANDA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Wilton",
     "PHONE_NUMBER": "203-361-2657",
     "NAME_LAST": "THOMAS",
-    "entityid": "239380914",
+    "RECORD_ID": "239380914",
     "ADDR_LINE1": "20 BlackBBrch DR"
   },
   {
@@ -2321,24 +2134,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "2704",
     "NAME_FIRST": "JUSTIN",
     "PASSPORT_NUMBER": "R87RKA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Rocky Mount",
     "PHONE_NUMBER": "496-6599",
     "NAME_LAST": "SANTISTEVAN",
-    "entityid": "139435617",
+    "RECORD_ID": "139435617",
     "ADDR_LINE1": "1880 Bobwihte LN"
   },
   {
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "33068",
     "NAME_FIRST": "LIDIA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "PompanoB each",
     "PHONE_NUMBER": "689-691-5043",
     "NAME_LAST": "WALELR",
-    "entityid": "84718952",
+    "RECORD_ID": "84718952",
     "ADDR_LINE1": "52827 13tAh ST"
   },
   {
@@ -2348,9 +2159,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "715-373-4650",
     "NAME_FIRST": "HUNG",
     "NAME_LAST": "JOINER",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "169509756",
+    "RECORD_ID": "169509756",
     "ADDR_LINE1": "1508 10th ST"
   },
   {
@@ -2359,11 +2169,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "3219",
     "NAME_FIRST": "CHRISTOPHER",
     "PASSPORT_NUMBER": "THZZTMOZW",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Syracuse",
     "NAME_LAST": "FAZZI",
-    "entityid": "299309183",
+    "RECORD_ID": "299309183",
     "ADDR_LINE1": "2120 Bellevue AVE"
   },
   {
@@ -2371,12 +2180,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "CO",
     "ADDR_POSTAL_CODE": "80691",
     "NAME_FIRST": "PAMELA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Greeley",
     "PHONE_NUMBER": "719-547-7554",
     "NAME_LAST": "GRANT",
-    "entityid": "286026937",
+    "RECORD_ID": "286026937",
     "ADDR_LINE1": "2574 10th AVE"
   },
   {
@@ -2384,12 +2192,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "10307",
     "NAME_FIRST": "DANETTE",
     "PASSPORT_NUMBER": "CERPAP247",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Staten IsOand",
     "PHONE_NUMBER": "212-832-1463",
     "NAME_LAST": "R",
-    "entityid": "54747525",
+    "RECORD_ID": "54747525",
     "ADDR_LINE1": "10 Byran ST"
   },
   {
@@ -2397,12 +2204,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "06109",
     "NAME_FIRST": "R",
     "PASSPORT_NUMBER": "UEIIDAR",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "WethersfieKd",
     "PHONE_NUMBER": "860-693-3645",
     "NAME_LAST": "HUI",
-    "entityid": "319462309",
+    "RECORD_ID": "319462309",
     "ADDR_LINE1": "119 Brimfield RD"
   },
   {
@@ -2410,12 +2216,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "OH",
     "ADDR_POSTAL_CODE": "45346",
     "PASSPORT_NUMBER": "4VHUY0JX7",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "New Madison",
     "PHONE_NUMBER": "440-955-0878",
     "NAME_LAST": "D",
-    "entityid": "323705871",
+    "RECORD_ID": "323705871",
     "ADDR_LINE1": "174 Anderson ST"
   },
   {
@@ -2423,24 +2228,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "90177",
     "NAME_FIRST": "EMILY",
     "PASSPORT_NUMBER": "M5QNRVO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Lomita",
     "PHONE_NUMBER": "209-789-9879",
     "NAME_LAST": "RIESTER",
-    "entityid": "282535299",
+    "RECORD_ID": "282535299",
     "ADDR_LINE1": "1788 255th ST"
   },
   {
     "DATE_OF_BIRTH": "18/3/1952",
     "ADDR_STATE": "NC",
     "NAME_FIRST": "DOROTHY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Concord",
     "PHONE_NUMBER": "980-244-2479",
     "NAME_LAST": "GENTRY",
-    "entityid": "315340280",
+    "RECORD_ID": "315340280",
     "ADDR_LINE1": "1002 Biscayne DR"
   },
   {
@@ -2448,12 +2251,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "314216",
     "NAME_FIRST": "A",
     "PASSPORT_NUMBER": "CSZFVEL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Buffalo",
     "PHONE_NUMBER": "830-2881",
     "NAME_LAST": "CHASE",
-    "entityid": "284502123",
+    "RECORD_ID": "284502123",
     "ADDR_LINE1": "633 Crescent AVE"
   },
   {
@@ -2462,9 +2264,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "370-5226",
     "NAME_FIRST": "BARBARA",
     "NAME_LAST": "MARTINEZ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "145079192",
+    "RECORD_ID": "145079192",
     "ADDR_LINE1": "6307 F10th ST"
   },
   {
@@ -2473,21 +2274,19 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "679-486-8044",
     "NAME_FIRST": "MICHAEL",
     "NAME_LAST": "COLEMAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "300496813",
+    "RECORD_ID": "300496813",
     "ADDR_LINE1": "872 BigLake RD"
   },
   {
     "ADDR_STATE": "MO",
     "ADDR_POSTAL_CODE": "653081",
     "PASSPORT_NUMBER": "F31CM1AP",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "SedaLia",
     "PHONE_NUMBER": "660-723-3931",
     "NAME_LAST": "TILLMAN",
-    "entityid": "306558617",
+    "RECORD_ID": "306558617",
     "ADDR_LINE1": "3122 10th ST"
   },
   {
@@ -2495,35 +2294,32 @@ const senzingPeopleList = [
     "ADDR_STATE": "New York",
     "ADDR_POSTAL_CODE": "11419",
     "PASSPORT_NUMBER": "CLGMG0M",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "South Richmond Hill",
     "PHONE_NUMBER": "929-874-3346",
     "NAME_LAST": "BLACK",
-    "entityid": "268335460",
+    "RECORD_ID": "268335460",
     "ADDR_LINE1": "422 103rd AVE"
   },
   {
     "DATE_OF_BIRTH": "20/8/1956",
     "ADDR_STATE": "IL",
     "NAME_FIRST": "CHARLES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "PHONE_NUMBER": "309-281-6208",
     "NAME_LAST": "L",
-    "entityid": "304148259",
+    "RECORD_ID": "304148259",
     "ADDR_LINE1": "4043 Alison LN"
   },
   {
     "DATE_OF_BIRTH": "17/4/1997",
     "ADDR_POSTAL_CODE": "66075",
     "NAME_FIRST": "G",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Pleasanotn",
     "PHONE_NUMBER": "947-2961",
     "NAME_LAST": "HERNANDEZ",
-    "entityid": "317960493",
+    "RECORD_ID": "317960493",
     "ADDR_LINE1": "333 10h ST"
   },
   {
@@ -2532,23 +2328,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "53086",
     "NAME_FIRST": "DANIELLE",
     "PASSPORT_NUMBER": "CYVFF3PXM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "WaukWesha",
     "PHONE_NUMBER": "920-535-5840",
     "NAME_LAST": "G",
-    "entityid": "84733807",
+    "RECORD_ID": "84733807",
     "ADDR_LINE1": "2254648 Aspenwood LN"
   },
   {
     "ADDR_STATE": "ID",
     "ADDR_POSTAL_CODE": "83687",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Nampa",
     "PHONE_NUMBER": "981-1945",
     "NAME_LAST": "LIPSCOMB",
-    "entityid": "321700756",
+    "RECORD_ID": "321700756",
     "ADDR_LINE1": "2152 11t AVE"
   },
   {
@@ -2556,12 +2350,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "Arizona",
     "ADDR_POSTAL_CODE": "85044",
     "NAME_FIRST": "G",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "PhoeVix",
     "PHONE_NUMBER": "368-0928",
     "NAME_LAST": "DAVIS",
-    "entityid": "274449536",
+    "RECORD_ID": "274449536",
     "ADDR_LINE1": "13600 32nd PL"
   },
   {
@@ -2569,12 +2362,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "98445",
     "NAME_FIRST": "MIGUEL",
     "PASSPORT_NUMBER": "NF7AXO6L",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Tacoma",
     "PHONE_NUMBER": "253-969-6454",
     "NAME_LAST": "PFEIFFER",
-    "entityid": "290464211",
+    "RECORD_ID": "290464211",
     "ADDR_LINE1": "2206 12th ST"
   },
   {
@@ -2583,9 +2375,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "Ruskin",
     "NAME_FIRST": "RICKEY",
     "NAME_LAST": "REYNA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "287458288",
+    "RECORD_ID": "287458288",
     "ADDR_LINE1": "708 10h AVE"
   },
   {
@@ -2595,9 +2386,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "474-0467",
     "NAME_FIRST": "C",
     "NAME_LAST": "BEASLEY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "302924723",
+    "RECORD_ID": "302924723",
     "ADDR_LINE1": "5531  RD"
   },
   {
@@ -2606,23 +2396,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "73501",
     "NAME_FIRST": "RENEE",
     "PASSPORT_NUMBER": "CEO3V4T0IQ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Lawton",
     "PHONE_NUMBER": "405-949-9923",
     "NAME_LAST": "SORRELLS",
-    "entityid": "280443711",
+    "RECORD_ID": "280443711",
     "ADDR_LINE1": "886 11th ST"
   },
   {
     "ADDR_POSTAL_CODE": "25262",
     "NAME_FIRST": "D",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Millood",
     "PHONE_NUMBER": "304-540-8025",
     "NAME_LAST": "FREELAND",
-    "entityid": "257403534",
+    "RECORD_ID": "257403534",
     "ADDR_LINE1": "184 Carney DR"
   },
   {
@@ -2630,35 +2418,32 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "50003",
     "NAME_FIRST": "RICHARD",
     "PASSPORT_NUMBER": "5WX4Y7",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Adel",
     "NAME_LAST": "MEETZE",
-    "entityid": "120931038",
+    "RECORD_ID": "120931038",
     "ADDR_LINE1": "908 10th ST"
   },
   {
     "ADDR_STATE": "MI",
     "ADDR_POSTAL_CODE": "48081",
     "NAME_FIRST": "MATTHEW",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Saint Clair Shores",
     "PHONE_NUMBER": "817-5592",
     "NAME_LAST": "SAVOY",
-    "entityid": "282423462",
+    "RECORD_ID": "282423462",
     "ADDR_LINE1": "26428 12Mile RD"
   },
   {
     "ADDR_STATE": "MS",
     "ADDR_POSTAL_CODE": "3873",
     "NAME_FIRST": "CYNTHIA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Shaw",
     "PHONE_NUMBER": "662-372-9440",
     "NAME_LAST": "JAQUITH",
-    "entityid": "302915268",
+    "RECORD_ID": "302915268",
     "ADDR_LINE1": "396 Blaine RD"
   },
   {
@@ -2666,12 +2451,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "OH",
     "ADDR_POSTAL_CODE": "44504",
     "NAME_FIRST": "DOROTHY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Youngstown",
     "PHONE_NUMBER": "419-426-3643",
     "NAME_LAST": "GAGNON",
-    "entityid": "236283091",
+    "RECORD_ID": "236283091",
     "ADDR_LINE1": "8134 5th AVE"
   },
   {
@@ -2680,11 +2464,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "96055",
     "NAME_FIRST": "ELIZABETH",
     "PASSPORT_NUMBER": "S9UA75",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Los Molinos",
     "NAME_LAST": "LONG",
-    "entityid": "257576886",
+    "RECORD_ID": "257576886",
     "ADDR_LINE1": "25292 3rd AVE"
   },
   {
@@ -2692,12 +2475,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "99027",
     "NAME_FIRST": "JOSEPH",
     "PASSPORT_NUMBER": "VIVRFAVZ3",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "pSokane",
     "PHONE_NUMBER": "606-8362",
     "NAME_LAST": "BUTLER",
-    "entityid": "284466825",
+    "RECORD_ID": "284466825",
     "ADDR_LINE1": "3472 Addison ST"
   },
   {
@@ -2705,24 +2487,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "60010",
     "NAME_FIRST": "THERESA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Batavia",
     "PHONE_NUMBER": "224-746-2412",
     "NAME_LAST": "WILLIAMS",
-    "entityid": "313659531",
+    "RECORD_ID": "313659531",
     "ADDR_LINE1": "244 Bliss RD"
   },
   {
     "DATE_OF_BIRTH": "22/11/1958",
     "ADDR_POSTAL_CODE": "68826",
     "NAME_FIRST": "SUSAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "CRentral City",
     "PHONE_NUMBER": "402-974-9237",
     "NAME_LAST": "MACON",
-    "entityid": "218167356",
+    "RECORD_ID": "218167356",
     "ADDR_LINE1": "1688 10t AVE"
   },
   {
@@ -2732,20 +2512,18 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "219-4944",
     "NAME_FIRST": "JANE",
     "NAME_LAST": "FERRIS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "264410410",
+    "RECORD_ID": "264410410",
     "ADDR_LINE1": "2708 35th ST"
   },
   {
     "DATE_OF_BIRTH": "15/10/1987",
     "ADDR_STATE": "WA",
     "ADDR_POSTAL_CODE": "99212",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "SpokanM",
     "NAME_LAST": "C",
-    "entityid": "139121569",
+    "RECORD_ID": "139121569",
     "ADDR_LINE1": "6974 1H1th AVE"
   },
   {
@@ -2755,20 +2533,18 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "865-331-8642",
     "NAME_FIRST": "WILLIE",
     "NAME_LAST": "MCGAHAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "224154165",
+    "RECORD_ID": "224154165",
     "ADDR_LINE1": "152 Water ST"
   },
   {
     "DATE_OF_BIRTH": "26/12/1976",
     "ADDR_STATE": "TX",
     "NAME_FIRST": "MARY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "DMallas",
     "NAME_LAST": "MARKLE",
-    "entityid": "6377198",
+    "RECORD_ID": "6377198",
     "ADDR_LINE1": "1278 Breezewood LN"
   },
   {
@@ -2778,21 +2554,19 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "631-543-9464",
     "NAME_FIRST": "REBECCA",
     "NAME_LAST": "W",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "288992095",
+    "RECORD_ID": "288992095",
     "ADDR_LINE1": "88 Harbo DR"
   },
   {
     "DATE_OF_BIRTH": "27/1/1965",
     "ADDR_POSTAL_CODE": "98664",
     "NAME_FIRST": "DORIS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Vancouver",
     "PHONE_NUMBER": "425-272-5078",
     "NAME_LAST": "GUL",
-    "entityid": "299250475",
+    "RECORD_ID": "299250475",
     "ADDR_LINE1": "132 101st AVE"
   },
   {
@@ -2800,11 +2574,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "GA",
     "ADDR_POSTAL_CODE": "30016",
     "NAME_FIRST": "GLENDA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Covingto",
     "NAME_LAST": "C",
-    "entityid": "316217968",
+    "RECORD_ID": "316217968",
     "ADDR_LINE1": "178 Arlington DR"
   },
   {
@@ -2812,12 +2585,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "79553",
     "NAME_FIRST": "JENNIFER",
     "PASSPORT_NUMBER": "C98EUD8D5",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Stamfrod",
     "PHONE_NUMBER": "817-295-8467",
     "NAME_LAST": "DAVIS",
-    "entityid": "6260721",
+    "RECORD_ID": "6260721",
     "ADDR_LINE1": "126 Anson ST"
   },
   {
@@ -2825,23 +2597,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "OH",
     "ADDR_POSTAL_CODE": "44102",
     "NAME_FIRST": "W",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Cleveland",
     "PHONE_NUMBER": "567-441-9647",
     "NAME_LAST": "DWARMAN",
-    "entityid": "288954415",
+    "RECORD_ID": "288954415",
     "ADDR_LINE1": "1266 45th ST"
   },
   {
     "ADDR_STATE": "AK",
     "ADDR_POSTAL_CODE": "99901",
     "NAME_FIRST": "RALPH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Ketchikan",
     "NAME_LAST": "FITZGERALD",
-    "entityid": "181404043",
+    "RECORD_ID": "181404043",
     "ADDR_LINE1": "2148 1st AVE"
   },
   {
@@ -2849,12 +2619,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "SC",
     "ADDR_POSTAL_CODE": "29678",
     "NAME_FIRST": "M",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Seneca",
     "PHONE_NUMBER": "843-239-3842",
     "NAME_LAST": "DYKES",
-    "entityid": "285981172",
+    "RECORD_ID": "285981172",
     "ADDR_LINE1": "422 rAmstrong RD"
   },
   {
@@ -2862,23 +2631,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "33782",
     "NAME_FIRST": "MICHAEL",
     "PASSPORT_NUMBER": "GT8E0IC",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Pinellas Park",
     "NAME_LAST": "OBGGS",
-    "entityid": "291997499",
+    "RECORD_ID": "291997499",
     "ADDR_LINE1": "5920 100th "
   },
   {
     "ADDR_STATE": "IN",
     "ADDR_POSTAL_CODE": "47715",
     "NAME_FIRST": "WILLIE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Evansville",
     "PHONE_NUMBER": "358-3592",
     "NAME_LAST": "H",
-    "entityid": "320985447",
+    "RECORD_ID": "320985447",
     "ADDR_LINE1": "2665 Autumnwood WAY"
   },
   {
@@ -2887,11 +2654,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "31061",
     "NAME_FIRST": "DONALD",
     "PASSPORT_NUMBER": "CQM2MRETQ2",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Milledgeville",
     "NAME_LAST": "FLOOK",
-    "entityid": "181326987",
+    "RECORD_ID": "181326987",
     "ADDR_LINE1": "210 ButlXer RD"
   },
   {
@@ -2899,12 +2665,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "98489",
     "NAME_FIRST": "JENNIFER",
     "PASSPORT_NUMBER": "CMOW963V",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Lakewood",
     "PHONE_NUMBER": "564-297-5737",
     "NAME_LAST": "COLEMAN",
-    "entityid": "321713196",
+    "RECORD_ID": "321713196",
     "ADDR_LINE1": "9272  ST"
   },
   {
@@ -2912,11 +2677,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "WA",
     "ADDR_POSTAL_CODE": "98058",
     "NAME_FIRST": "TRAVIS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "PHONE_NUMBER": "206-591-7736",
     "NAME_LAST": "DEWALL",
-    "entityid": "299235207",
+    "RECORD_ID": "299235207",
     "ADDR_LINE1": "19096 121t AVE"
   },
   {
@@ -2925,9 +2689,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "616-7799",
     "NAME_FIRST": "MICHAEL",
     "NAME_LAST": "GREEN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "66759806",
+    "RECORD_ID": "66759806",
     "ADDR_LINE1": "6214 14th PL"
   },
   {
@@ -2935,13 +2698,12 @@ const senzingPeopleList = [
     "ADDR_STATE": "CO",
     "ADDR_POSTAL_CODE": "80233",
     "NAME_FIRST": "SHEIL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Denver",
     "PHONE_NUMBER": "665-7911",
     "NAME_LAST": "SCHNABEL",
     "NAME_SUFFIX": "II",
-    "entityid": "290460250",
+    "RECORD_ID": "290460250",
     "ADDR_LINE1": "90 106th PLACE"
   },
   {
@@ -2950,22 +2712,20 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "67546",
     "NAME_FIRST": "RICHRD",
     "PASSPORT_NUMBER": "C4TDYBHLHH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "PHONE_NUMBER": "705-4264",
     "NAME_LAST": "MASAHAN",
-    "entityid": "270356254",
+    "RECORD_ID": "270356254",
     "ADDR_LINE1": "280 12MBh AVE"
   },
   {
     "ADDR_POSTAL_CODE": "62703",
     "NAME_FIRST": "GLEN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Springfield",
     "NAME_LAST": "HUNTER",
     "NAME_SUFFIX": "III",
-    "entityid": "257368717",
+    "RECORD_ID": "257368717",
     "ADDR_LINE1": "664 11th ST"
   },
   {
@@ -2973,12 +2733,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "75035",
     "NAME_FIRST": "J",
     "PASSPORT_NUMBER": "CSJT8M8Y",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "FIisco",
     "PHONE_NUMBER": "254-828-7982",
     "NAME_LAST": "CORNETT",
-    "entityid": "282468991",
+    "RECORD_ID": "282468991",
     "ADDR_LINE1": "9742 Amelina LN"
   },
   {
@@ -2986,12 +2745,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "60123",
     "NAME_FIRST": "IVAN",
     "PASSPORT_NUMBER": "HIB1GT9",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Elgin",
     "PHONE_NUMBER": "664-1554",
     "NAME_LAST": "PERMANN",
-    "entityid": "72614235",
+    "RECORD_ID": "72614235",
     "ADDR_LINE1": "1806 Annandale CT"
   },
   {
@@ -2999,69 +2757,63 @@ const senzingPeopleList = [
     "ADDR_STATE": "KS",
     "ADDR_POSTAL_CODE": "6600",
     "PASSPORT_NUMBER": "CDBB0LBFUW",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Wathena",
     "PHONE_NUMBER": "785-259-4277",
     "NAME_LAST": "KATZ",
-    "entityid": "270360796",
+    "RECORD_ID": "270360796",
     "ADDR_LINE1": "2044 175Fh RD"
   },
   {
     "ADDR_STATE": "LA",
     "ADDR_POSTAL_CODE": "70002",
     "NAME_FIRST": "RAY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Metairie",
     "PHONE_NUMBER": "318-519-5863",
     "NAME_LAST": "ADKINS",
-    "entityid": "54788564",
+    "RECORD_ID": "54788564",
     "ADDR_LINE1": "2452  ST"
   },
   {
     "ADDR_STATE": "OK",
     "ADDR_POSTAL_CODE": "703110",
     "PASSPORT_NUMBER": "6ERCF96S",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Oklahoma CCty",
     "PHONE_NUMBER": "405-224-9835",
     "NAME_LAST": "DOW",
-    "entityid": "264363761",
+    "RECORD_ID": "264363761",
     "ADDR_LINE1": "8798 34th ST"
   },
   {
     "ADDR_POSTAL_CODE": "46228",
     "NAME_FIRST": "BENJAMIN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Indanapolis",
     "NAME_LAST": "WOODS",
-    "entityid": "286001339",
+    "RECORD_ID": "286001339",
     "ADDR_LINE1": "2196 44th ST"
   },
   {
     "ADDR_STATE": "MN",
     "NAME_FIRST": "ELIZABETH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Brownton",
     "PHONE_NUMBER": "230-914-9426",
     "NAME_LAST": "DEHANEY",
-    "entityid": "72965212",
+    "RECORD_ID": "72965212",
     "ADDR_LINE1": "46932 100th ST"
   },
   {
     "ADDR_STATE": "PA",
     "ADDR_POSTAL_CODE": "15946",
     "NAME_FIRST": "C",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Portage",
     "PHONE_NUMBER": "297-5795",
     "NAME_LAST": "JRICE",
-    "entityid": "233373320",
+    "RECORD_ID": "233373320",
     "ADDR_LINE1": "140 Arbor DR"
   },
   {
@@ -3070,12 +2822,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "45215",
     "NAME_FIRST": "S",
     "PASSPORT_NUMBER": "TGTK2IWC",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Cincinnati",
     "PHONE_NUMBER": "216-694-6159",
     "NAME_LAST": "RAY",
-    "entityid": "187439204",
+    "RECORD_ID": "187439204",
     "ADDR_LINE1": "688 Blanche AVE"
   },
   {
@@ -3083,11 +2834,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "Florida",
     "ADDR_POSTAL_CODE": "34769",
     "NAME_FIRST": "VERONICA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Saint Cloud",
     "NAME_LAST": "LANE",
-    "entityid": "224319700",
+    "RECORD_ID": "224319700",
     "ADDR_LINE1": "100 2th ST"
   },
   {
@@ -3095,23 +2845,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "MO",
     "ADDR_POSTAL_CODE": "64119",
     "NAME_FIRST": "DOROTHY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Kansas City",
     "NAME_LAST": "VOELKER",
-    "entityid": "314518033",
+    "RECORD_ID": "314518033",
     "ADDR_LINE1": "4952 48th CT"
   },
   {
     "DATE_OF_BIRTH": "24/6/1982",
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "34691",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Holiday",
     "PHONE_NUMBER": "920-4631",
     "NAME_LAST": "ONLAN",
-    "entityid": "289007949",
+    "RECORD_ID": "289007949",
     "ADDR_LINE1": "1656 Atlas LN"
   },
   {
@@ -3119,12 +2867,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "WI",
     "ADDR_POSTAL_CODE": "53954",
     "NAME_FIRST": "PENNIE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Pardeevlle",
     "PHONE_NUMBER": "608-558-5985",
     "NAME_LAST": "WADE",
-    "entityid": "272474971",
+    "RECORD_ID": "272474971",
     "ADDR_LINE1": "6436 Abraham RD"
   },
   {
@@ -3132,24 +2879,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "27320",
     "NAME_FIRST": "BEVERLY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Reidsville",
     "PHONE_NUMBER": "910-669-2108",
     "NAME_LAST": "MLILER",
-    "entityid": "278418569",
+    "RECORD_ID": "278418569",
     "ADDR_LINE1": "380 Apple RD"
   },
   {
     "DATE_OF_BIRTH": "5/10/1966",
     "ADDR_STATE": "TX",
     "NAME_FIRST": "THERESA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "New rBaunfels",
     "PHONE_NUMBER": "915-717-7962",
     "NAME_LAST": "WEDDLE",
-    "entityid": "276397078",
+    "RECORD_ID": "276397078",
     "ADDR_LINE1": "916  DR"
   },
   {
@@ -3157,12 +2902,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "082384",
     "NAME_FIRST": "LAWRENCE",
     "PASSPORT_NUMBER": "C0DNZ3Z5K7",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Egg Harbro Township",
     "PHONE_NUMBER": "856-233-6240",
     "NAME_LAST": "A",
-    "entityid": "322416715",
+    "RECORD_ID": "322416715",
     "ADDR_LINE1": "352 Delilah RD"
   },
   {
@@ -3170,35 +2914,32 @@ const senzingPeopleList = [
     "ADDR_STATE": "MN",
     "ADDR_POSTAL_CODE": "55352",
     "NAME_FIRST": "JAMES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Jordan",
     "PHONE_NUMBER": "993-7222",
     "NAME_LAST": "PEREZ",
-    "entityid": "274409743",
+    "RECORD_ID": "274409743",
     "ADDR_LINE1": "270 170th ST"
   },
   {
     "ADDR_POSTAL_CODE": "660367",
     "NAME_FIRST": "MAX",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Ottawa",
     "PHONE_NUMBER": "913-521-7930",
     "NAME_LAST": "JAMES",
-    "entityid": "251481401",
+    "RECORD_ID": "251481401",
     "ADDR_LINE1": "552 13th STREET"
   },
   {
     "DATE_OF_BIRTH": "10/11/1965",
     "ADDR_STATE": "WA",
     "ADDR_POSTAL_CODE": "98026",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Edmonds",
     "PHONE_NUMBER": "748-6625",
     "NAME_LAST": "LUSARDI",
-    "entityid": "163395184",
+    "RECORD_ID": "163395184",
     "ADDR_LINE1": "6514  PL"
   },
   {
@@ -3206,34 +2947,31 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "12550",
     "NAME_FIRST": "KIMBERLY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Newburgh",
     "PHONE_NUMBER": "914-550-3328",
     "NAME_LAST": "MOSHER",
-    "entityid": "54813761",
+    "RECORD_ID": "54813761",
     "ADDR_LINE1": "37 Beech ST"
   },
   {
     "DATE_OF_BIRTH": "16/6/1961",
     "ADDR_STATE": "NH",
     "NAME_FIRST": "MARY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Bedford",
     "NAME_LAST": "CRANDELL",
-    "entityid": "293554898",
+    "RECORD_ID": "293554898",
     "ADDR_LINE1": "45 2nd ST"
   },
   {
     "ADDR_POSTAL_CODE": "44483",
     "NAME_FIRST": "CHRISTINE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Warren",
     "PHONE_NUMBER": "234-725-1411",
     "NAME_LAST": "HAWTHORNE",
-    "entityid": "72660266",
+    "RECORD_ID": "72660266",
     "ADDR_LINE1": "474 3rd ST"
   },
   {
@@ -3241,9 +2979,8 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "45833",
     "PHONE_NUMBER": "494-0089",
     "NAME_LAST": "STONE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "298064635",
+    "RECORD_ID": "298064635",
     "ADDR_LINE1": "122 4Xh ST"
   },
   {
@@ -3251,35 +2988,32 @@ const senzingPeopleList = [
     "ADDR_STATE": "AZ",
     "ADDR_POSTAL_CODE": "85648",
     "NAME_FIRST": "WANDA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Rio Rico",
     "PHONE_NUMBER": "928-901-4488",
     "NAME_LAST": "MAARK",
-    "entityid": "317921194",
+    "RECORD_ID": "317921194",
     "ADDR_LINE1": "384 Bricna CT"
   },
   {
     "DATE_OF_BIRTH": "21/2/1965",
     "ADDR_STATE": "NE",
     "ADDR_POSTAL_CODE": "68137",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Omaha",
     "NAME_LAST": "JALDEN",
-    "entityid": "90920635",
+    "RECORD_ID": "90920635",
     "ADDR_LINE1": "56240  CIR"
   },
   {
     "ADDR_STATE": "IN",
     "ADDR_POSTAL_CODE": "46311",
     "NAME_FIRST": "MRIAK",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Deyr",
     "PHONE_NUMBER": "765-370-9202",
     "NAME_LAST": "OLDER",
-    "entityid": "96987578",
+    "RECORD_ID": "96987578",
     "ADDR_LINE1": "14456  "
   },
   {
@@ -3287,12 +3021,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "93454",
     "NAME_FIRST": "BRIAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "SaKnta Maria",
     "PHONE_NUMBER": "628-305-7887",
     "NAME_LAST": "PANGAN",
-    "entityid": "224172979",
+    "RECORD_ID": "224172979",
     "ADDR_LINE1": "572 Alvin AVE"
   },
   {
@@ -3300,9 +3033,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "FlowerMound",
     "NAME_FIRST": "DONNA",
     "NAME_LAST": "MCINTYRE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "221232742",
+    "RECORD_ID": "221232742",
     "ADDR_LINE1": "5068 Balmoral LN"
   },
   {
@@ -3310,35 +3042,32 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "78704",
     "NAME_FIRST": "JESSICA",
     "PASSPORT_NUMBER": "CYUK8WQ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Austin",
     "PHONE_NUMBER": "830-926-0345",
     "NAME_LAST": "JAYNES",
-    "entityid": "284426279",
+    "RECORD_ID": "284426279",
     "ADDR_LINE1": "3230 Academy "
   },
   {
     "ADDR_STATE": "FL",
     "NAME_FIRST": "CHRISTIAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Orlando",
     "PHONE_NUMBER": "954-795-9466",
     "NAME_LAST": "SZYSZKA",
-    "entityid": "304139932",
+    "RECORD_ID": "304139932",
     "ADDR_LINE1": "2804 BelVo DR"
   },
   {
     "DATE_OF_BIRTH": "16/12/1943",
     "ADDR_POSTAL_CODE": "44130",
     "NAME_FIRST": "WILLIAM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Cleveland",
     "PHONE_NUMBER": "513-378-3817",
     "NAME_LAST": "DOWLING",
-    "entityid": "145241752",
+    "RECORD_ID": "145241752",
     "ADDR_LINE1": "11856  DR"
   },
   {
@@ -3347,23 +3076,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "92308",
     "NAME_FIRST": "ALBERT",
     "PASSPORT_NUMBER": "CKYF325P61",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Apple Valley",
     "PHONE_NUMBER": "793-0141",
     "NAME_LAST": "MODESTE",
-    "entityid": "97091593",
+    "RECORD_ID": "97091593",
     "ADDR_LINE1": "10592 AppleValley RD"
   },
   {
     "ADDR_STATE": "CA",
     "NAME_FIRST": "D",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "San Luis Obispo",
     "PHONE_NUMBER": "949-823-1202",
     "NAME_LAST": "FOSTER",
-    "entityid": "276487741",
+    "RECORD_ID": "276487741",
     "ADDR_LINE1": "2760 AltaMira LN"
   },
   {
@@ -3371,22 +3098,20 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "32738",
     "NAME_FIRST": "UARY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Deltona",
     "NAME_LAST": "JOHNSON",
-    "entityid": "278470284",
+    "RECORD_ID": "278470284",
     "ADDR_LINE1": "2388 Agar TER"
   },
   {
     "DATE_OF_BIRTH": "19/3/1950",
     "ADDR_STATE": "SC",
     "ADDR_POSTAL_CODE": "29406",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Chareston",
     "NAME_LAST": "CORNETT",
-    "entityid": "193683451",
+    "RECORD_ID": "193683451",
     "ADDR_LINE1": "3108 Alston AVE"
   },
   {
@@ -3395,9 +3120,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "Memphis",
     "NAME_FIRST": "THLMA",
     "NAME_LAST": "BRUWGNOLI",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "181552535",
+    "RECORD_ID": "181552535",
     "ADDR_LINE1": "1081 Aurora CIR"
   },
   {
@@ -3406,9 +3130,8 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "35242",
     "PHONE_NUMBER": "251-320-5410",
     "NAME_LAST": "HALL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "302875639",
+    "RECORD_ID": "302875639",
     "ADDR_LINE1": "8426  CT"
   },
   {
@@ -3417,9 +3140,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "914-681-5536",
     "NAME_FIRST": "PATRIICV",
     "NAME_LAST": "FOGLE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "157563224",
+    "RECORD_ID": "157563224",
     "ADDR_LINE1": "264 Sruce LN"
   },
   {
@@ -3428,69 +3150,63 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "55694",
     "NAME_FIRST": "GLORY",
     "PASSPORT_NUMBER": "C3H859LI0T",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Plainview",
     "PHONE_NUMBER": "447-4979",
     "NAME_LAST": "QUINONES",
-    "entityid": "91068092",
+    "RECORD_ID": "91068092",
     "ADDR_LINE1": "4076 15n2d AVE"
   },
   {
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "62890",
     "NAME_FIRST": "ANTOINE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Ehompsonville",
     "PHONE_NUMBER": "872-810-7834",
     "NAME_LAST": "YLTER",
-    "entityid": "254484044",
+    "RECORD_ID": "254484044",
     "ADDR_LINE1": "3632 4th ST"
   },
   {
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "12065",
     "NAME_FIRST": "LUTHER",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Clifton Park",
     "PHONE_NUMBER": "347-210-6852",
     "NAME_LAST": "BROWN",
-    "entityid": "317062639",
+    "RECORD_ID": "317062639",
     "ADDR_LINE1": "25 Cathedral "
   },
   {
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "6435",
     "NAME_FIRST": "SYLVIA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Joliet",
     "NAME_LAST": "LEGGIO",
-    "entityid": "108875021",
+    "RECORD_ID": "108875021",
     "ADDR_LINE1": "120726 Briargate "
   },
   {
     "ADDR_STATE": "SC",
     "ADDR_POSTAL_CODE": "79107",
     "NAME_FIRST": "KRISTY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Amarillo",
     "PHONE_NUMBER": "902-8717",
     "NAME_LAST": "BOEHME",
-    "entityid": "102785729",
+    "RECORD_ID": "102785729",
     "ADDR_LINE1": "8580 11th AVENUE"
   },
   {
     "DATE_OF_BIRTH": "6/1/1952",
     "ADDR_POSTAL_CODE": "90731",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Sa Pedro",
     "NAME_LAST": "TORRES",
-    "entityid": "215152059",
+    "RECORD_ID": "215152059",
     "ADDR_LINE1": "66 21st ST"
   },
   {
@@ -3499,12 +3215,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "85413",
     "NAME_FIRST": "ASHLEY",
     "PASSPORT_NUMBER": "CNZP664JA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Qesa",
     "PHONE_NUMBER": "928-412-5192",
     "NAME_LAST": "FREEMAN",
-    "entityid": "120936770",
+    "RECORD_ID": "120936770",
     "ADDR_LINE1": "0036 24th ST"
   },
   {
@@ -3512,36 +3227,33 @@ const senzingPeopleList = [
     "ADDR_STATE": "OH",
     "ADDR_POSTAL_CODE": "44241",
     "NAME_FIRST": "SAHA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Streetsboro",
     "PHONE_NUMBER": "237-0374",
     "NAME_LAST": "RAMSEY",
-    "entityid": "319444233",
+    "RECORD_ID": "319444233",
     "ADDR_LINE1": "2930 Clark RD"
   },
   {
     "ADDR_STATE": "KY",
     "ADDR_POSTAL_CODE": "40065",
     "NAME_FIRST": "JEANIE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Shelbyville",
     "PHONE_NUMBER": "270-920-4488",
     "NAME_LAST": "BLAKE",
-    "entityid": "96840163",
+    "RECORD_ID": "96840163",
     "ADDR_LINE1": "186 Adams PIKE"
   },
   {
     "DATE_OF_BIRTH": "8/10/1945",
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "27606",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "RaleDigh",
     "PHONE_NUMBER": "910-518-0113",
     "NAME_LAST": "STEWART",
-    "entityid": "321700346",
+    "RECORD_ID": "321700346",
     "ADDR_LINE1": "18696 BashfordCrest LN"
   },
   {
@@ -3549,12 +3261,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "95678",
     "PASSPORT_NUMBER": "M4ZCNT",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Roseville",
     "PHONE_NUMBER": "650-306-8323",
     "NAME_LAST": "WADDELL",
-    "entityid": "24536994",
+    "RECORD_ID": "24536994",
     "ADDR_LINE1": "201 Breuner DR"
   },
   {
@@ -3562,12 +3273,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "28470",
     "NAME_FIRST": "JANE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Shallotte",
     "PHONE_NUMBER": "897-6652",
     "NAME_LAST": "NOAH",
-    "entityid": "187517223",
+    "RECORD_ID": "187517223",
     "ADDR_LINE1": "152 ArnoldPalmer DR"
   },
   {
@@ -3577,9 +3287,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "Wichita",
     "NAME_FIRST": "G",
     "NAME_LAST": "MCCAULEY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "230383248",
+    "RECORD_ID": "230383248",
     "ADDR_LINE1": "10838 11th ST"
   },
   {
@@ -3588,9 +3297,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "816-676-7518",
     "NAME_FIRST": "DANIEL",
     "NAME_LAST": "STEWART",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "115015363",
+    "RECORD_ID": "115015363",
     "ADDR_LINE1": "1018 2nd ST"
   },
   {
@@ -3598,12 +3306,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "33793",
     "NAME_FIRST": "STEVEV",
     "PASSPORT_NUMBER": "7YA4IK",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Largo",
     "PHONE_NUMBER": "772-347-0269",
     "NAME_LAST": "DELATHERAGE",
-    "entityid": "127040733",
+    "RECORD_ID": "127040733",
     "ADDR_LINE1": "12828 101st STREET"
   },
   {
@@ -3611,12 +3318,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "60441",
     "NAME_FIRST": "JAMES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Lockport",
     "PHONE_NUMBER": "918-4971",
     "NAME_LAST": "WILKINSON",
-    "entityid": "270475967",
+    "RECORD_ID": "270475967",
     "ADDR_LINE1": "16760 144th PL"
   },
   {
@@ -3624,12 +3330,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "92707",
     "NAME_FIRST": "ROSEANNE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Santa Ana",
     "PHONE_NUMBER": "744-735-5565",
     "NAME_LAST": "XANG",
-    "entityid": "282562000",
+    "RECORD_ID": "282562000",
     "ADDR_LINE1": "104 5th ST"
   },
   {
@@ -3637,12 +3342,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "33702",
     "NAME_FIRST": "MICHAEL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Saint Petersburg",
     "PHONE_NUMBER": "921-4480",
     "NAME_LAST": "COLABRESE",
-    "entityid": "12457127",
+    "RECORD_ID": "12457127",
     "ADDR_LINE1": "776 14th ST"
   },
   {
@@ -3650,12 +3354,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "NAME_FIRST": "AMANDA",
     "PASSPORT_NUMBER": "CK5LEHDC",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Tampa",
     "PHONE_NUMBER": "727-470-5898",
     "NAME_LAST": "FAULKNER",
-    "entityid": "114914732",
+    "RECORD_ID": "114914732",
     "ADDR_LINE1": "7382 10tKh "
   },
   {
@@ -3663,34 +3366,31 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "75070",
     "NAME_FIRST": "CECIZLAI",
     "PASSPORT_NUMBER": "XR8V7X",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "281-798-0508",
     "NAME_LAST": "YAZZUEL",
-    "entityid": "310672212",
+    "RECORD_ID": "310672212",
     "ADDR_LINE1": "927 AeroCountry RD"
   },
   {
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "76021",
     "NAME_FIRST": "EDWARD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Bedford",
     "PHONE_NUMBER": "832-900-0637",
     "NAME_LAST": "KNOWLES",
-    "entityid": "236459345",
+    "RECORD_ID": "236459345",
     "ADDR_LINE1": "3772 Aspenwood DRIVE"
   },
   {
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "77053",
     "NAME_FIRST": "SOPHIA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "RHouston",
     "NAME_LAST": "POLSTER",
-    "entityid": "239242332",
+    "RECORD_ID": "239242332",
     "ADDR_LINE1": "16294 AldenRidge DR"
   },
   {
@@ -3698,12 +3398,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "NC",
     "NAME_FIRST": "DANA",
     "PASSPORT_NUMBER": "C6706TKE4",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Shelby",
     "PHONE_NUMBER": "549-4414",
     "NAME_LAST": "B",
-    "entityid": "251430235",
+    "RECORD_ID": "251430235",
     "ADDR_LINE1": "3358 Boyd CT"
   },
   {
@@ -3711,33 +3410,30 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "11219",
     "NAME_FIRST": "WILLIS",
     "PASSPORT_NUMBER": "CFGY3SY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Brooklyn",
     "NAME_LAST": "REED",
-    "entityid": "314467908",
+    "RECORD_ID": "314467908",
     "ADDR_LINE1": "4282 15th AVE"
   },
   {
     "DATE_OF_BIRTH": "28/2/1930",
     "ADDR_STATE": "CA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Newark",
     "PHONE_NUMBER": "831-994-5901",
     "NAME_LAST": "GOHR",
-    "entityid": "291961064",
+    "RECORD_ID": "291961064",
     "ADDR_LINE1": "38754 BRirch ST"
   },
   {
     "ADDR_STATE": "HI",
     "ADDR_POSTAL_CODE": "96707",
     "NAME_FIRST": "J",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "KaBolei",
     "NAME_LAST": "HARBIN",
-    "entityid": "242472936",
+    "RECORD_ID": "242472936",
     "ADDR_LINE1": "2071 Boxer RD"
   },
   {
@@ -3746,12 +3442,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "84095",
     "NAME_FIRST": "D",
     "PASSPORT_NUMBER": "BWABEX",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "South Jordan",
     "PHONE_NUMBER": "435-906-0351",
     "NAME_LAST": "PORTER",
-    "entityid": "221213413",
+    "RECORD_ID": "221213413",
     "ADDR_LINE1": "945 Caithness CIR"
   },
   {
@@ -3760,11 +3455,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "05851",
     "NAME_FIRST": "H",
     "PASSPORT_NUMBER": "90YRACR",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Lyndonville",
     "NAME_LAST": "BRANTING",
-    "entityid": "282544340",
+    "RECORD_ID": "282544340",
     "ADDR_LINE1": "240 Airport RD"
   },
   {
@@ -3772,24 +3466,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "10003",
     "NAME_FIRST": "CHRISTINE",
     "PASSPORT_NUMBER": "AT2IPH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "New York",
     "PHONE_NUMBER": "845-588-0834",
     "NAME_LAST": "S",
-    "entityid": "236459537",
+    "RECORD_ID": "236459537",
     "ADDR_LINE1": "14 5th AVE"
   },
   {
     "ADDR_STATE": "WA",
     "ADDR_POSTAL_CODE": "98032",
     "NAME_FIRST": "MANUAL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Kent",
     "PHONE_NUMBER": "218-9649",
     "NAME_LAST": "EBTTY",
-    "entityid": "318698957",
+    "RECORD_ID": "318698957",
     "ADDR_LINE1": "27548 12th PL"
   },
   {
@@ -3798,12 +3490,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "79936",
     "NAME_FIRST": "RONALD",
     "PASSPORT_NUMBER": "CKUFS9KL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "El Paso",
     "PHONE_NUMBER": "399-0500",
     "NAME_LAST": "G",
-    "entityid": "288935247",
+    "RECORD_ID": "288935247",
     "ADDR_LINE1": "121056 BlueQuaOil "
   },
   {
@@ -3812,24 +3503,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "32218",
     "NAME_FIRST": "GARY",
     "PASSPORT_NUMBER": "MYEC1UV4",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Jacksonville",
     "PHONE_NUMBER": "447-2879",
     "NAME_LAST": "FREEMAN",
-    "entityid": "36669899",
+    "RECORD_ID": "36669899",
     "ADDR_LINE1": "12130  RD"
   },
   {
     "ADDR_STATE": "OH",
     "ADDR_POSTAL_CODE": "43023",
     "NAME_FIRST": "ALBERT",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Granville",
     "PHONE_NUMBER": "283-880-9634",
     "NAME_LAST": "WILDER",
-    "entityid": "317113025",
+    "RECORD_ID": "317113025",
     "ADDR_LINE1": "4620 Beecher "
   },
   {
@@ -3837,12 +3526,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "CO",
     "ADDR_POSTAL_CODE": "80640",
     "NAME_FIRST": "THRESA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "HendVeUson",
     "PHONE_NUMBER": "947-0944",
     "NAME_LAST": "M",
-    "entityid": "266440315",
+    "RECORD_ID": "266440315",
     "ADDR_LINE1": "6658 100th "
   },
   {
@@ -3850,11 +3538,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "70053",
     "NAME_FIRST": "ELIZABETH",
     "PASSPORT_NUMBER": "SUC0IOM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "PHONE_NUMBER": "504-403-6481",
     "NAME_LAST": "ORTZ",
-    "entityid": "268400107",
+    "RECORD_ID": "268400107",
     "ADDR_LINE1": "1014 12Xh ST"
   },
   {
@@ -3862,12 +3549,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "OH",
     "ADDR_POSTAL_CODE": "4322",
     "NAME_FIRST": "HAYDEE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Columbus",
     "PHONE_NUMBER": "419-760-7555",
     "NAME_LAST": "R",
-    "entityid": "313634718",
+    "RECORD_ID": "313634718",
     "ADDR_LINE1": "1504 Berkshire RD"
   },
   {
@@ -3875,24 +3561,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "NH",
     "ADDR_POSTAL_CODE": "03301",
     "NAME_FIRST": "G",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Conord",
     "PHONE_NUMBER": "969-9081",
     "NAME_LAST": "MRAZ",
-    "entityid": "282447475",
+    "RECORD_ID": "282447475",
     "ADDR_LINE1": "2 FairvCiew DR"
   },
   {
     "ADDR_STATE": "MD",
     "ADDR_POSTAL_CODE": "21061",
     "NAME_FIRST": "JOHNA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Glen Burnie",
     "PHONE_NUMBER": "240-669-8367",
     "NAME_LAST": "RIJOS",
-    "entityid": "245282551",
+    "RECORD_ID": "245282551",
     "ADDR_LINE1": "362 2nd AVE"
   },
   {
@@ -3901,12 +3585,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "72227",
     "NAME_FIRST": "E",
     "PASSPORT_NUMBER": "L75OE79Z",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Little RoYck",
     "NAME_LAST": "MUIRHEAD",
     "NAME_SUFFIX": "III",
-    "entityid": "109227149",
+    "RECORD_ID": "109227149",
     "ADDR_LINE1": "2304 AndovUer CT"
   },
   {
@@ -3916,19 +3599,17 @@ const senzingPeopleList = [
     "PASSPORT_NUMBER": "IP8GIJB",
     "PHONE_NUMBER": "336-625-3240",
     "NAME_LAST": "SANDERS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "254539220",
+    "RECORD_ID": "254539220",
     "ADDR_LINE1": "276 Carter AVE"
   },
   {
     "ADDR_STATE": "MD",
     "ADDR_POSTAL_CODE": "22104",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Towson",
     "NAME_LAST": "CURTIS",
-    "entityid": "280437474",
+    "RECORD_ID": "280437474",
     "ADDR_LINE1": "983 Alston RD"
   },
   {
@@ -3936,47 +3617,43 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "07022",
     "NAME_FIRST": "J",
     "PASSPORT_NUMBER": "176DDXS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Fairview",
     "PHONE_NUMBER": "908-636-2213",
     "NAME_LAST": "NUWSS",
-    "entityid": "280499174",
+    "RECORD_ID": "280499174",
     "ADDR_LINE1": "102 Elm AVE"
   },
   {
     "ADDR_STATE": "MA",
     "ADDR_POSTAL_CODE": "02128",
     "NAME_FIRST": "SHARON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "BoHston",
     "PHONE_NUMBER": "617-796-0459",
     "NAME_LAST": "LEE",
-    "entityid": "187738722",
+    "RECORD_ID": "187738722",
     "ADDR_LINE1": "15 Drake PL"
   },
   {
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "12451",
     "NAME_FIRST": "TASHA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "LeeZds",
     "PHONE_NUMBER": "646-657-3114",
     "NAME_LAST": "COX",
-    "entityid": "233284643",
+    "RECORD_ID": "233284643",
     "ADDR_LINE1": "111 Church ST"
   },
   {
     "ADDR_STATE": "KS",
     "ADDR_POSTAL_CODE": "67060",
     "PASSPORT_NUMBER": "XNUQIU",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "316-742-4531",
     "NAME_LAST": "HAISTEN",
-    "entityid": "48743635",
+    "RECORD_ID": "48743635",
     "ADDR_LINE1": "9142 47th ST"
   },
   {
@@ -3985,9 +3662,8 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "20772",
     "ADDR_CITY": "Upper Marlboro",
     "NAME_LAST": "VILLANVEUA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "54502551",
+    "RECORD_ID": "54502551",
     "ADDR_LINE1": "11342 Brookdale LN"
   },
   {
@@ -3995,36 +3671,33 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "46168",
     "NAME_FIRST": "JAY",
     "PASSPORT_NUMBER": "C4TZCQOU",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Plainfield",
     "PHONE_NUMBER": "260-442-6943",
     "NAME_LAST": "GOODGINE",
-    "entityid": "296524427",
+    "RECORD_ID": "296524427",
     "ADDR_LINE1": "7060 BlackForest DR"
   },
   {
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "14056",
     "NAME_FIRST": "DEENA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "East Amherst",
     "PHONE_NUMBER": "586-6180",
     "NAME_LAST": "GUNTERT",
-    "entityid": "312672925",
+    "RECORD_ID": "312672925",
     "ADDR_LINE1": "8484 Bridleowod DRIVE"
   },
   {
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "78154",
     "NAME_FIRST": "CHARLES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "SNhertz",
     "PHONE_NUMBER": "737-262-7485",
     "NAME_LAST": "MCBRIDE",
-    "entityid": "54416032",
+    "RECORD_ID": "54416032",
     "ADDR_LINE1": "351 Sviation AVE"
   },
   {
@@ -4034,9 +3707,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "BaltimorYe",
     "NAME_FIRST": "JOSHUA",
     "NAME_LAST": "FOLEY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "187372792",
+    "RECORD_ID": "187372792",
     "ADDR_LINE1": "904 Arlington AVENUE"
   },
   {
@@ -4044,12 +3716,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "24708",
     "NAME_FIRST": "TONY",
     "PASSPORT_NUMBER": "4DNYNE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Collinsville",
     "PHONE_NUMBER": "804-646-2388",
     "NAME_LAST": "ALLEN",
-    "entityid": "254521667",
+    "RECORD_ID": "254521667",
     "ADDR_LINE1": "300 Autumn DR"
   },
   {
@@ -4058,9 +3729,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "Interlaken",
     "NAME_FIRST": "H",
     "NAME_LAST": "B",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "199787188",
+    "RECORD_ID": "199787188",
     "ADDR_LINE1": "8239 Bassett ROAD"
   },
   {
@@ -4068,24 +3738,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "978268",
     "NAME_FIRST": "THERESE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "San Antonio",
     "PHONE_NUMBER": "979-491-4772",
     "NAME_LAST": "MACGREGOR",
-    "entityid": "289048156",
+    "RECORD_ID": "289048156",
     "ADDR_LINE1": "3732 1st ST"
   },
   {
     "ADDR_STATE": "NH",
     "ADDR_POSTAL_CODE": "03053",
     "NAME_FIRST": "MATILDA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "LoTndonderry",
     "PHONE_NUMBER": "603-589-4543",
     "NAME_LAST": "BAKER",
-    "entityid": "132951864",
+    "RECORD_ID": "132951864",
     "ADDR_LINE1": "52 Danbury COURT"
   },
   {
@@ -4093,12 +3761,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "3624",
     "NAME_FIRST": "H",
     "PASSPORT_NUMBER": "OH7MSPWNF",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Tampa",
     "PHONE_NUMBER": "754-906-0623",
     "NAME_LAST": "TENNESON",
-    "entityid": "302896547",
+    "RECORD_ID": "302896547",
     "ADDR_LINE1": "0934 Bottlebrush PL"
   },
   {
@@ -4106,11 +3773,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "WI",
     "ADDR_POSTAL_CODE": "54656",
     "NAME_FIRST": "WALLACE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Sparta",
     "NAME_LAST": "NIELSON",
-    "entityid": "145171646",
+    "RECORD_ID": "145171646",
     "ADDR_LINE1": "4391 Stark RD"
   },
   {
@@ -4119,12 +3785,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "5373",
     "NAME_FIRST": "DONALD",
     "PASSPORT_NUMBER": "C45E50",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Madison",
     "PHONE_NUMBER": "363-9654",
     "NAME_LAST": "NEAL",
-    "entityid": "318707297",
+    "RECORD_ID": "318707297",
     "ADDR_LINE1": "26458 Arboretum DR"
   },
   {
@@ -4132,12 +3797,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "92040",
     "NAME_FIRST": "DONALD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Lakeside",
     "PHONE_NUMBER": "341-930-2878",
     "NAME_LAST": "KRUCZEK",
-    "entityid": "272378112",
+    "RECORD_ID": "272378112",
     "ADDR_LINE1": "1034 Barona RD"
   },
   {
@@ -4146,47 +3810,43 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "79907",
     "NAME_FIRST": "PAUL",
     "PASSPORT_NUMBER": "55E9SW",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "El Paso",
     "NAME_LAST": "JENKINS",
-    "entityid": "84862252",
+    "RECORD_ID": "84862252",
     "ADDR_LINE1": "6548 Baylor PL"
   },
   {
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "27921",
     "NAME_FIRST": "GERDA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Camden",
     "PHONE_NUMBER": "252-965-7377",
     "NAME_LAST": "ARREOLA",
-    "entityid": "308646698",
+    "RECORD_ID": "308646698",
     "ADDR_LINE1": "152 Belcross "
   },
   {
     "ADDR_STATE": "UT",
     "ADDR_POSTAL_CODE": "84660",
     "PASSPORT_NUMBER": "44XU7BLV",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Spanish Fork",
     "PHONE_NUMBER": "600-8969",
     "NAME_LAST": "V",
-    "entityid": "254390676",
+    "RECORD_ID": "254390676",
     "ADDR_LINE1": "3725 DelMontFe RD"
   },
   {
     "ADDR_STATE": "OR",
     "ADDR_POSTAL_CODE": "97013",
     "NAME_FIRST": "JASON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Canby",
     "NAME_LAST": "H",
     "NAME_SUFFIX": "II",
-    "entityid": "321724923",
+    "RECORD_ID": "321724923",
     "ADDR_LINE1": "34 13ht AVE"
   },
   {
@@ -4194,12 +3854,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "GA",
     "ADDR_POSTAL_CODE": "30805",
     "NAME_FIRST": "JENIN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Blythe",
     "PHONE_NUMBER": "762-497-4784",
     "NAME_LAST": "PERREIRA",
-    "entityid": "218234980",
+    "RECORD_ID": "218234980",
     "ADDR_LINE1": "4460 Boulineau RD"
   },
   {
@@ -4207,12 +3866,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "33186",
     "NAME_FIRST": "PEGGY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Miami",
     "PHONE_NUMBER": "935-9193",
     "NAME_LAST": "CASTONGUAY",
-    "entityid": "323089129",
+    "RECORD_ID": "323089129",
     "ADDR_LINE1": "21614  ST"
   },
   {
@@ -4221,12 +3879,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "84601",
     "NAME_FIRST": "DARYL",
     "PASSPORT_NUMBER": "4SJV1R",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Provo",
     "PHONE_NUMBER": "385-376-3768",
     "NAME_LAST": "SLOAN",
-    "entityid": "264392406",
+    "RECORD_ID": "264392406",
     "ADDR_LINE1": "952 Harbor PKY"
   },
   {
@@ -4234,12 +3891,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "55422",
     "NAME_FIRST": "DOUGLAS",
     "PASSPORT_NUMBER": "ABMUT8CG",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Minneapolis",
     "PHONE_NUMBER": "612-891-6576",
     "NAME_LAST": "MAYNARD",
-    "entityid": "239448065",
+    "RECORD_ID": "239448065",
     "ADDR_LINE1": "327 3Tth AVE"
   },
   {
@@ -4247,9 +3903,8 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "33142",
     "NAME_FIRST": "FELICIA",
     "NAME_LAST": "FORBD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "218224681",
+    "RECORD_ID": "218224681",
     "ADDR_LINE1": "5528 12th CT"
   },
   {
@@ -4257,24 +3912,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "14625",
     "NAME_FIRST": "JAMES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Rochester",
     "PHONE_NUMBER": "518-272-2004",
     "NAME_LAST": "CURRY",
-    "entityid": "139160252",
+    "RECORD_ID": "139160252",
     "ADDR_LINE1": "170 BurrowsHills DR"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "91406",
     "NAME_FIRST": "MICHAEL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Van Nuys",
     "PHONE_NUMBER": "911-5699",
     "NAME_LAST": "HON",
-    "entityid": "72741987",
+    "RECORD_ID": "72741987",
     "ADDR_LINE1": "16528  ST"
   },
   {
@@ -4283,12 +3936,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "11224",
     "NAME_FIRST": "EDWARD",
     "PASSPORT_NUMBER": "CE5IJYX4",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Brooklyn",
     "PHONE_NUMBER": "929-395-6169",
     "NAME_LAST": "KERR",
-    "entityid": "224145069",
+    "RECORD_ID": "224145069",
     "ADDR_LINE1": "2806 28th ST"
   },
   {
@@ -4296,12 +3948,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "0004",
     "NAME_FIRST": "DAVID",
     "PASSPORT_NUMBER": "HRQC3D",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Arvada",
     "PHONE_NUMBER": "273-7718",
     "NAME_LAST": "WILSON",
-    "entityid": "302872703",
+    "RECORD_ID": "302872703",
     "ADDR_LINE1": "1250 61st AVE"
   },
   {
@@ -4309,22 +3960,20 @@ const senzingPeopleList = [
     "ADDR_STATE": "Arizona",
     "ADDR_POSTAL_CODE": "85283",
     "NAME_FIRST": "DARLENE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Tempe",
     "NAME_LAST": "AH",
-    "entityid": "295014685",
+    "RECORD_ID": "295014685",
     "ADDR_LINE1": "6314 Ash AVE"
   },
   {
     "ADDR_STATE": "AZ",
     "NAME_FIRST": "LEROY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Mesa",
     "PHONE_NUMBER": "602-462-5105",
     "NAME_LAST": "QADIR",
-    "entityid": "302912846",
+    "RECORD_ID": "302912846",
     "ADDR_LINE1": "568 30th ST"
   },
   {
@@ -4333,11 +3982,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "01420",
     "NAME_FIRST": "EMILY",
     "PASSPORT_NUMBER": "COGZGSW",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "PHONE_NUMBER": "975-806-5199",
     "NAME_LAST": "B",
-    "entityid": "321697320",
+    "RECORD_ID": "321697320",
     "ADDR_LINE1": "1410 AshburnhamHill RD"
   },
   {
@@ -4345,24 +3993,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "60626",
     "NAME_FIRST": "WGYNE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Chicago",
     "PHONE_NUMBER": "630-649-8821",
     "NAME_LAST": "WALSH",
-    "entityid": "224171689",
+    "RECORD_ID": "224171689",
     "ADDR_LINE1": "1104 Loyola AVE"
   },
   {
     "ADDR_STATE": "IL",
     "NAME_FIRST": "PASTY",
     "PASSPORT_NUMBER": "CX9B7O60",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Danvlile",
     "PHONE_NUMBER": "464-410-2656",
     "NAME_LAST": "TONG",
-    "entityid": "103140535",
+    "RECORD_ID": "103140535",
     "ADDR_LINE1": "26063 1200North RD"
   },
   {
@@ -4370,22 +4016,20 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "0651",
     "NAME_FIRST": "CYNTHIA",
     "PASSPORT_NUMBER": "COAPL0A3",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "620-4164",
     "NAME_LAST": "LESSEY",
-    "entityid": "163560717",
+    "RECORD_ID": "163560717",
     "ADDR_LINE1": "18  ST"
   },
   {
     "DATE_OF_BIRTH": "19/7/1978",
     "ADDR_STATE": "WA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Bellevue",
     "PHONE_NUMBER": "059-468-9545",
     "NAME_LAST": "KULAS",
-    "entityid": "84648307",
+    "RECORD_ID": "84648307",
     "ADDR_LINE1": "12320 10th PLACE"
   },
   {
@@ -4395,21 +4039,19 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "813-356-6371",
     "NAME_FIRST": "J",
     "NAME_LAST": "KASTANES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "287503901",
+    "RECORD_ID": "287503901",
     "ADDR_LINE1": "53 DeaneDuff ST"
   },
   {
     "DATE_OF_BIRTH": "28/6/1987",
     "ADDR_POSTAL_CODE": "48101",
     "NAME_FIRST": "STEPHEN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Allen ParHk",
     "PHONE_NUMBER": "679-544-1214",
     "NAME_LAST": "LANESE",
-    "entityid": "12165491",
+    "RECORD_ID": "12165491",
     "ADDR_LINE1": "10314 Andrews AVE"
   },
   {
@@ -4417,34 +4059,31 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "32304",
     "NAME_FIRST": "MIGUEL",
     "PASSPORT_NUMBER": "CYE2UF6E",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Tallahassee",
     "PHONE_NUMBER": "352-742-4272",
     "NAME_LAST": "BOYD",
-    "entityid": "181749573",
+    "RECORD_ID": "181749573",
     "ADDR_LINE1": "100  CIR"
   },
   {
     "ADDR_POSTAL_CODE": "94076",
     "NAME_FIRST": "NORMAN",
     "PASSPORT_NUMBER": "CGH6HJN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Sunnyvale",
     "NAME_LAST": "M",
-    "entityid": "308679433",
+    "RECORD_ID": "308679433",
     "ADDR_LINE1": "1229 Ayala DR"
   },
   {
     "ADDR_STATE": "NJ",
     "ADDR_POSTAL_CODE": "07106",
     "PASSPORT_NUMBER": "YWRVRMV",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "862-275-7439",
     "NAME_LAST": "CHAPELL",
-    "entityid": "151544114",
+    "RECORD_ID": "151544114",
     "ADDR_LINE1": "3342 Abbotsford AVE"
   },
   {
@@ -4452,12 +4091,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "CO",
     "ADDR_POSTAL_CODE": "80920",
     "NAME_FIRST": "DEBRA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Colorado Springs",
     "PHONE_NUMBER": "720-412-8693",
     "NAME_LAST": "FAULKNER",
-    "entityid": "318716888",
+    "RECORD_ID": "318716888",
     "ADDR_LINE1": "5248 Bass CT"
   },
   {
@@ -4467,9 +4105,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "491-325-8732",
     "NAME_FIRST": "ROBERT",
     "NAME_LAST": "WOODS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "314519293",
+    "RECORD_ID": "314519293",
     "ADDR_LINE1": "4752 Dale AVE"
   },
   {
@@ -4477,12 +4114,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "71111",
     "NAME_FIRST": "STEFANI",
     "PASSPORT_NUMBER": "C6XRP5BJ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Bossier City",
     "PHONE_NUMBER": "253-3358",
     "NAME_LAST": "WADE",
-    "entityid": "301728958",
+    "RECORD_ID": "301728958",
     "ADDR_LINE1": "188 Alexander ST"
   },
   {
@@ -4491,11 +4127,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "803221",
     "NAME_FIRST": "STEEV",
     "PASSPORT_NUMBER": "W9BCQN32",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Blackfoot",
     "NAME_LAST": "WHITE",
-    "entityid": "266412982",
+    "RECORD_ID": "266412982",
     "ADDR_LINE1": "156 Archer ST"
   },
   {
@@ -4504,12 +4139,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "35210",
     "NAME_FIRST": "JUAN",
     "PASSPORT_NUMBER": "C66M0ESI",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Birmingham",
     "PHONE_NUMBER": "251-601-5244",
     "NAME_LAST": "WRIGHT",
-    "entityid": "245360480",
+    "RECORD_ID": "245360480",
     "ADDR_LINE1": "296 21st ST"
   },
   {
@@ -4518,11 +4152,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "60610",
     "NAME_FIRST": "F",
     "PASSPORT_NUMBER": "CXHN9SZ1Z",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Chicago",
     "NAME_LAST": "JOSE",
-    "entityid": "268418588",
+    "RECORD_ID": "268418588",
     "ADDR_LINE1": "12878696 Clark ST"
   },
   {
@@ -4530,24 +4163,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "3189",
     "NAME_FIRST": "M",
     "PASSPORT_NUMBER": "CYELLX06",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Waukesha",
     "PHONE_NUMBER": "715-600-0831",
     "NAME_LAST": "WRIGHT",
-    "entityid": "218155496",
+    "RECORD_ID": "218155496",
     "ADDR_LINE1": "3246644 Bartell CT"
   },
   {
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "60099",
     "NAME_FIRST": "JESSE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Gion",
     "PHONE_NUMBER": "217-801-1871",
     "NAME_LAST": "DOLLY",
-    "entityid": "284429882",
+    "RECORD_ID": "284429882",
     "ADDR_LINE1": "11301 12th ST"
   },
   {
@@ -4555,11 +4186,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "10011",
     "NAME_FIRST": "WENDY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "New York",
     "NAME_LAST": "WILLIAMSON",
-    "entityid": "312652571",
+    "RECORD_ID": "312652571",
     "ADDR_LINE1": "70  PLACE"
   },
   {
@@ -4567,11 +4197,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "CT",
     "ADDR_POSTAL_CODE": "06111",
     "NAME_FIRST": "THANH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Newington",
     "NAME_LAST": "B",
-    "entityid": "262362685",
+    "RECORD_ID": "262362685",
     "ADDR_LINE1": "50 Ann ST"
   },
   {
@@ -4580,47 +4209,43 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "30224",
     "NAME_FIRST": "H",
     "PASSPORT_NUMBER": "U671BOZ4",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Griffin",
     "PHONE_NUMBER": "770-770-5267",
     "NAME_LAST": "HARRIS",
-    "entityid": "169193764",
+    "RECORD_ID": "169193764",
     "ADDR_LINE1": "5 Bartlett DR"
   },
   {
     "ADDR_STATE": "CO",
     "ADDR_POSTAL_CODE": "80904",
     "NAME_FIRST": "CEICLIA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Colorado Springs",
     "PHONE_NUMBER": "970-336-0719",
     "NAME_LAST": "DEGNAN",
-    "entityid": "163546153",
+    "RECORD_ID": "163546153",
     "ADDR_LINE1": "30 17th ST"
   },
   {
     "ADDR_STATE": "IL",
     "NAME_FIRST": "MAGALI",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Benton",
     "PHONE_NUMBER": "981-0843",
     "NAME_LAST": "MUNCY",
-    "entityid": "317941770",
+    "RECORD_ID": "317941770",
     "ADDR_LINE1": "392 5th ST"
   },
   {
     "ADDR_STATE": "CO",
     "NAME_FIRST": "A",
     "PASSPORT_NUMBER": "CO16YUQS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Alamosa",
     "PHONE_NUMBER": "376-8941",
     "NAME_LAST": "BROWN",
-    "entityid": "280422208",
+    "RECORD_ID": "280422208",
     "ADDR_LINE1": "307 10th ST"
   },
   {
@@ -4628,12 +4253,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "PA",
     "ADDR_POSTAL_CODE": "18966",
     "NAME_FIRST": "QUINTIN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Southampton",
     "PHONE_NUMBER": "412-697-6728",
     "NAME_LAST": "MOULTRIE",
-    "entityid": "169285676",
+    "RECORD_ID": "169285676",
     "ADDR_LINE1": "138 Austin DR"
   },
   {
@@ -4641,12 +4265,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "Indiana",
     "ADDR_POSTAL_CODE": "4608",
     "NAME_FIRST": "TONY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Fort Wayne",
     "PHONE_NUMBER": "371-245-0514",
     "NAME_LAST": "TORRES",
-    "entityid": "257592057",
+    "RECORD_ID": "257592057",
     "ADDR_LINE1": "1929 3rd ST"
   },
   {
@@ -4654,11 +4277,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "93306",
     "NAME_FIRST": "WILLIAN",
     "PASSPORT_NUMBER": "SKRB70T8V",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Bakersfield",
     "NAME_LAST": "DOLE",
-    "entityid": "218308946",
+    "RECORD_ID": "218308946",
     "ADDR_LINE1": "2430 Blade AVE"
   },
   {
@@ -4666,12 +4288,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "LA",
     "ADDR_POSTAL_CODE": "7076",
     "PASSPORT_NUMBER": "X4LHA1I",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Priarieville",
     "PHONE_NUMBER": "490-9701",
     "NAME_LAST": "BROUGHTON",
-    "entityid": "157287584",
+    "RECORD_ID": "157287584",
     "ADDR_LINE1": "243878 BayRidge DR"
   },
   {
@@ -4679,12 +4300,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "MN",
     "ADDR_POSTAL_CODE": "55024",
     "NAME_FIRST": "JSOEPH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Farmington",
     "PHONE_NUMBER": "612-516-6429",
     "NAME_LAST": "MEHARRY",
-    "entityid": "224159370",
+    "RECORD_ID": "224159370",
     "ADDR_LINE1": "5438 180th ST"
   },
   {
@@ -4692,12 +4312,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "33426",
     "NAME_FIRST": "BRANDON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Bynton Beach",
     "PHONE_NUMBER": "850-516-9987",
     "NAME_LAST": "A",
-    "entityid": "290505514",
+    "RECORD_ID": "290505514",
     "ADDR_LINE1": "1304 11th ST"
   },
   {
@@ -4706,12 +4325,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "32019",
     "NAME_FIRST": "SAUL",
     "PASSPORT_NUMBER": "J96EFAI",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Orlando",
     "PHONE_NUMBER": "685-6711",
     "NAME_LAST": "HENDERSON",
-    "entityid": "260371411",
+    "RECORD_ID": "260371411",
     "ADDR_LINE1": "7620 Arezzo AVE"
   },
   {
@@ -4720,9 +4338,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "Chandler",
     "NAME_FIRST": "CHRIS",
     "NAME_LAST": "BARON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "193529563",
+    "RECORD_ID": "193529563",
     "ADDR_LINE1": "2884 148th STREET"
   },
   {
@@ -4730,12 +4347,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "NAME_FIRST": "CHARLES",
     "PASSPORT_NUMBER": "9TWBNE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Los Angeles",
     "PHONE_NUMBER": "408-869-5176",
     "NAME_LAST": "ELMORE",
-    "entityid": "48467165",
+    "RECORD_ID": "48467165",
     "ADDR_LINE1": "3618 1st ST"
   },
   {
@@ -4744,9 +4360,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "503-6262",
     "NAME_FIRST": "RALPH",
     "NAME_LAST": "MELIKYAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "309628357",
+    "RECORD_ID": "309628357",
     "ADDR_LINE1": "2074 Biltmore BLVD"
   },
   {
@@ -4754,12 +4369,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "MD",
     "ADDR_POSTAL_CODE": "20678",
     "NAME_FIRST": "PAUL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Prince Frederick",
     "PHONE_NUMBER": "443-663-1816",
     "NAME_LAST": "B",
-    "entityid": "245436253",
+    "RECORD_ID": "245436253",
     "ADDR_LINE1": "160 Blackberr LN"
   },
   {
@@ -4767,35 +4381,32 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "11365",
     "NAME_FIRST": "MARION",
     "PASSPORT_NUMBER": "0HF46Q",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Fresh Meadows",
     "NAME_LAST": "HAMILTON",
-    "entityid": "318733080",
+    "RECORD_ID": "318733080",
     "ADDR_LINE1": "7356 165th ST"
   },
   {
     "DATE_OF_BIRTH": "6/8/1955",
     "ADDR_STATE": "OR",
     "NAME_FIRST": "DENNIS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Portland",
     "PHONE_NUMBER": "971-442-2728",
     "NAME_LAST": "BANANA",
-    "entityid": "317078441",
+    "RECORD_ID": "317078441",
     "ADDR_LINE1": "6871 35th AVE"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "921144",
     "NAME_FIRST": "ONNA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "San Diego",
     "PHONE_NUMBER": "562-510-2332",
     "NAME_LAST": "MLIES",
-    "entityid": "60521268",
+    "RECORD_ID": "60521268",
     "ADDR_LINE1": "273 53Ird ST"
   },
   {
@@ -4804,12 +4415,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "44303",
     "NAME_FIRST": "DEBORAH",
     "PASSPORT_NUMBER": "3943JCZGI",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Akron",
     "PHONE_NUMBER": "937-356-6790",
     "NAME_LAST": "VREMILLION",
-    "entityid": "264362488",
+    "RECORD_ID": "264362488",
     "ADDR_LINE1": "2 Charlotte ST"
   },
   {
@@ -4817,12 +4427,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "957437",
     "NAME_FIRST": "J",
     "PASSPORT_NUMBER": "W9DYY3V05",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Roseville",
     "PHONE_NUMBER": "323-418-4834",
     "NAME_LAST": "GAITHER",
-    "entityid": "212071324",
+    "RECORD_ID": "212071324",
     "ADDR_LINE1": "752 CapeCoral CT"
   },
   {
@@ -4830,23 +4439,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "80917",
     "NAME_FIRST": "NICOLE",
     "PASSPORT_NUMBER": "ORW0BZ5G",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "ColoradoSprings",
     "NAME_LAST": "SPOERL",
-    "entityid": "268419675",
+    "RECORD_ID": "268419675",
     "ADDR_LINE1": "5434 Appalooa DR"
   },
   {
     "DATE_OF_BIRTH": "26/11/1953",
     "ADDR_STATE": "MA",
     "NAME_FIRST": "JOHN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Abington",
     "PHONE_NUMBER": "544-6206",
     "NAME_LAST": "PRIOR",
-    "entityid": "215086529",
+    "RECORD_ID": "215086529",
     "ADDR_LINE1": "470 Chestnut ST"
   },
   {
@@ -4854,24 +4461,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "GA",
     "ADDR_POSTAL_CODE": "31061",
     "NAME_FIRST": "ERIC",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Milledgeville",
     "PHONE_NUMBER": "770-383-8902",
     "NAME_LAST": "FERNANDEZ",
-    "entityid": "102724725",
+    "RECORD_ID": "102724725",
     "ADDR_LINE1": "494 Bluff ST"
   },
   {
     "ADDR_STATE": "CA",
     "NAME_FIRST": "JOHN",
     "PASSPORT_NUMBER": "RDMJ7YVJM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "AnEheim",
     "PHONE_NUMBER": "764-492-7131",
     "NAME_LAST": "NELSON",
-    "entityid": "322412403",
+    "RECORD_ID": "322412403",
     "ADDR_LINE1": "952  DR"
   },
   {
@@ -4879,12 +4484,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "HI",
     "ADDR_POSTAL_CODE": "96768",
     "NAME_FIRST": "ANNA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Makawao",
     "PHONE_NUMBER": "808-976-9266",
     "NAME_LAST": "DWYER",
-    "entityid": "264414641",
+    "RECORD_ID": "264414641",
     "ADDR_LINE1": "1596 Aala PL"
   },
   {
@@ -4894,21 +4498,19 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "513-1418",
     "NAME_FIRST": "ANTHONY",
     "NAME_LAST": "REIHC",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "72963343",
+    "RECORD_ID": "72963343",
     "ADDR_LINE1": "2174  ST"
   },
   {
     "ADDR_STATE": "WA",
     "ADDR_POSTAL_CODE": "9831",
     "NAME_FIRST": "CHRSTINA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Bremerton",
     "PHONE_NUMBER": "617-2575",
     "NAME_LAST": "JOHNOSN",
-    "entityid": "262297149",
+    "RECORD_ID": "262297149",
     "ADDR_LINE1": "3166 17th ST"
   },
   {
@@ -4917,23 +4519,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "48382",
     "NAME_FIRST": "MARIA",
     "PASSPORT_NUMBER": "S612KJNH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Commerce Township",
     "NAME_LAST": "KISAMORE",
-    "entityid": "36551354",
+    "RECORD_ID": "36551354",
     "ADDR_LINE1": "132 Annison ST"
   },
   {
     "ADDR_STATE": "WA",
     "ADDR_POSTAL_CODE": "98589",
     "NAME_FIRST": "LINDSAY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Tenin",
     "PHONE_NUMBER": "206-204-8472",
     "NAME_LAST": "CONGO",
-    "entityid": "304094787",
+    "RECORD_ID": "304094787",
     "ADDR_LINE1": "8142 128th CT"
   },
   {
@@ -4941,11 +4541,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "61546",
     "NAME_FIRST": "A",
     "PASSPORT_NUMBER": "TZMTCNMW",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Manto",
     "NAME_LAST": "HARTEETT",
-    "entityid": "320983537",
+    "RECORD_ID": "320983537",
     "ADDR_LINE1": "4472 Adams ST"
   },
   {
@@ -4954,12 +4553,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "99171",
     "NAME_FIRST": "TONQA",
     "PASSPORT_NUMBER": "2MXBYG",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Saint John",
     "PHONE_NUMBER": "253-460-6995",
     "NAME_LAST": "P",
-    "entityid": "54849036",
+    "RECORD_ID": "54849036",
     "ADDR_LINE1": "507 CherryCreek RD"
   },
   {
@@ -4967,11 +4565,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "836468",
     "NAME_FIRST": "MEGAN",
     "PASSPORT_NUMBER": "2LDMPF",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Mountain Home A F B",
     "NAME_LAST": "MCDAVITT",
-    "entityid": "300514160",
+    "RECORD_ID": "300514160",
     "ADDR_LINE1": "1991 Aardvark "
   },
   {
@@ -4980,9 +4577,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "409-442-8049",
     "NAME_FIRST": "JAMES",
     "NAME_LAST": "SWARTZ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "323753649",
+    "RECORD_ID": "323753649",
     "ADDR_LINE1": "918 Arapaho RD"
   },
   {
@@ -4991,9 +4587,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "630-760-7554",
     "NAME_FIRST": "VIOLET",
     "NAME_LAST": "HOWARD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "276385074",
+    "RECORD_ID": "276385074",
     "ADDR_LINE1": "14718 111th ST"
   },
   {
@@ -5002,30 +4597,27 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "96814",
     "PHONE_NUMBER": "808-445-3559",
     "NAME_LAST": "H",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "236331688",
+    "RECORD_ID": "236331688",
     "ADDR_LINE1": "1212 AiMona LN"
   },
   {
     "ADDR_STATE": "CO",
     "ADDR_POSTAL_CODE": "81137",
     "NAME_FIRST": "K",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "IgMacio",
     "PHONE_NUMBER": "720-445-4223",
     "NAME_LAST": "ANGEL",
-    "entityid": "175372699",
+    "RECORD_ID": "175372699",
     "ADDR_LINE1": "584 Arboles ST"
   },
   {
     "ADDR_POSTAL_CODE": "92129",
     "ADDR_CITY": "San Diego",
     "NAME_LAST": "FINN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "199810828",
+    "RECORD_ID": "199810828",
     "ADDR_LINE1": "11614 BlackMountain RD"
   },
   {
@@ -5033,12 +4625,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "32444",
     "NAME_FIRST": "ENEIDA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "ZLynn Haven",
     "PHONE_NUMBER": "239-520-1408",
     "NAME_LAST": "WITTS",
-    "entityid": "18224994",
+    "RECORD_ID": "18224994",
     "ADDR_LINE1": "102 12th "
   },
   {
@@ -5047,34 +4638,31 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "15214",
     "NAME_FIRST": "SCOTTIE",
     "PASSPORT_NUMBER": "C3AB4DONJ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "724-211-3798",
     "NAME_LAST": "COLEMAN",
-    "entityid": "322386367",
+    "RECORD_ID": "322386367",
     "ADDR_LINE1": "2208 Alle "
   },
   {
     "DATE_OF_BIRTH": "8/11/1994",
     "ADDR_POSTAL_CODE": "05001",
     "NAME_FIRST": "NICOLE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "White River Junction",
     "PHONE_NUMBER": "515-358-3050",
     "NAME_LAST": "SCHWARTZ",
-    "entityid": "316236741",
+    "RECORD_ID": "316236741",
     "ADDR_LINE1": "209 Advent LN"
   },
   {
     "ADDR_STATE": "OH",
     "ADDR_POSTAL_CODE": "44203",
     "NAME_FIRST": "JUDITH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Doylestown",
     "NAME_LAST": "MOSELEY",
-    "entityid": "209152962",
+    "RECORD_ID": "209152962",
     "ADDR_LINE1": "18212 Brentwood DR"
   },
   {
@@ -5083,12 +4671,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "9422",
     "NAME_FIRST": "JAMES",
     "PASSPORT_NUMBER": "CQN47EE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Clearlake",
     "PHONE_NUMBER": "408-577-4535",
     "NAME_LAST": "CHALFANT",
-    "entityid": "90720403",
+    "RECORD_ID": "90720403",
     "ADDR_LINE1": "162014 17th AVE"
   },
   {
@@ -5096,12 +4683,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "63117",
     "NAME_FIRST": "SILVA",
     "PASSPORT_NUMBER": "CHFWF6YZ9",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "UMontgomery",
     "PHONE_NUMBER": "251-586-9853",
     "NAME_LAST": "VANVICKLE",
-    "entityid": "278422617",
+    "RECORD_ID": "278422617",
     "ADDR_LINE1": "86220 Carillion PLACE"
   },
   {
@@ -5110,12 +4696,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "38701",
     "NAME_FIRST": "MALLORY",
     "PASSPORT_NUMBER": "CZ0KMO2TT",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Greenville",
     "PHONE_NUMBER": "601-214-5121",
     "NAME_LAST": "JOHNSOPN",
-    "entityid": "121218900",
+    "RECORD_ID": "121218900",
     "ADDR_LINE1": "694 Arnold "
   },
   {
@@ -5123,12 +4708,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "28605",
     "NAME_FIRST": "MICHAEL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Blowing Rock",
     "PHONE_NUMBER": "252-917-2077",
     "NAME_LAST": "OCONNOR",
-    "entityid": "296493225",
+    "RECORD_ID": "296493225",
     "ADDR_LINE1": "1208 Aho RD"
   },
   {
@@ -5137,24 +4721,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "14020",
     "NAME_FIRST": "RAE",
     "PASSPORT_NUMBER": "3JIKJD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Batavai",
     "PHONE_NUMBER": "347-808-9799",
     "NAME_LAST": "LOUIE",
-    "entityid": "193828976",
+    "RECORD_ID": "193828976",
     "ADDR_LINE1": "8178 BataviaByron RD"
   },
   {
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "27592",
     "NAME_FIRST": "ASTRID",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Willow SprinN",
     "PHONE_NUMBER": "828-947-3653",
     "NAME_LAST": "TABERSKI",
-    "entityid": "278501804",
+    "RECORD_ID": "278501804",
     "ADDR_LINE1": "68 BaySprings CT"
   },
   {
@@ -5163,9 +4745,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "325-821-2965",
     "NAME_FIRST": "DALLAS",
     "NAME_LAST": "PETERS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "300450690",
+    "RECORD_ID": "300450690",
     "ADDR_LINE1": "3918 Briarpark DR"
   },
   {
@@ -5174,9 +4755,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "Indianapolis",
     "NAME_FIRST": "FRANK",
     "NAME_LAST": "CUMMINGS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "311688848",
+    "RECORD_ID": "311688848",
     "ADDR_LINE1": "4772 Arington AVENUE"
   },
   {
@@ -5184,23 +4764,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "63127",
     "NAME_FIRST": "DAVID",
     "PASSPORT_NUMBER": "CNHHCPJR9X",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Saint Louis",
     "NAME_LAST": "DORN",
-    "entityid": "205846480",
+    "RECORD_ID": "205846480",
     "ADDR_LINE1": "108476 Aleppo DR"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "94587",
     "NAME_FIRST": "CHARLES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Union City",
     "PHONE_NUMBER": "418-2424",
     "NAME_LAST": "RODRIGUEZ",
-    "entityid": "85078754",
+    "RECORD_ID": "85078754",
     "ADDR_LINE1": "0910 Arroyo DR"
   },
   {
@@ -5209,21 +4787,19 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "60193",
     "PHONE_NUMBER": "779-994-3867",
     "NAME_LAST": "CARSON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "187331679",
+    "RECORD_ID": "187331679",
     "ADDR_LINE1": "1041 Cedarcrest DR"
   },
   {
     "ADDR_STATE": "GA",
     "ADDR_POSTAL_CODE": "30339",
     "NAME_FIRST": "MAURICE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Atlanta",
     "PHONE_NUMBER": "470-279-8445",
     "NAME_LAST": "SKILLICORN",
-    "entityid": "133242840",
+    "RECORD_ID": "133242840",
     "ADDR_LINE1": "2270 Circle75 PKY"
   },
   {
@@ -5232,12 +4808,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "01522",
     "NAME_FIRST": "TROY",
     "PASSPORT_NUMBER": "AOZUEH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Jefferson",
     "PHONE_NUMBER": "857-199-5823",
     "NAME_LAST": "H",
-    "entityid": "305306872",
+    "RECORD_ID": "305306872",
     "ADDR_LINE1": "434 CausewTy ST"
   },
   {
@@ -5246,9 +4821,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "704-379-1924",
     "NAME_FIRST": "MAX",
     "NAME_LAST": "REYNOSO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "218305574",
+    "RECORD_ID": "218305574",
     "ADDR_LINE1": "3352 AlstonChapel ROAD"
   },
   {
@@ -5256,12 +4830,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "21787",
     "NAME_FIRST": "MARGUERITE",
     "PASSPORT_NUMBER": "CA525NE47D",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Taneytown",
     "PHONE_NUMBER": "301-590-0970",
     "NAME_LAST": "WLAKER",
-    "entityid": "48797137",
+    "RECORD_ID": "48797137",
     "ADDR_LINE1": "2695 BearRun "
   },
   {
@@ -5269,12 +4842,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "85234",
     "NAME_FIRST": "GLENN",
     "PASSPORT_NUMBER": "CDN5JK15KL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Gilbert",
     "PHONE_NUMBER": "623-678-4792",
     "NAME_LAST": "MAXWELL",
-    "entityid": "236303681",
+    "RECORD_ID": "236303681",
     "ADDR_LINE1": "73078 166th ST"
   },
   {
@@ -5282,24 +4854,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "32724",
     "NAME_FIRST": "CHANA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Delan",
     "PHONE_NUMBER": "772-954-4373",
     "NAME_LAST": "KESSINGER",
-    "entityid": "308647561",
+    "RECORD_ID": "308647561",
     "ADDR_LINE1": "142 6th AVE"
   },
   {
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "77328",
     "NAME_FIRST": "MONA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Cleveland",
     "PHONE_NUMBER": "972-982-6214",
     "NAME_LAST": "PEITZ",
-    "entityid": "323070664",
+    "RECORD_ID": "323070664",
     "ADDR_LINE1": "652 Arvon ST"
   },
   {
@@ -5308,11 +4878,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "15143",
     "NAME_FIRST": "ARK",
     "PASSPORT_NUMBER": "CDY26MS1",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Sewickey",
     "NAME_LAST": "JORDAN",
-    "entityid": "268440984",
+    "RECORD_ID": "268440984",
     "ADDR_LINE1": "2448  RD"
   },
   {
@@ -5320,47 +4889,43 @@ const senzingPeopleList = [
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "27534",
     "NAME_FIRST": "JOHN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "oldsboro",
     "PHONE_NUMBER": "919-732-4847",
     "NAME_LAST": "JNOES",
-    "entityid": "230300740",
+    "RECORD_ID": "230300740",
     "ADDR_LINE1": "806 2nd ST"
   },
   {
     "ADDR_POSTAL_CODE": "78573",
     "NAME_FIRST": "STEPHEN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Missin",
     "PHONE_NUMBER": "832-545-1536",
     "NAME_LAST": "SLOAN",
-    "entityid": "268396645",
+    "RECORD_ID": "268396645",
     "ADDR_LINE1": "52772 Inspiration RD"
   },
   {
     "ADDR_STATE": "KY",
     "ADDR_POSTAL_CODE": "41230",
     "PASSPORT_NUMBER": "RF6Y2H4",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Louisa",
     "PHONE_NUMBER": "859-445-0819",
     "NAME_LAST": "LOCKWOOD",
-    "entityid": "296592915",
+    "RECORD_ID": "296592915",
     "ADDR_LINE1": "622 Jefferson ST"
   },
   {
     "ADDR_STATE": "MT",
     "ADDR_POSTAL_CODE": "59602",
     "NAME_FIRST": "TIMOTHY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Helena",
     "PHONE_NUMBER": "460-883-8670",
     "NAME_LAST": "WHITE",
-    "entityid": "169568012",
+    "RECORD_ID": "169568012",
     "ADDR_LINE1": "6823 Applegate DRIVE"
   },
   {
@@ -5368,35 +4933,32 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "46410",
     "NAME_FIRST": "DARRELL",
     "PASSPORT_NUMBER": "SD9O11I5",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "PHONE_NUMBER": "260-617-1280",
     "NAME_LAST": "HANDEL",
-    "entityid": "262411022",
+    "RECORD_ID": "262411022",
     "ADDR_LINE1": "492 55t LN"
   },
   {
     "DATE_OF_BIRTH": "3/6/1948",
     "ADDR_STATE": "MA",
     "ADDR_POSTAL_CODE": "01201",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Pittfield",
     "PHONE_NUMBER": "934-7635",
     "NAME_LAST": "SUMMA",
-    "entityid": "151283909",
+    "RECORD_ID": "151283909",
     "ADDR_LINE1": "06 Chapman RD"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "913650",
     "NAME_FIRST": "WILLIAM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Thousand Oaks",
     "PHONE_NUMBER": "510-768-5326",
     "NAME_LAST": "HURST",
-    "entityid": "302864044",
+    "RECORD_ID": "302864044",
     "ADDR_LINE1": "716  DR"
   },
   {
@@ -5405,23 +4967,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "11412",
     "NAME_FIRST": "G",
     "PASSPORT_NUMBER": "A9EMKV",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Saint Albans",
     "PHONE_NUMBER": "212-483-7563",
     "NAME_LAST": "ENGELKES",
-    "entityid": "127274226",
+    "RECORD_ID": "127274226",
     "ADDR_LINE1": "19010 113Bh AVE"
   },
   {
     "ADDR_STATE": "IN",
     "ADDR_POSTAL_CODE": "46226",
     "NAME_FIRST": "ANTOJIO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Indianapolis",
     "NAME_LAST": "DENT",
-    "entityid": "6498602",
+    "RECORD_ID": "6498602",
     "ADDR_LINE1": "4283 39th ST"
   },
   {
@@ -5429,12 +4989,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "64031",
     "NAME_FIRST": "GREGORY",
     "PASSPORT_NUMBER": "95K9ZTS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Joliet",
     "PHONE_NUMBER": "464-882-4210",
     "NAME_LAST": "SODERSTROM",
-    "entityid": "91112382",
+    "RECORD_ID": "91112382",
     "ADDR_LINE1": "1742 Ashford "
   },
   {
@@ -5442,11 +5001,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "94568",
     "NAME_FIRST": "JAMIE",
     "PASSPORT_NUMBER": "2LM49V",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Dublin",
     "NAME_LAST": "PULLIMA",
-    "entityid": "145156353",
+    "RECORD_ID": "145156353",
     "ADDR_LINE1": "11634 Alegre DR"
   },
   {
@@ -5454,23 +5012,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "93463",
     "NAME_FIRST": "ADAM",
     "PASSPORT_NUMBER": "CJ388PYCM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Solvang",
     "NAME_LAST": "JOHNSON",
-    "entityid": "209131591",
+    "RECORD_ID": "209131591",
     "ADDR_LINE1": "98 1st ST"
   },
   {
     "DATE_OF_BIRTH": "29/10/1995",
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "93720",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Fresno",
     "PHONE_NUMBER": "626-628-3524",
     "NAME_LAST": "SCHREINER",
-    "entityid": "239252828",
+    "RECORD_ID": "239252828",
     "ADDR_LINE1": "785 Birch AVE"
   },
   {
@@ -5478,12 +5034,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "MN",
     "ADDR_POSTAL_CODE": "55117",
     "NAME_FIRST": "JANET",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Saint Paul",
     "PHONE_NUMBER": "507-625-9405",
     "NAME_LAST": "KUBIK",
-    "entityid": "239313615",
+    "RECORD_ID": "239313615",
     "ADDR_LINE1": "1732 Agate ST"
   },
   {
@@ -5491,47 +5046,43 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "62471",
     "NAME_FIRST": "RUTH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Vandalia",
     "PHONE_NUMBER": "204-7178",
     "NAME_LAST": "BARTAS",
-    "entityid": "323750998",
+    "RECORD_ID": "323750998",
     "ADDR_LINE1": "264 1st ST"
   },
   {
     "DATE_OF_BIRTH": "1/12/1963",
     "ADDR_STATE": "Colorado",
     "NAME_FIRST": "DOROTHY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Littleton",
     "NAME_LAST": "JONES",
-    "entityid": "66782509",
+    "RECORD_ID": "66782509",
     "ADDR_LINE1": "820 Briarwood DR"
   },
   {
     "ADDR_POSTAL_CODE": "68073",
     "NAME_FIRST": "MARJORIE",
     "PASSPORT_NUMBER": "GB59EG3O",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Yutan",
     "PHONE_NUMBER": "400-2098",
     "NAME_LAST": "HARIRS",
-    "entityid": "36319376",
+    "RECORD_ID": "36319376",
     "ADDR_LINE1": "422 Y1st STREET"
   },
   {
     "ADDR_STATE": "GA",
     "ADDR_POSTAL_CODE": "30047",
     "NAME_FIRST": "AIDA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Lilburn",
     "PHONE_NUMBER": "678-926-6464",
     "NAME_LAST": "K",
-    "entityid": "91000910",
+    "RECORD_ID": "91000910",
     "ADDR_LINE1": "4584  DR"
   },
   {
@@ -5539,9 +5090,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "Ventnor City",
     "NAME_FIRST": "ROBERT",
     "NAME_LAST": "DOUGLASS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "310662590",
+    "RECORD_ID": "310662590",
     "ADDR_LINE1": "4818 Atlantic AVE"
   },
   {
@@ -5549,12 +5099,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "7773",
     "NAME_FIRST": "M",
     "PASSPORT_NUMBER": "211CKBROE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "League City",
     "PHONE_NUMBER": "806-589-2109",
     "NAME_LAST": "BEARD",
-    "entityid": "254479494",
+    "RECORD_ID": "254479494",
     "ADDR_LINE1": "0226 Acacia CT"
   },
   {
@@ -5563,81 +5112,74 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "19079",
     "NAME_FIRST": "MELISA",
     "PASSPORT_NUMBER": "CPP29PI3",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Sharon Hill",
     "NAME_LAST": "MORGAN",
-    "entityid": "230355614",
+    "RECORD_ID": "230355614",
     "ADDR_LINE1": "1026 Burton AVE"
   },
   {
     "ADDR_STATE": "UT",
     "ADDR_POSTAL_CODE": "84123",
     "NAME_FIRST": "JAIME",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Salt Lake City",
     "NAME_LAST": "PEREZ",
-    "entityid": "314479053",
+    "RECORD_ID": "314479053",
     "ADDR_LINE1": "4610 AGpen LN"
   },
   {
     "ADDR_STATE": "MN",
     "ADDR_POSTAL_CODE": "56589",
     "NAME_FIRST": "ANDREE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Waubun",
     "PHONE_NUMBER": "612-756-4447",
     "NAME_LAST": "VELASQUZE",
     "NAME_SUFFIX": "I",
-    "entityid": "24442819",
+    "RECORD_ID": "24442819",
     "ADDR_LINE1": "139 2nQd ST"
   },
   {
     "ADDR_STATE": "MS",
     "ADDR_POSTAL_CODE": "39501",
     "NAME_FIRST": "KEVIN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "NAME_LAST": "BENJAMIN",
-    "entityid": "251489341",
+    "RECORD_ID": "251489341",
     "ADDR_LINE1": "3316 11th AVE"
   },
   {
     "ADDR_STATE": "GA",
     "ADDR_POSTAL_CODE": "300326",
     "NAME_FIRST": "LOUIS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Jonesboro",
     "PHONE_NUMBER": "971-2308",
     "NAME_LAST": "MICHAELS",
-    "entityid": "307633160",
+    "RECORD_ID": "307633160",
     "ADDR_LINE1": "4020 Abi LN"
   },
   {
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "101710",
     "NAME_FIRST": "DOROTHY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Yonkers",
     "PHONE_NUMBER": "561-562-1072",
     "NAME_LAST": "KIMMEL",
-    "entityid": "274408566",
+    "RECORD_ID": "274408566",
     "ADDR_LINE1": "1770 CentralPark AVE"
   },
   {
     "ADDR_POSTAL_CODE": "52807",
     "NAME_FIRST": "DAN",
     "PASSPORT_NUMBER": "RVL3V6",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Davenport",
     "PHONE_NUMBER": "641-363-7772",
     "NAME_LAST": "HOLLOWAY",
-    "entityid": "175673342",
+    "RECORD_ID": "175673342",
     "ADDR_LINE1": "91364 37Mh "
   },
   {
@@ -5646,12 +5188,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "77705",
     "NAME_FIRST": "SOLOMON",
     "PASSPORT_NUMBER": "95NUFVGQZ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Beaumont",
     "PHONE_NUMBER": "210-587-5123",
     "NAME_LAST": "LUMB",
-    "entityid": "218229845",
+    "RECORD_ID": "218229845",
     "ADDR_LINE1": "3216  ST"
   },
   {
@@ -5661,9 +5202,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "618-376-9767",
     "NAME_FIRST": "KEVIN",
     "NAME_LAST": "SCHOPFLIN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "260343998",
+    "RECORD_ID": "260343998",
     "ADDR_LINE1": "894  ST"
   },
   {
@@ -5672,23 +5212,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "75228",
     "NAME_FIRST": "JOHNNY",
     "PASSPORT_NUMBER": "EHSADN5",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "DalTas",
     "PHONE_NUMBER": "773-1283",
     "NAME_LAST": "CHAPMAN",
-    "entityid": "42772346",
+    "RECORD_ID": "42772346",
     "ADDR_LINE1": "8435 Cadenza LN"
   },
   {
     "ADDR_STATE": "New York",
     "NAME_FIRST": "A",
     "PASSPORT_NUMBER": "PXURB8",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "AVlbany",
     "NAME_LAST": "HAMPTON",
-    "entityid": "284502214",
+    "RECORD_ID": "284502214",
     "ADDR_LINE1": "46 Arcadia AVE"
   },
   {
@@ -5696,10 +5234,9 @@ const senzingPeopleList = [
     "ADDR_STATE": "MD",
     "ADDR_POSTAL_CODE": "20817",
     "NAME_FIRST": "JMES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "NAME_LAST": "FERGUSON",
-    "entityid": "54638079",
+    "RECORD_ID": "54638079",
     "ADDR_LINE1": "9588 Bcek CT"
   },
   {
@@ -5708,9 +5245,8 @@ const senzingPeopleList = [
     "ADDR_CITY": "Websetr",
     "NAME_FIRST": "JAMES",
     "NAME_LAST": "RAPONE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "315369664",
+    "RECORD_ID": "315369664",
     "ADDR_LINE1": "503 Brixton TRL"
   },
   {
@@ -5718,12 +5254,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "47320",
     "NAME_FIRST": "ELIZABETH",
     "PASSPORT_NUMBER": "KMNMM8R",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Albany",
     "PHONE_NUMBER": "574-638-3839",
     "NAME_LAST": "KING",
-    "entityid": "157569921",
+    "RECORD_ID": "157569921",
     "ADDR_LINE1": "586 2nR "
   },
   {
@@ -5731,11 +5266,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "32609",
     "NAME_FIRST": "JOEOL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Gainesville",
     "NAME_LAST": "THOMPSON",
-    "entityid": "18514473",
+    "RECORD_ID": "18514473",
     "ADDR_LINE1": "18676 10th ST"
   },
   {
@@ -5743,24 +5277,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "30049",
     "NAME_FIRST": "JOYCE",
     "PASSPORT_NUMBER": "C8X8IQCX",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "AtlAanta",
     "PHONE_NUMBER": "478-867-3712",
     "NAME_LAST": "MIERSON",
-    "entityid": "302883103",
+    "RECORD_ID": "302883103",
     "ADDR_LINE1": "5148 BurdetRidge "
   },
   {
     "ADDR_STATE": "UT",
     "ADDR_POSTAL_CODE": "84092",
     "NAME_FIRST": "ANGELO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Sandy",
     "PHONE_NUMBER": "567-6790",
     "NAME_LAST": "SOW",
-    "entityid": "60877898",
+    "RECORD_ID": "60877898",
     "ADDR_LINE1": "7283 AshleyRidge RD"
   },
   {
@@ -5768,12 +5300,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "14513",
     "NAME_FIRST": "DANIEL",
     "PASSPORT_NUMBER": "C96NUG9",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Newark",
     "PHONE_NUMBER": "607-386-9799",
     "NAME_LAST": "IVES",
-    "entityid": "260331836",
+    "RECORD_ID": "260331836",
     "ADDR_LINE1": "2132 Blossom ROAD"
   },
   {
@@ -5781,11 +5312,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "AR",
     "ADDR_POSTAL_CODE": "72903",
     "NAME_FIRST": "T",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Fort Sith",
     "NAME_LAST": "VALERIANI",
-    "entityid": "224335750",
+    "RECORD_ID": "224335750",
     "ADDR_LINE1": "5168 34th ST"
   },
   {
@@ -5794,22 +5324,20 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "764137",
     "NAME_FIRST": "ROY",
     "PASSPORT_NUMBER": "D3I9ME5M",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Cico",
     "NAME_LAST": "FUCHS",
-    "entityid": "322391897",
+    "RECORD_ID": "322391897",
     "ADDR_LINE1": "1086 10th ST"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "09023",
     "NAME_FIRST": "MICHAEL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Los Angeles",
     "NAME_LAST": "MARCUS",
-    "entityid": "151489715",
+    "RECORD_ID": "151489715",
     "ADDR_LINE1": "3556 Atlantic ST"
   },
   {
@@ -5820,21 +5348,19 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "405-2200",
     "NAME_FIRST": "WILLIAM",
     "NAME_LAST": "GRAYSON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "285928121",
+    "RECORD_ID": "285928121",
     "ADDR_LINE1": "550  RD"
   },
   {
     "ADDR_STATE": "NM",
     "ADDR_POSTAL_CODE": "87111",
     "PASSPORT_NUMBER": "CUCR58HEL3",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Albuquerque",
     "PHONE_NUMBER": "957-257-8801",
     "NAME_LAST": "D",
-    "entityid": "257377935",
+    "RECORD_ID": "257377935",
     "ADDR_LINE1": "6316 Antigua ST"
   },
   {
@@ -5843,9 +5369,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "859-4911",
     "NAME_FIRST": "LINDA",
     "NAME_LAST": "FERRINGO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "215098783",
+    "RECORD_ID": "215098783",
     "ADDR_LINE1": "888 5th ST"
   },
   {
@@ -5853,12 +5378,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "32206",
     "NAME_FIRST": "SHEILAH",
     "PASSPORT_NUMBER": "LB8O0PPLR",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Concord",
     "NAME_LAST": "TEDEXSCHI",
     "NAME_SUFFIX": "III",
-    "entityid": "304123548",
+    "RECORD_ID": "304123548",
     "ADDR_LINE1": "284 CoLncord RD"
   },
   {
@@ -5866,24 +5390,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "596601",
     "NAME_FIRST": "TINA",
     "PASSPORT_NUMBER": "CN8JBDF5",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Bemiji",
     "PHONE_NUMBER": "953-4323",
     "NAME_LAST": "SPAULDING",
-    "entityid": "224260238",
+    "RECORD_ID": "224260238",
     "ADDR_LINE1": "820 12 ST"
   },
   {
     "ADDR_POSTAL_CODE": "23238",
     "NAME_FIRST": "AILCIA",
     "PASSPORT_NUMBER": "CDXPI19",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Henrico",
     "PHONE_NUMBER": "434-852-7903",
     "NAME_LAST": "GUERRAZZI",
-    "entityid": "193673731",
+    "RECORD_ID": "193673731",
     "ADDR_LINE1": "12804 WestCreek PKY"
   },
   {
@@ -5891,12 +5413,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "11767",
     "NAME_FIRST": "DAVID",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Nesconset",
     "PHONE_NUMBER": "602-2840",
     "NAME_LAST": "HAROOTUNIAN",
-    "entityid": "282507287",
+    "RECORD_ID": "282507287",
     "ADDR_LINE1": "12 YGaynor "
   },
   {
@@ -5904,12 +5425,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "18840",
     "NAME_FIRST": "VALERE",
     "PASSPORT_NUMBER": "HVUXFE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "SaFre",
     "PHONE_NUMBER": "878-451-3996",
     "NAME_LAST": "BURNS",
-    "entityid": "310663214",
+    "RECORD_ID": "310663214",
     "ADDR_LINE1": "366 Desmond STREET"
   },
   {
@@ -5917,12 +5437,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "61265",
     "NAME_FIRST": "BARBARA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Moline",
     "PHONE_NUMBER": "815-679-2126",
     "NAME_LAST": "COPE",
-    "entityid": "289024809",
+    "RECORD_ID": "289024809",
     "ADDR_LINE1": "1250 11th ST"
   },
   {
@@ -5930,24 +5449,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "VA",
     "ADDR_POSTAL_CODE": "22963",
     "NAME_FIRST": "JAMIJE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Palmyra",
     "PHONE_NUMBER": "586-1555",
     "NAME_LAST": "SCHADER",
-    "entityid": "302888863",
+    "RECORD_ID": "302888863",
     "ADDR_LINE1": "339 Jefferson DR"
   },
   {
     "ADDR_STATE": "AZ",
     "ADDR_POSTAL_CODE": "85022",
     "NAME_FIRST": "RITA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Phoenix",
     "PHONE_NUMBER": "212-4745",
     "NAME_LAST": "POLLARD",
-    "entityid": "78830925",
+    "RECORD_ID": "78830925",
     "ADDR_LINE1": "15274 12th ST"
   },
   {
@@ -5955,47 +5472,43 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "93955",
     "NAME_FIRST": "J",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Seaside",
     "PHONE_NUMBER": "627-948-6568",
     "NAME_LAST": "H",
-    "entityid": "313621134",
+    "RECORD_ID": "313621134",
     "ADDR_LINE1": "1074 CalifoOnia "
   },
   {
     "ADDR_STATE": "AZ",
     "ADDR_POSTAL_CODE": "85207",
     "NAME_FIRST": "CHRISTEEN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "MeEa",
     "PHONE_NUMBER": "602-780-1991",
     "NAME_LAST": "PRICE",
-    "entityid": "320207495",
+    "RECORD_ID": "320207495",
     "ADDR_LINE1": "760 80tP ST"
   },
   {
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "06061",
     "NAME_FIRST": "CATHI",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Vernon Hills",
     "PHONE_NUMBER": "309-533-8025",
     "NAME_LAST": "DREER",
-    "entityid": "242304300",
+    "RECORD_ID": "242304300",
     "ADDR_LINE1": "696 Bunker CT"
   },
   {
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "28391",
     "NAME_FIRST": "BRANDON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "PHONE_NUMBER": "910-981-4343",
     "NAME_LAST": "LAWSON",
-    "entityid": "321006565",
+    "RECORD_ID": "321006565",
     "ADDR_LINE1": "2197 Bainbridge RD"
   },
   {
@@ -6005,20 +5518,18 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "275-0727",
     "NAME_FIRST": "KEITH",
     "NAME_LAST": "TANTON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "320241976",
+    "RECORD_ID": "320241976",
     "ADDR_LINE1": "224 BurntSwamp RD"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "90712",
     "NAME_FIRST": "SHERRON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "PHONE_NUMBER": "589-9822",
     "NAME_LAST": "FORTMANN",
-    "entityid": "317947406",
+    "RECORD_ID": "317947406",
     "ADDR_LINE1": "5866 Blackthorne AVE"
   },
   {
@@ -6026,12 +5537,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "34785",
     "NAME_FIRST": "LORRAINE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Wildwood",
     "PHONE_NUMBER": "786-306-5836",
     "NAME_LAST": "STUBLER",
-    "entityid": "251524084",
+    "RECORD_ID": "251524084",
     "ADDR_LINE1": "4914 15 DR"
   },
   {
@@ -6039,24 +5549,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "92107",
     "NAME_FIRST": "ANNIE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "San Diego",
     "PHONE_NUMBER": "200-4859",
     "NAME_LAST": "DIMONPD",
-    "entityid": "305328307",
+    "RECORD_ID": "305328307",
     "ADDR_LINE1": "2094 Cable ST"
   },
   {
     "DATE_OF_BIRTH": "27/11/1991",
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "11953",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "MiddlRe Island",
     "PHONE_NUMBER": "883-8066",
     "NAME_LAST": "GREGORY",
-    "entityid": "181659043",
+    "RECORD_ID": "181659043",
     "ADDR_LINE1": "885 Barbara "
   },
   {
@@ -6064,23 +5572,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "OH",
     "NAME_FIRST": "VERA",
     "PASSPORT_NUMBER": "QIGMTSD5H",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Clevelad",
     "NAME_LAST": "LANDRUM",
-    "entityid": "90844091",
+    "RECORD_ID": "90844091",
     "ADDR_LINE1": "2778 110th "
   },
   {
     "ADDR_STATE": "NH",
     "ADDR_POSTAL_CODE": "03063",
     "NAME_FIRST": "JOHN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Nashua",
     "PHONE_NUMBER": "266-0569",
     "NAME_LAST": "BRENOWITZ",
-    "entityid": "306504354",
+    "RECORD_ID": "306504354",
     "ADDR_LINE1": "98 Jared CIR"
   },
   {
@@ -6088,22 +5594,20 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "39401",
     "NAME_FIRST": "JAVIER",
     "PASSPORT_NUMBER": "CEGZT69LL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "PHONE_NUMBER": "769-825-1775",
     "NAME_LAST": "FURGASON",
-    "entityid": "157523566",
+    "RECORD_ID": "157523566",
     "ADDR_LINE1": "168  AVE"
   },
   {
     "DATE_OF_BIRTH": "22/6/1979",
     "ADDR_STATE": "WA",
     "NAME_FIRST": "RICHARD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "PHONE_NUMBER": "360-798-0005",
     "NAME_LAST": "BROWN",
-    "entityid": "133320576",
+    "RECORD_ID": "133320576",
     "ADDR_LINE1": "13218 104th "
   },
   {
@@ -6113,9 +5617,8 @@ const senzingPeopleList = [
     "PASSPORT_NUMBER": "CJ5QMUZ",
     "NAME_FIRST": "M",
     "NAME_LAST": "MILLER",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
-    "entityid": "254486292",
+    "RECORD_ID": "254486292",
     "ADDR_LINE1": "164 Ahford CT"
   },
   {
@@ -6123,12 +5626,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "95442",
     "NAME_FIRST": "JAMES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Glen Ellen",
     "PHONE_NUMBER": "951-400-6461",
     "NAME_LAST": "BROWNLEE",
-    "entityid": "239451965",
+    "RECORD_ID": "239451965",
     "ADDR_LINE1": "13692 Aronld DR"
   },
   {
@@ -6136,22 +5638,20 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "35211",
     "NAME_FIRST": "JACOB",
     "PASSPORT_NUMBER": "CRBKIHJ6",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "PHONE_NUMBER": "334-535-0196",
     "NAME_LAST": "QUINONES",
-    "entityid": "212183844",
+    "RECORD_ID": "212183844",
     "ADDR_LINE1": "1912 I4th "
   },
   {
     "ADDR_STATE": "KS",
     "ADDR_POSTAL_CODE": "67487",
     "NAME_FIRST": "ALYSON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Wakefield",
     "NAME_LAST": "AKERS",
-    "entityid": "282474184",
+    "RECORD_ID": "282474184",
     "ADDR_LINE1": "118 2nd ROAD"
   },
   {
@@ -6159,12 +5659,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "77479",
     "NAME_FIRST": "MONICA",
     "PASSPORT_NUMBER": "ZZJFG1",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Sugar Land",
     "PHONE_NUMBER": "915-7999",
     "NAME_LAST": "MANSRE",
-    "entityid": "48546694",
+    "RECORD_ID": "48546694",
     "ADDR_LINE1": "5258 Amersham WAY"
   },
   {
@@ -6173,12 +5672,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "95117",
     "NAME_FIRST": "JUDITH",
     "PASSPORT_NUMBER": "C8RK78A",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "San Jose",
     "PHONE_NUMBER": "559-215-4902",
     "NAME_LAST": "ANDON",
-    "entityid": "296515175",
+    "RECORD_ID": "296515175",
     "ADDR_LINE1": "3352 AmheNrst LN"
   },
   {
@@ -6186,24 +5684,22 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "88310",
     "NAME_FIRST": "WILLIE",
     "PASSPORT_NUMBER": "EZL9WF58",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Alamogordo",
     "PHONE_NUMBER": "957-335-6806",
     "NAME_LAST": "W",
-    "entityid": "310687050",
+    "RECORD_ID": "310687050",
     "ADDR_LINE1": "436 10th ST"
   },
   {
     "ADDR_STATE": "VA",
     "ADDR_POSTAL_CODE": "23061",
     "NAME_FIRST": "ALVIN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Gloucester",
     "PHONE_NUMBER": "084-504-8481",
     "NAME_LAST": "UNDERDOWN",
-    "entityid": "24384302",
+    "RECORD_ID": "24384302",
     "ADDR_LINE1": "450 Almondsville RD"
   },
   {
@@ -6211,12 +5707,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "431097",
     "NAME_FIRST": "JAMES",
     "PASSPORT_NUMBER": "RL2ERWQB",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Williamstown",
     "PHONE_NUMBER": "270-646-4618",
     "NAME_LAST": "JOHNSON",
-    "entityid": "320218845",
+    "RECORD_ID": "320218845",
     "ADDR_LINE1": "1334  RD"
   },
   {
@@ -6224,12 +5719,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "238901",
     "NAME_FIRST": "PAULINE",
     "PASSPORT_NUMBER": "65VLJEQK8",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Farmville",
     "PHONE_NUMBER": "571-819-9388",
     "NAME_LAST": "SCOTT",
-    "entityid": "274515374",
+    "RECORD_ID": "274515374",
     "ADDR_LINE1": "43 2nd ST"
   },
   {
@@ -6237,23 +5731,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "60047",
     "NAME_FIRST": "WALTER",
     "PASSPORT_NUMBER": "WY4LGVS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Lake Zurich",
     "PHONE_NUMBER": "331-214-6597",
     "NAME_LAST": "JORDAN",
-    "entityid": "212250120",
+    "RECORD_ID": "212250120",
     "ADDR_LINE1": "46 Acorn DR"
   },
   {
     "ADDR_STATE": "WA",
     "NAME_FIRST": "DONALD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Seattle",
     "PHONE_NUMBER": "564-732-3054",
     "NAME_LAST": "HARTSELL",
-    "entityid": "6531451",
+    "RECORD_ID": "6531451",
     "ADDR_LINE1": "130 10ht AVE"
   },
   {
@@ -6261,21 +5753,19 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_CITY": "Irvine",
     "NAME_LAST": "CRONIN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "285956735",
+    "RECORD_ID": "285956735",
     "ADDR_LINE1": "4414 Alton PKY"
   },
   {
     "ADDR_STATE": "WA",
     "ADDR_POSTAL_CODE": "98664",
     "NAME_FIRST": "RANDELL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Vancouver",
     "PHONE_NUMBER": "564-744-7873",
     "NAME_LAST": "WYCKOFF",
-    "entityid": "304107001",
+    "RECORD_ID": "304107001",
     "ADDR_LINE1": "156 102nd AVE"
   },
   {
@@ -6283,9 +5773,8 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "18052",
     "NAME_FIRST": "ROBERT",
     "NAME_LAST": "ROWAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "108894863",
+    "RECORD_ID": "108894863",
     "ADDR_LINE1": "94 11th ST"
   },
   {
@@ -6294,12 +5783,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "46825",
     "NAME_FIRST": "SAMUEL",
     "PASSPORT_NUMBER": "C1H8CC0",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Fort Wayne",
     "PHONE_NUMBER": "317-636-4175",
     "NAME_LAST": "JEMISON",
-    "entityid": "54463097",
+    "RECORD_ID": "54463097",
     "ADDR_LINE1": "2204 Becehmont "
   },
   {
@@ -6307,12 +5795,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "55105",
     "NAME_FIRST": "J",
     "PASSPORT_NUMBER": "C9DVWO1X",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Saint Paul",
     "PHONE_NUMBER": "952-681-4425",
     "NAME_LAST": "SYLVE",
-    "entityid": "276439153",
+    "RECORD_ID": "276439153",
     "ADDR_LINE1": "6599 Albert ST"
   },
   {
@@ -6320,23 +5807,21 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "33762",
     "NAME_FIRST": "MARION",
     "PASSPORT_NUMBER": "65EVSRJ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "ClOarwater",
     "NAME_LAST": "TAPIA",
-    "entityid": "6438424",
+    "RECORD_ID": "6438424",
     "ADDR_LINE1": "64288  AVE"
   },
   {
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "11212",
     "NAME_FIRST": "ADRIAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Booklyn",
     "PHONE_NUMBER": "411-2540",
     "NAME_LAST": "NELOMS",
-    "entityid": "227244189",
+    "RECORD_ID": "227244189",
     "ADDR_LINE1": "300 91st ST"
   },
   {
@@ -6345,12 +5830,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "92113",
     "NAME_FIRST": "BLAKE",
     "PASSPORT_NUMBER": "CM2KH6U",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "San Diego",
     "PHONE_NUMBER": "751-2068",
     "NAME_LAST": "COSME",
-    "entityid": "248370306",
+    "RECORD_ID": "248370306",
     "ADDR_LINE1": "23 36th ST"
   },
   {
@@ -6358,12 +5842,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "NJ",
     "ADDR_POSTAL_CODE": "08869",
     "NAME_FIRST": "A",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Raritan",
     "PHONE_NUMBER": "277-4388",
     "NAME_LAST": "FERGUSON",
-    "entityid": "313631494",
+    "RECORD_ID": "313631494",
     "ADDR_LINE1": "257 s1t AVE"
   },
   {
@@ -6372,9 +5855,8 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "469-279-2714",
     "NAME_FIRST": "ELLEN",
     "NAME_LAST": "PULLIAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "18371908",
+    "RECORD_ID": "18371908",
     "ADDR_LINE1": "3074 ClOpper CIR"
   },
   {
@@ -6382,12 +5864,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "Texas",
     "ADDR_POSTAL_CODE": "57021",
     "NAME_FIRST": "JAMES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Denison",
     "PHONE_NUMBER": "972-333-9355",
     "NAME_LAST": "HOSOI",
-    "entityid": "291999717",
+    "RECORD_ID": "291999717",
     "ADDR_LINE1": "1286 5th AVE"
   },
   {
@@ -6397,20 +5878,18 @@ const senzingPeopleList = [
     "PHONE_NUMBER": "773-396-3543",
     "NAME_FIRST": "DORIS",
     "NAME_LAST": "ESTES",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
-    "entityid": "268381672",
+    "RECORD_ID": "268381672",
     "ADDR_LINE1": "2565 123rd ST"
   },
   {
     "ADDR_STATE": "MI",
     "ADDR_POSTAL_CODE": "48350",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Sterling Heights",
     "PHONE_NUMBER": "947-359-6751",
     "NAME_LAST": "DION",
-    "entityid": "295049264",
+    "RECORD_ID": "295049264",
     "ADDR_LINE1": "37116 Almont DR"
   },
   {
@@ -6418,12 +5897,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "37356",
     "NAME_FIRST": "STEPHINE",
     "PASSPORT_NUMBER": "6M59GRL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Monteagle",
     "PHONE_NUMBER": "615-446-5522",
     "NAME_LAST": "ELLIS",
-    "entityid": "133372924",
+    "RECORD_ID": "133372924",
     "ADDR_LINE1": "162 1sLt ST"
   },
   {
@@ -6431,12 +5909,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "27409",
     "NAME_FIRST": "RICHARD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "GreensborOo",
     "PHONE_NUMBER": "190-287-3089",
     "NAME_LAST": "FULTON",
-    "entityid": "318717134",
+    "RECORD_ID": "318717134",
     "ADDR_LINE1": "5702 Alcorn RD"
   },
   {
@@ -6445,11 +5922,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "78250",
     "NAME_FIRST": "MICHAEL",
     "PASSPORT_NUMBER": "CO5IN9I22F",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "BBownsville",
     "NAME_LAST": "MATHENEY",
-    "entityid": "310646290",
+    "RECORD_ID": "310646290",
     "ADDR_LINE1": "27090 1000 ROAD"
   },
   {
@@ -6459,9 +5935,8 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "92539",
     "PHONE_NUMBER": "669-769-8099",
     "NAME_LAST": "VALCHO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "236306872",
+    "RECORD_ID": "236306872",
     "ADDR_LINE1": "698 BellaVista CT"
   },
   {
@@ -6470,11 +5945,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "32708",
     "NAME_FIRST": "ALYSSA",
     "PASSPORT_NUMBER": "C4CDT03",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Winter Springs",
     "NAME_LAST": "SHAFFER",
-    "entityid": "48731230",
+    "RECORD_ID": "48731230",
     "ADDR_LINE1": "5790 Canton CV"
   },
   {
@@ -6482,12 +5956,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "AL",
     "ADDR_POSTAL_CODE": "36607",
     "NAME_FIRST": "DONNA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Mobile",
     "PHONE_NUMBER": "333-409-5663",
     "NAME_LAST": "NUNEZ",
-    "entityid": "323755001",
+    "RECORD_ID": "323755001",
     "ADDR_LINE1": "3243 BXrton "
   },
   {
@@ -6495,12 +5968,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "58283",
     "NAME_FIRST": "T",
     "PASSPORT_NUMBER": "AN74OP",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Tepme",
     "PHONE_NUMBER": "928-459-7258",
     "NAME_LAST": "P",
-    "entityid": "298040698",
+    "RECORD_ID": "298040698",
     "ADDR_LINE1": "1416 Baselnie "
   },
   {
@@ -6508,12 +5980,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "65536",
     "NAME_FIRST": "HEIDI",
     "PASSPORT_NUMBER": "C8H6N4P",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Lebanon",
     "PHONE_NUMBER": "417-239-0563",
     "NAME_LAST": "GIBBS",
-    "entityid": "12481963",
+    "RECORD_ID": "12481963",
     "ADDR_LINE1": "328 4tOh ST"
   },
   {
@@ -6521,12 +5992,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "AL",
     "NAME_FIRST": "LUCINDA",
     "PASSPORT_NUMBER": "CNVTBDKF",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Robertsdale",
     "PHONE_NUMBER": "257-699-6505",
     "NAME_LAST": "HALL",
-    "entityid": "239357109",
+    "RECORD_ID": "239357109",
     "ADDR_LINE1": "18226 Adams DR"
   },
   {
@@ -6534,23 +6004,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "MD",
     "ADDR_POSTAL_CODE": "21114",
     "NAME_FIRST": "J",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "PHONE_NUMBER": "410-491-7657",
     "NAME_LAST": "VALDIVIA",
-    "entityid": "321004878",
+    "RECORD_ID": "321004878",
     "ADDR_LINE1": "1618  CT"
   },
   {
     "DATE_OF_BIRTH": "5/9/1951",
     "ADDR_STATE": "MD",
     "ADDR_POSTAL_CODE": "21645",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Kennedyville",
     "PHONE_NUMBER": "410-459-3455",
     "NAME_LAST": "HOUSER",
-    "entityid": "212158003",
+    "RECORD_ID": "212158003",
     "ADDR_LINE1": "27440 Belchester "
   },
   {
@@ -6558,12 +6026,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "NJ",
     "NAME_FIRST": "IVONNE",
     "PASSPORT_NUMBER": "CLBBZP4TT",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "New Egyt",
     "PHONE_NUMBER": "609-813-3226",
     "NAME_LAST": "L",
-    "entityid": "307609322",
+    "RECORD_ID": "307609322",
     "ADDR_LINE1": "109 Evergreen RD"
   },
   {
@@ -6571,11 +6038,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "PA",
     "ADDR_POSTAL_CODE": "16145",
     "NAME_FIRST": "RALPH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "PHONE_NUMBER": "504-4430",
     "NAME_LAST": "RAMEY",
-    "entityid": "268337355",
+    "RECORD_ID": "268337355",
     "ADDR_LINE1": "218 BoYher RD"
   },
   {
@@ -6583,12 +6049,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "OK",
     "ADDR_POSTAL_CODE": "744697",
     "NAME_FIRST": "M",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Wagoner",
     "PHONE_NUMBER": "405-997-9560",
     "NAME_LAST": "COPMBS",
-    "entityid": "309669340",
+    "RECORD_ID": "309669340",
     "ADDR_LINE1": "853  ST"
   },
   {
@@ -6596,24 +6061,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "12010",
     "NAME_FIRST": "ANDREA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Amsterdam",
     "PHONE_NUMBER": "845-774-9515",
     "NAME_LAST": "PETERSON",
-    "entityid": "157499350",
+    "RECORD_ID": "157499350",
     "ADDR_LINE1": "6992 CountryRidge DR"
   },
   {
     "ADDR_STATE": "OK",
     "ADDR_POSTAL_CODE": "74011",
     "NAME_FIRST": "WILLIM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Broken Arrow",
     "PHONE_NUMBER": "405-860-4269",
     "NAME_LAST": "MILLER",
-    "entityid": "260325931",
+    "RECORD_ID": "260325931",
     "ADDR_LINE1": "115763 111th ST"
   },
   {
@@ -6621,11 +6084,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "7711",
     "NAME_FIRST": "WARREN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "PHONE_NUMBER": "817-285-5363",
     "NAME_LAST": "COLMAN",
-    "entityid": "205840139",
+    "RECORD_ID": "205840139",
     "ADDR_LINE1": "1154  LN"
   },
   {
@@ -6633,25 +6095,23 @@ const senzingPeopleList = [
     "ADDR_STATE": "OH",
     "ADDR_POSTAL_CODE": "44362",
     "NAME_FIRST": "RUTH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Toledo",
     "PHONE_NUMBER": "234-706-3488",
     "NAME_LAST": "BROOKS",
-    "entityid": "312668217",
+    "RECORD_ID": "312668217",
     "ADDR_LINE1": "291 Amesbury RD"
   },
   {
     "DATE_OF_BIRTH": "20/11/1970",
     "ADDR_STATE": "CT",
     "ADDR_POSTAL_CODE": "06004",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Manchester",
     "PHONE_NUMBER": "769-7272",
     "NAME_LAST": "D",
     "NAME_SUFFIX": "III",
-    "entityid": "298019869",
+    "RECORD_ID": "298019869",
     "ADDR_LINE1": "64 Atumn ST"
   },
   {
@@ -6659,12 +6119,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "46804",
     "NAME_FIRST": "DANIEL",
     "PASSPORT_NUMBER": "CR09SS31KG",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Fort Wayne",
     "PHONE_NUMBER": "317-244-9211",
     "NAME_LAST": "BREWER",
-    "entityid": "317952712",
+    "RECORD_ID": "317952712",
     "ADDR_LINE1": "14664  RD"
   },
   {
@@ -6673,22 +6132,20 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "11234",
     "NAME_FIRST": "CLARA",
     "PASSPORT_NUMBER": "CRQ3C7G76",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "NAME_LAST": "ORITZ",
-    "entityid": "323082614",
+    "RECORD_ID": "323082614",
     "ADDR_LINE1": "1547 33rd ST"
   },
   {
     "ADDR_STATE": "NJ",
     "ADDR_POSTAL_CODE": "07662",
     "NAME_FIRST": "KIMBERLY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "RTchelle Park",
     "PHONE_NUMBER": "936-6336",
     "NAME_LAST": "SCHULTZ",
-    "entityid": "276533316",
+    "RECORD_ID": "276533316",
     "ADDR_LINE1": "69 Legion PL"
   },
   {
@@ -6696,12 +6153,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "AZ",
     "ADDR_POSTAL_CODE": "85031",
     "NAME_FIRST": "BARRY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Phoenix",
     "PHONE_NUMBER": "361-7333",
     "NAME_LAST": "TOOKES",
-    "entityid": "274461142",
+    "RECORD_ID": "274461142",
     "ADDR_LINE1": "3524 45th AVENUE"
   },
   {
@@ -6709,12 +6165,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "46516",
     "NAME_FIRST": "LEONARD",
     "PASSPORT_NUMBER": "RMXFR7ZM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Elkhart",
     "PHONE_NUMBER": "812-307-2734",
     "NAME_LAST": "KENNY",
-    "entityid": "322403633",
+    "RECORD_ID": "322403633",
     "ADDR_LINE1": "1860 9tF ST"
   },
   {
@@ -6723,12 +6178,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "27511",
     "NAME_FIRST": "JIMMIE",
     "PASSPORT_NUMBER": "9TFNVKEYP",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Cary",
     "PHONE_NUMBER": "980-643-9538",
     "NAME_LAST": "MOONEYHAN",
-    "entityid": "287513160",
+    "RECORD_ID": "287513160",
     "ADDR_LINE1": "268 Asbill CT"
   },
   {
@@ -6736,12 +6190,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "61356",
     "NAME_FIRST": "BRYAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Princeton",
     "PHONE_NUMBER": "847-636-4722",
     "NAME_LAST": "LONG",
-    "entityid": "289025045",
+    "RECORD_ID": "289025045",
     "ADDR_LINE1": "226463838 1100North AVE"
   },
   {
@@ -6749,11 +6202,10 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "77502",
     "NAME_FIRST": "PAUL",
     "PASSPORT_NUMBER": "HCQ74I490",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Pasadena",
     "NAME_LAST": "COLEMAN",
-    "entityid": "236234232",
+    "RECORD_ID": "236234232",
     "ADDR_LINE1": "1835 Barbara LN"
   },
   {
@@ -6761,12 +6213,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "03060",
     "NAME_FIRST": "GEORGE",
     "PASSPORT_NUMBER": "60UMKWS",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Nashua",
     "PHONE_NUMBER": "603-801-0718",
     "NAME_LAST": "TIMAS",
-    "entityid": "278434963",
+    "RECORD_ID": "278434963",
     "ADDR_LINE1": "61 Desilvio DR"
   },
   {
@@ -6774,22 +6225,20 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "10023",
     "NAME_FIRST": "WILLIAM",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "New York",
     "NAME_LAST": "MONAGHAN",
-    "entityid": "288978455",
+    "RECORD_ID": "288978455",
     "ADDR_LINE1": "106 WestEnd AVENUE"
   },
   {
     "DATE_OF_BIRTH": "10/3/1943",
     "ADDR_POSTAL_CODE": "38127",
     "NAME_FIRST": "J",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Memphis",
     "NAME_LAST": "OESTMANN",
-    "entityid": "239293777",
+    "RECORD_ID": "239293777",
     "ADDR_LINE1": "2324 Arlene AVE"
   },
   {
@@ -6797,23 +6246,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "IN",
     "ADDR_POSTAL_CODE": "46224",
     "NAME_FIRST": "F",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Indianapolis",
     "PHONE_NUMBER": "219-632-1492",
     "NAME_LAST": "MCGINNIS",
-    "entityid": "274518213",
+    "RECORD_ID": "274518213",
     "ADDR_LINE1": "6538  ST"
   },
   {
     "ADDR_STATE": "IN",
     "ADDR_POSTAL_CODE": "46562",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "PiercetOon",
     "PHONE_NUMBER": "574-529-0215",
     "NAME_LAST": "THOMAS",
-    "entityid": "242469331",
+    "RECORD_ID": "242469331",
     "ADDR_LINE1": "376 2Hd "
   },
   {
@@ -6821,23 +6268,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "92631",
     "NAME_FIRST": "JUDY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Mission Viejo",
     "PHONE_NUMBER": "714-620-8619",
     "NAME_LAST": "THOMPSON",
-    "entityid": "215074365",
+    "RECORD_ID": "215074365",
     "ADDR_LINE1": "25464  ST"
   },
   {
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "12563",
     "NAME_FIRST": "TERRY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "PHONE_NUMBER": "718-237-7034",
     "NAME_LAST": "NELMS",
-    "entityid": "260348811",
+    "RECORD_ID": "260348811",
     "ADDR_LINE1": "303 Fireside "
   },
   {
@@ -6845,35 +6290,32 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "35971",
     "NAME_FIRST": "ROEVBRT",
     "PASSPORT_NUMBER": "W66736O",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Fyffe",
     "PHONE_NUMBER": "251-688-4778",
     "NAME_LAST": "HOLMES",
-    "entityid": "308630285",
+    "RECORD_ID": "308630285",
     "ADDR_LINE1": "77 aBileyChapel RD"
   },
   {
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "62269",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "O Fallon",
     "PHONE_NUMBER": "847-839-3923",
     "NAME_LAST": "YU",
-    "entityid": "320194859",
+    "RECORD_ID": "320194859",
     "ADDR_LINE1": "314 Adams ST"
   },
   {
     "ADDR_POSTAL_CODE": "92044",
     "NAME_FIRST": "MERUCEDES",
     "PASSPORT_NUMBER": "79L0BCME",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "San Bernardino",
     "PHONE_NUMBER": "415-368-2787",
     "NAME_LAST": "GARCIA",
-    "entityid": "54489861",
+    "RECORD_ID": "54489861",
     "ADDR_LINE1": "36854 27th ST"
   },
   {
@@ -6881,12 +6323,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "NY",
     "ADDR_POSTAL_CODE": "11211",
     "NAME_FIRST": "SHARON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Brooklyn",
     "PHONE_NUMBER": "718-367-6515",
     "NAME_LAST": "BRELAND",
-    "entityid": "145033203",
+    "RECORD_ID": "145033203",
     "ADDR_LINE1": "656 t8h ST"
   },
   {
@@ -6894,12 +6335,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "96720",
     "NAME_FIRST": "ROSEMARY",
     "PASSPORT_NUMBER": "CSCYIK7QYQ",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Hilo",
     "PHONE_NUMBER": "676-9989",
     "NAME_LAST": "L",
-    "entityid": "306545426",
+    "RECORD_ID": "306545426",
     "ADDR_LINE1": "000 ATiVnako AVE"
   },
   {
@@ -6907,12 +6347,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "PA",
     "NAME_FIRST": "ANDREW",
     "PASSPORT_NUMBER": "DD90CU",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Feasterville Trevose",
     "PHONE_NUMBER": "790-4856",
     "NAME_LAST": "P",
-    "entityid": "209075432",
+    "RECORD_ID": "209075432",
     "ADDR_LINE1": "1448 Boundbrook AVE"
   },
   {
@@ -6920,10 +6359,9 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "023151",
     "NAME_FIRST": "ARTHUR",
     "PASSPORT_NUMBER": "C7VT3BY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "NAME_LAST": "VANOVER",
-    "entityid": "282442892",
+    "RECORD_ID": "282442892",
     "ADDR_LINE1": "44 Bates ST"
   },
   {
@@ -6931,11 +6369,10 @@ const senzingPeopleList = [
     "ADDR_STATE": "MD",
     "ADDR_POSTAL_CODE": "21613",
     "NAME_FIRST": "WALTER",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Cambridge",
     "NAME_LAST": "GONZALES",
-    "entityid": "315340864",
+    "RECORD_ID": "315340864",
     "ADDR_LINE1": "5882 BlueWater DR"
   },
   {
@@ -6944,12 +6381,11 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "34744",
     "NAME_FIRST": "HELENE",
     "PASSPORT_NUMBER": "C8XI4R42SW",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Kissimmee",
     "PHONE_NUMBER": "671-2032",
     "NAME_LAST": "Z",
-    "entityid": "307665517",
+    "RECORD_ID": "307665517",
     "ADDR_LINE1": "2346 Brack ST"
   },
   {
@@ -6957,23 +6393,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "TX",
     "ADDR_POSTAL_CODE": "77029",
     "PASSPORT_NUMBER": "0DX4IZ8",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Houston",
     "PHONE_NUMBER": "915-633-3211",
     "NAME_LAST": "JACOBS",
-    "entityid": "323045523",
+    "RECORD_ID": "323045523",
     "ADDR_LINE1": "11074 Akron ST"
   },
   {
     "ADDR_STATE": "AL",
     "ADDR_POSTAL_CODE": "352146",
     "NAME_FIRST": "CONAIE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Birmingham",
     "NAME_LAST": "GONZALEZ",
-    "entityid": "221202016",
+    "RECORD_ID": "221202016",
     "ADDR_LINE1": "2044 Buckhead CIR"
   },
   {
@@ -6981,12 +6415,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "Florida",
     "ADDR_POSTAL_CODE": "331073",
     "PASSPORT_NUMBER": "SR3Z8TJW",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Mimai",
     "PHONE_NUMBER": "941-8084",
     "NAME_LAST": "CLARK",
-    "entityid": "317103155",
+    "RECORD_ID": "317103155",
     "ADDR_LINE1": "6386 104th AVE"
   },
   {
@@ -6994,23 +6427,21 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "94903",
     "NAME_FIRST": "STEVEN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Sn Rafael",
     "NAME_LAST": "HAYGOOD",
-    "entityid": "302932490",
+    "RECORD_ID": "302932490",
     "ADDR_LINE1": "68 Adrian WAY"
   },
   {
     "DATE_OF_BIRTH": "18/4/1994",
     "ADDR_POSTAL_CODE": "87931",
     "NAME_FIRST": "PEARL",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Los Lunas",
     "PHONE_NUMBER": "957-239-4999",
     "NAME_LAST": "MASSA",
-    "entityid": "254418973",
+    "RECORD_ID": "254418973",
     "ADDR_LINE1": "1352 Adela "
   },
   {
@@ -7018,48 +6449,44 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "32771",
     "NAME_FIRST": "SARAH",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Sanford",
     "PHONE_NUMBER": "324-0518",
     "NAME_LAST": "GRENIRE",
-    "entityid": "251526599",
+    "RECORD_ID": "251526599",
     "ADDR_LINE1": "1460  ST"
   },
   {
     "ADDR_POSTAL_CODE": "38555",
     "NAME_FIRST": "HOWATD",
     "PASSPORT_NUMBER": "O0IN83",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Crossville",
     "PHONE_NUMBER": "931-238-1949",
     "NAME_LAST": "MORESHEAD",
-    "entityid": "260341886",
+    "RECORD_ID": "260341886",
     "ADDR_LINE1": "2736  RD"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "94015",
     "NAME_FIRST": "SMIKE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Daly City",
     "PHONE_NUMBER": "355-1539",
     "NAME_LAST": "ADAMS",
-    "entityid": "317913667",
+    "RECORD_ID": "317913667",
     "ADDR_LINE1": "9 Camelot CT"
   },
   {
     "ADDR_STATE": "GA",
     "ADDR_POSTAL_CODE": "30157",
     "NAME_FIRST": "YOLANDA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Dallas",
     "PHONE_NUMBER": "706-291-6658",
     "NAME_LAST": "BUSCHMANN",
-    "entityid": "320955570",
+    "RECORD_ID": "320955570",
     "ADDR_LINE1": "6426 4th AVE"
   },
   {
@@ -7068,9 +6495,8 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "64113",
     "NAME_FIRST": "DEVIN",
     "NAME_LAST": "RICE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "272414572",
+    "RECORD_ID": "272414572",
     "ADDR_LINE1": "15 56th TER"
   },
   {
@@ -7079,35 +6505,32 @@ const senzingPeopleList = [
     "ADDR_POSTAL_CODE": "11215",
     "NAME_FIRST": "DUNCAN",
     "PASSPORT_NUMBER": "CC5Y0QF3BO",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Brooklyn",
     "NAME_LAST": "MARTIN",
-    "entityid": "270364407",
+    "RECORD_ID": "270364407",
     "ADDR_LINE1": "391 11th AVE"
   },
   {
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "90712",
     "NAME_FIRST": "CASEY",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Lakewodo",
     "PHONE_NUMBER": "341-572-3419",
     "NAME_LAST": "WHITE",
-    "entityid": "288980590",
+    "RECORD_ID": "288980590",
     "ADDR_LINE1": "2854 Bomberry ST"
   },
   {
     "ADDR_STATE": "IL",
     "ADDR_POSTAL_CODE": "60104",
     "NAME_FIRST": "STEVE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "BBellwood",
     "PHONE_NUMBER": "677-1446",
     "NAME_LAST": "HINESLEY",
-    "entityid": "60618102",
+    "RECORD_ID": "60618102",
     "ADDR_LINE1": "250 9th AVE"
   },
   {
@@ -7116,9 +6539,8 @@ const senzingPeopleList = [
     "PASSPORT_NUMBER": "CIGQY3YT",
     "PHONE_NUMBER": "919-697-5148",
     "NAME_LAST": "JACKSON",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
-    "entityid": "42684086",
+    "RECORD_ID": "42684086",
     "ADDR_LINE1": "2728  ST"
   },
   {
@@ -7126,22 +6548,20 @@ const senzingPeopleList = [
     "ADDR_STATE": "Virginia",
     "ADDR_POSTAL_CODE": "23456",
     "NAME_FIRST": "IAN",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Virginia Beach",
     "NAME_LAST": "SNODDY",
-    "entityid": "42385441",
+    "RECORD_ID": "42385441",
     "ADDR_LINE1": "2806 Bluebill RD"
   },
   {
     "ADDR_STATE": "NC",
     "ADDR_POSTAL_CODE": "27410",
     "NAME_FIRST": "LISA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "N/A",
     "ADDR_CITY": "Greensbro",
     "NAME_LAST": "HOEFLING",
-    "entityid": "301705742",
+    "RECORD_ID": "301705742",
     "ADDR_LINE1": "4642 Bardwell RD"
   },
   {
@@ -7149,12 +6569,11 @@ const senzingPeopleList = [
     "ADDR_STATE": "FL",
     "ADDR_POSTAL_CODE": "32401",
     "NAME_FIRST": "PHILIP",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Panama City",
     "PHONE_NUMBER": "772-711-6513",
     "NAME_LAST": "ARAGON",
-    "entityid": "242300556",
+    "RECORD_ID": "242300556",
     "ADDR_LINE1": "1098 11th CT"
   },
   {
@@ -7162,24 +6581,22 @@ const senzingPeopleList = [
     "ADDR_STATE": "PA",
     "ADDR_POSTAL_CODE": "15608",
     "NAME_FIRST": "FREDIA",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "NewTKensington",
     "PHONE_NUMBER": "484-511-1723",
     "NAME_LAST": "LOGAN",
-    "entityid": "139256584",
+    "RECORD_ID": "139256584",
     "ADDR_LINE1": "568 3Qd ST"
   },
   {
     "DATE_OF_BIRTH": "20/5/1983",
     "ADDR_STATE": "CA",
     "NAME_FIRST": "BEASTICE",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "F",
     "ADDR_CITY": "Simi Valley",
     "PHONE_NUMBER": "661-351-6118",
     "NAME_LAST": "EDGERTON",
-    "entityid": "262356102",
+    "RECORD_ID": "262356102",
     "ADDR_LINE1": "6636 Bernal ST"
   },
   {
@@ -7187,13 +6604,12 @@ const senzingPeopleList = [
     "ADDR_STATE": "CA",
     "ADDR_POSTAL_CODE": "91356",
     "NAME_FIRST": "DONALD",
-    "ENTITY_TYPE": "TEST",
     "GENDER": "M",
     "ADDR_CITY": "Tarzana",
     "PHONE_NUMBER": "399-9758",
     "NAME_LAST": "ONEIL",
     "NAME_SUFFIX": "I",
-    "entityid": "301742889",
+    "RECORD_ID": "301742889",
     "ADDR_LINE1": "19030 Ashurst "
   }
 ];

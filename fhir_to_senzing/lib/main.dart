@@ -12,6 +12,7 @@ void main() async {
   // await ingestSenzingAndOutputSenzing();
   // await ingestSenzingAndOutputFhir();
   // await ingestFhirAndOutputFhir();
+  // for (var p in senzingPeopleList) {
   for (var p in shortTest) {
     final tempPatient = SenzingPerson.fromJson(p).toFhirPatient();
     if (tempPatient != null) {
