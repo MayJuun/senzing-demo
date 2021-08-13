@@ -12,7 +12,11 @@ SenzingPerson _$SenzingPersonFromFhir(Patient patient) {
         .toList()
         .map((e) => SenzingPhoneNumber.fromFhir(e))
         .toList(),
-    gender: patient.gender?.toString(),
+    gender: patient.gender == PatientGender.female
+        ? 'Female'
+        : patient.gender == PatientGender.male
+            ? 'Male'
+            : 'Other',
     dateOfBirth: patient.birthDate?.toString(),
     dateOfDeath: patient.deceasedDateTime?.toString(),
     nationality: null,
@@ -50,24 +54,62 @@ SenzingPerson _$SenzingPersonFromFhir(Patient patient) {
   );
 }
 
-Patient _$ToFhirPatient(SenzingPerson instance) => Patient(
-      id: instance.recordId == null ? null : Id(instance.recordId!),
-      name: instance.nameList?.map((e) => e.toFhirHumanName()).toList(),
-      address: instance.addressList?.map((e) => e.toFhirAddress()).toList(),
-      telecom: instance.phoneList?.map((e) => e.toFhirContactPoint()).toList(),
-      gender: instance.gender == null
-          ? null
-          : instance.gender!.toLowerCase() == 'female'
-              ? PatientGender.female
-              : instance.gender!.toLowerCase() == 'male'
-                  ? PatientGender.male
-                  : PatientGender.other,
-      birthDate:
-          instance.dateOfBirth == null ? null : Date(instance.dateOfBirth),
-      deceasedDateTime: instance.dateOfDeath == null
-          ? null
-          : FhirDateTime(instance.dateOfDeath),
-    );
+Patient _$ToFhirPatient(SenzingPerson instance) {
+  /// Get the list of names, addresses & telecoms if they exist
+  final List<HumanName> nameList = [];
+  instance.nameList?.map((e) {
+    if (e.toFhirHumanName() != null) {
+      nameList.add(e.toFhirHumanName()!);
+    }
+  });
+  final List<Address> addressList = [];
+  instance.addressList?.map((e) {
+    if (e.toFhirAddress() != null) {
+      addressList.add(e.toFhirAddress()!);
+    }
+  });
+  final List<ContactPoint> contactPointList = [];
+  instance.phoneList?.map((e) {
+    if (e.toFhirContactPoint() != null) {
+      contactPointList.add(e.toFhirContactPoint()!);
+    }
+  });
+
+  /// Get a single Name, Address or ContactPoint from SenzingPerson instance
+  if (instance.toFhirHumanNameFromInstance() != null) {
+    nameList.add(instance.toFhirHumanNameFromInstance()!);
+  }
+  if (instance.toFhirAddressFromInstance() != null) {
+    addressList.add(instance.toFhirAddressFromInstance()!);
+  }
+  if (instance.toFhirContactPointFromInstance() != null) {
+    contactPointList.add(instance.toFhirContactPointFromInstance()!);
+  }
+
+  return Patient(
+    id: instance.recordId == null ? null : Id(instance.recordId!),
+
+    /// Only include if name list is not empty
+    name: nameList.isEmpty ? null : nameList,
+
+    /// Only include if address list is not empty
+    address: addressList.isEmpty ? null : addressList,
+
+    /// Only include if ContactPoint list is not empty
+    telecom: contactPointList.isEmpty ? null : contactPointList,
+    gender: instance.gender == null
+        ? null
+        : instance.gender!.toLowerCase().contains('f')
+            ? PatientGender.female
+            : instance.gender!.toLowerCase().contains('m')
+                ? PatientGender.male
+                : PatientGender.other,
+    birthDate: instance.dateOfBirth == null ? null : Date(instance.dateOfBirth),
+    deceasedDateTime: instance.dateOfDeath == null
+        ? null
+        : FhirDateTime(instance.dateOfDeath),
+  );
+}
 
 SenzingName _$SenzingNameFromFhir(HumanName humanName) => SenzingName(
       nameType: humanName.use?.toString(),
@@ -86,22 +128,35 @@ SenzingName _$SenzingNameFromFhir(HumanName humanName) => SenzingName(
           : null,
     );
 
-HumanName _$ToFhirHumanName(SenzingName instance) {
-  final givenList = <String>[];
-  if (instance.nameFirst != null) {
-    givenList.add(instance.nameFirst!);
+HumanName? _$ToFhirHumanNameFromInstance(SenzingPerson instance) =>
+    _$ToFhirHumanName(instance);
+
+HumanName? _$ToFhirHumanName(dynamic instance) {
+  if (instance.nameFirst == null &&
+      instance.nameMiddle == null &&
+      instance.nameType == null &&
+      instance.nameFull == null &&
+      instance.nameLast == null &&
+      instance.namePrefix == null &&
+      instance.nameSuffix == null) {
+    return null;
+  } else {
+    final givenList = <String>[];
+    if (instance.nameFirst != null) {
+      givenList.add(instance.nameFirst!);
+    }
+    if (instance.nameMiddle != null) {
+      givenList.add(instance.nameMiddle!);
+    }
+    return HumanName(
+      use: _$enumDecodeNullable(_$HumanNameUseEnumMap, instance.nameType),
+      text: instance.nameFull ?? null,
+      family: instance.nameLast ?? null,
+      given: givenList.isEmpty ? null : givenList,
+      prefix: instance.namePrefix != null ? [instance.namePrefix!] : null,
+      suffix: instance.nameSuffix != null ? [instance.nameSuffix!] : null,
+    );
   }
-  if (instance.nameMiddle != null) {
-    givenList.add(instance.nameMiddle!);
-  }
-  return HumanName(
-    use: _$enumDecodeNullable(_$HumanNameUseEnumMap, instance.nameType),
-    text: instance.nameFull,
-    family: instance.nameLast,
-    given: givenList,
-    prefix: instance.namePrefix != null ? [instance.namePrefix!] : null,
-    suffix: instance.nameSuffix != null ? [instance.nameSuffix!] : null,
-  );
 }
 
 const _$HumanNameUseEnumMap = {
@@ -148,56 +203,90 @@ SenzingAddress _$SenzingAddressFromFhir(Address address) => SenzingAddress(
       addrState: address.state,
       addrPostalCode: address.postalCode,
       addrCountry: address.country,
-      addrFromDate: address.period?.start.toString(),
-      addrThruDate: address.period?.end.toString(),
+      addrFromDate: address.period?.start?.toString(),
+      addrThruDate: address.period?.end?.toString(),
     );
 
-Address _$ToFhirAddress(SenzingAddress instance) {
-  final lineList = [];
-  for (var addrLine in [
-    instance.addrLine1,
-    instance.addrLine2,
-    instance.addrLine3,
-    instance.addrLine4,
-    instance.addrLine5,
-    instance.addrLine6,
-  ]) {
-    if (addrLine != null) {
-      lineList.add(addrLine);
+Address? _$ToFhirAddressFromInstance(SenzingPerson instance) =>
+    _$ToFhirAddress(instance);
+
+Address? _$ToFhirAddress(dynamic instance) {
+  if (instance.addrLine1 == null &&
+      instance.addrLine2 == null &&
+      instance.addrLine3 == null &&
+      instance.addrLine4 == null &&
+      instance.addrLine5 == null &&
+      instance.addrLine6 == null &&
+      instance.addrType == null &&
+      instance.addrFull == null &&
+      instance.addrCity == null &&
+      instance.addrState == null &&
+      instance.addrPostalCode == null &&
+      instance.addrCountry == null &&
+      instance.addrFromDate == null &&
+      instance.addrThruDate == null) {
+    return null;
+  } else {
+    final lineList = [];
+    for (var addrLine in [
+      instance.addrLine1,
+      instance.addrLine2,
+      instance.addrLine3,
+      instance.addrLine4,
+      instance.addrLine5,
+      instance.addrLine6,
+    ]) {
+      if (addrLine != null) {
+        lineList.add(addrLine);
+      }
     }
+    return Address.fromJson({
+      'use': instance.addrType ?? null,
+      'text': instance.addrFull ?? null,
+      'line': lineList,
+      'city': instance.addrCity ?? null,
+      'state': instance.addrState ?? null,
+      'postalCode': instance.addrPostalCode ?? null,
+      'country': instance.addrCountry ?? null,
+      'period': instance.addrFromDate == null && instance.addrThruDate == null
+          ? null
+          : {
+              'start': instance.addrFromDate ?? null,
+              'end': instance.addrThruDate ?? null,
+            }
+    });
   }
-  return Address.fromJson({
-    'use': instance.addrType,
-    'text': instance.addrFull,
-    'line': lineList,
-    'city': instance.addrCity,
-    'state': instance.addrState,
-    'postalCode': instance.addrPostalCode,
-    'country': instance.addrCountry,
-    'period': {
-      'start': instance.addrFromDate,
-      'end': instance.addrThruDate,
-    }
-  });
 }
 
 SenzingPhoneNumber _$SenzingPhoneNumberFromFhir(ContactPoint contactPoint) =>
     SenzingPhoneNumber(
-      phoneType: contactPoint.use.toString(),
+      phoneType: contactPoint.use?.toString(),
       phoneNumber: contactPoint.value,
-      phoneFromDate: contactPoint.period?.start.toString(),
-      phoneThruDate: contactPoint.period?.end.toString(),
+      phoneFromDate: contactPoint.period?.start?.toString(),
+      phoneThruDate: contactPoint.period?.end?.toString(),
     );
 
-ContactPoint _$ToFhirContactPoint(SenzingPhoneNumber instance) =>
-    ContactPoint.fromJson({
-      'use': instance.phoneType,
-      'value': instance.phoneNumber,
-      'period': {
-        'start': instance.phoneFromDate,
-        'end': instance.phoneThruDate,
-      }
-    });
+ContactPoint? _$ToFhirContactPointFromInstance(SenzingPerson instance) =>
+    _$ToFhirContactPoint(instance);
+
+ContactPoint? _$ToFhirContactPoint(dynamic instance) =>
+    instance.phoneType == null &&
+            instance.phoneNumber == null &&
+            instance.phoneFromDate == null &&
+            instance.phoneThruDate == null
+        ? null
+        : ContactPoint.fromJson({
+            'system': 'phone',
+            'use': instance.phoneType ?? null,
+            'value': instance.phoneNumber ?? null,
+            'period':
+                instance.phoneFromDate == null && instance.phoneThruDate == null
+                    ? null
+                    : {
+                        'start': instance.phoneFromDate ?? null,
+                        'end': instance.phoneThruDate ?? null,
+                      }
+          });
 
 K _$enumDecode<K, V>(
   Map<K, V> enumValues,

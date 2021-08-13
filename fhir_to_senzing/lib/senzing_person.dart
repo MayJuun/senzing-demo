@@ -7,6 +7,8 @@ part 'senzing_person.freezed.dart';
 part 'senzing_person.g.dart';
 part 'senzing_person.fhir.dart';
 
+/// Immutable freezed class representing the json serialization/deserialization
+/// of a Person in Senzing (not all fields currently available)
 @freezed
 class SenzingPerson with _$SenzingPerson {
   SenzingPerson._();
@@ -15,8 +17,34 @@ class SenzingPerson with _$SenzingPerson {
     @JsonKey(name: 'DATA_SOURCE') String? dataSource,
     @JsonKey(name: 'RECORD_ID') String? recordId,
     @JsonKey(name: 'NAME_LIST') List<SenzingName>? nameList,
+    @JsonKey(name: 'NAME_TYPE') String? nameType,
+    @JsonKey(name: 'NAME_FULL') String? nameFull,
+    @JsonKey(name: 'NAME_ORG') String? nameOrg,
+    @JsonKey(name: 'NAME_LAST') String? nameLast,
+    @JsonKey(name: 'NAME_FIRST') String? nameFirst,
+    @JsonKey(name: 'NAME_MIDDLE') String? nameMiddle,
+    @JsonKey(name: 'NAME_PREFIX') String? namePrefix,
+    @JsonKey(name: 'NAME_SUFFIX') String? nameSuffix,
     @JsonKey(name: 'ADDRESS_LIST') List<SenzingAddress>? addressList,
+    @JsonKey(name: 'ADDR_TYPE') String? addrType,
+    @JsonKey(name: 'ADDR_FULL') String? addrFull,
+    @JsonKey(name: 'ADDR_LINE1') String? addrLine1,
+    @JsonKey(name: 'ADDR_LINE2') String? addrLine2,
+    @JsonKey(name: 'ADDR_LINE3') String? addrLine3,
+    @JsonKey(name: 'ADDR_LINE4') String? addrLine4,
+    @JsonKey(name: 'ADDR_LINE5') String? addrLine5,
+    @JsonKey(name: 'ADDR_LINE6') String? addrLine6,
+    @JsonKey(name: 'ADDR_CITY') String? addrCity,
+    @JsonKey(name: 'ADDR_STATE') String? addrState,
+    @JsonKey(name: 'ADDR_POSTAL_CODE') String? addrPostalCode,
+    @JsonKey(name: 'ADDR_COUNTRY') String? addrCountry,
+    @JsonKey(name: 'ADDR_FROM_DATE') String? addrFromDate,
+    @JsonKey(name: 'ADDR_THRU_DATE') String? addrThruDate,
     @JsonKey(name: 'PHONE_LIST') List<SenzingPhoneNumber>? phoneList,
+    @JsonKey(name: 'PHONE_TYPE') String? phoneType,
+    @JsonKey(name: 'PHONE_NUMBER') String? phoneNumber,
+    @JsonKey(name: 'PHONE_FROM_DATE') String? phoneFromDate,
+    @JsonKey(name: 'PHONE_THRU_DATE') String? phoneThruDate,
     @JsonKey(name: 'GENDER') String? gender,
     @JsonKey(name: 'DATE_OF_BIRTH') String? dateOfBirth,
     @JsonKey(name: 'DATE_OF_DEATH') String? dateOfDeath,
@@ -54,13 +82,33 @@ class SenzingPerson with _$SenzingPerson {
     @JsonKey(name: 'entityid') String? entityid,
   }) = _SenzingPerson;
 
+  /// Constructor for creating a Senzing person from a json Map
   factory SenzingPerson.fromJson(Map<String, dynamic> json) =>
       _$SenzingPersonFromJson(json);
 
+  /// Constructor for creating a Senzing person from a FHIR Patient
   factory SenzingPerson.fromFhir(Patient patient) =>
       _$SenzingPersonFromFhir(patient);
 
-  Patient toFhirPatient() => _$ToFhirPatient(this);
+  /// Method to create a FHIR Patient from this instance of a Senzing Person
+  Patient? toFhirPatient() => _$ToFhirPatient(this);
+
+  /// Method to Create a single HumanName from this instance of a Senzing
+  /// Person (note, this is not the method that returns a list of HumanNames
+  /// if they exist, that is done in the SenzingName Class)
+  HumanName? toFhirHumanNameFromInstance() =>
+      _$ToFhirHumanNameFromInstance(this);
+
+  /// Method to Create a single Address from this instance of a Senzing
+  /// Person (note, this is not the method that returns a list of Addresses
+  /// if they exist, that is done in the SenzingAddress Class)
+  Address? toFhirAddressFromInstance() => _$ToFhirAddressFromInstance(this);
+
+  /// Method to Create a single ContactPoint from this instance of a Senzing
+  /// Person (note, this is not the method that returns a list of ContactPoints
+  /// if they exist, that is done in the SenzingPhoneNumber Class)
+  ContactPoint? toFhirContactPointFromInstance() =>
+      _$ToFhirContactPointFromInstance(this);
 }
 
 @freezed
@@ -84,7 +132,7 @@ class SenzingName with _$SenzingName {
   factory SenzingName.fromFhir(HumanName humanName) =>
       _$SenzingNameFromFhir(humanName);
 
-  HumanName toFhirHumanName() => _$ToFhirHumanName(this);
+  HumanName? toFhirHumanName() => _$ToFhirHumanName(this);
 }
 
 @freezed
@@ -114,7 +162,7 @@ class SenzingAddress with _$SenzingAddress {
   factory SenzingAddress.fromFhir(Address address) =>
       _$SenzingAddressFromFhir(address);
 
-  Address toFhirAddress() => _$ToFhirAddress(this);
+  Address? toFhirAddress() => _$ToFhirAddress(this);
 }
 
 @freezed
@@ -134,5 +182,5 @@ class SenzingPhoneNumber with _$SenzingPhoneNumber {
   factory SenzingPhoneNumber.fromFhir(ContactPoint contactPoint) =>
       _$SenzingPhoneNumberFromFhir(contactPoint);
 
-  ContactPoint toFhirContactPoint() => _$ToFhirContactPoint(this);
+  ContactPoint? toFhirContactPoint() => _$ToFhirContactPoint(this);
 }

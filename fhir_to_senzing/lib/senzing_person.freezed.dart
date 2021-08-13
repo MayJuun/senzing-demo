@@ -24,8 +24,34 @@ class _$SenzingPersonTearOff {
       {@JsonKey(name: 'DATA_SOURCE') String? dataSource,
       @JsonKey(name: 'RECORD_ID') String? recordId,
       @JsonKey(name: 'NAME_LIST') List<SenzingName>? nameList,
+      @JsonKey(name: 'NAME_TYPE') String? nameType,
+      @JsonKey(name: 'NAME_FULL') String? nameFull,
+      @JsonKey(name: 'NAME_ORG') String? nameOrg,
+      @JsonKey(name: 'NAME_LAST') String? nameLast,
+      @JsonKey(name: 'NAME_FIRST') String? nameFirst,
+      @JsonKey(name: 'NAME_MIDDLE') String? nameMiddle,
+      @JsonKey(name: 'NAME_PREFIX') String? namePrefix,
+      @JsonKey(name: 'NAME_SUFFIX') String? nameSuffix,
       @JsonKey(name: 'ADDRESS_LIST') List<SenzingAddress>? addressList,
+      @JsonKey(name: 'ADDR_TYPE') String? addrType,
+      @JsonKey(name: 'ADDR_FULL') String? addrFull,
+      @JsonKey(name: 'ADDR_LINE1') String? addrLine1,
+      @JsonKey(name: 'ADDR_LINE2') String? addrLine2,
+      @JsonKey(name: 'ADDR_LINE3') String? addrLine3,
+      @JsonKey(name: 'ADDR_LINE4') String? addrLine4,
+      @JsonKey(name: 'ADDR_LINE5') String? addrLine5,
+      @JsonKey(name: 'ADDR_LINE6') String? addrLine6,
+      @JsonKey(name: 'ADDR_CITY') String? addrCity,
+      @JsonKey(name: 'ADDR_STATE') String? addrState,
+      @JsonKey(name: 'ADDR_POSTAL_CODE') String? addrPostalCode,
+      @JsonKey(name: 'ADDR_COUNTRY') String? addrCountry,
+      @JsonKey(name: 'ADDR_FROM_DATE') String? addrFromDate,
+      @JsonKey(name: 'ADDR_THRU_DATE') String? addrThruDate,
       @JsonKey(name: 'PHONE_LIST') List<SenzingPhoneNumber>? phoneList,
+      @JsonKey(name: 'PHONE_TYPE') String? phoneType,
+      @JsonKey(name: 'PHONE_NUMBER') String? phoneNumber,
+      @JsonKey(name: 'PHONE_FROM_DATE') String? phoneFromDate,
+      @JsonKey(name: 'PHONE_THRU_DATE') String? phoneThruDate,
       @JsonKey(name: 'GENDER') String? gender,
       @JsonKey(name: 'DATE_OF_BIRTH') String? dateOfBirth,
       @JsonKey(name: 'DATE_OF_DEATH') String? dateOfDeath,
@@ -65,8 +91,34 @@ class _$SenzingPersonTearOff {
       dataSource: dataSource,
       recordId: recordId,
       nameList: nameList,
+      nameType: nameType,
+      nameFull: nameFull,
+      nameOrg: nameOrg,
+      nameLast: nameLast,
+      nameFirst: nameFirst,
+      nameMiddle: nameMiddle,
+      namePrefix: namePrefix,
+      nameSuffix: nameSuffix,
       addressList: addressList,
+      addrType: addrType,
+      addrFull: addrFull,
+      addrLine1: addrLine1,
+      addrLine2: addrLine2,
+      addrLine3: addrLine3,
+      addrLine4: addrLine4,
+      addrLine5: addrLine5,
+      addrLine6: addrLine6,
+      addrCity: addrCity,
+      addrState: addrState,
+      addrPostalCode: addrPostalCode,
+      addrCountry: addrCountry,
+      addrFromDate: addrFromDate,
+      addrThruDate: addrThruDate,
       phoneList: phoneList,
+      phoneType: phoneType,
+      phoneNumber: phoneNumber,
+      phoneFromDate: phoneFromDate,
+      phoneThruDate: phoneThruDate,
       gender: gender,
       dateOfBirth: dateOfBirth,
       dateOfDeath: dateOfDeath,
@@ -121,10 +173,62 @@ mixin _$SenzingPerson {
   String? get recordId => throw _privateConstructorUsedError;
   @JsonKey(name: 'NAME_LIST')
   List<SenzingName>? get nameList => throw _privateConstructorUsedError;
+  @JsonKey(name: 'NAME_TYPE')
+  String? get nameType => throw _privateConstructorUsedError;
+  @JsonKey(name: 'NAME_FULL')
+  String? get nameFull => throw _privateConstructorUsedError;
+  @JsonKey(name: 'NAME_ORG')
+  String? get nameOrg => throw _privateConstructorUsedError;
+  @JsonKey(name: 'NAME_LAST')
+  String? get nameLast => throw _privateConstructorUsedError;
+  @JsonKey(name: 'NAME_FIRST')
+  String? get nameFirst => throw _privateConstructorUsedError;
+  @JsonKey(name: 'NAME_MIDDLE')
+  String? get nameMiddle => throw _privateConstructorUsedError;
+  @JsonKey(name: 'NAME_PREFIX')
+  String? get namePrefix => throw _privateConstructorUsedError;
+  @JsonKey(name: 'NAME_SUFFIX')
+  String? get nameSuffix => throw _privateConstructorUsedError;
   @JsonKey(name: 'ADDRESS_LIST')
   List<SenzingAddress>? get addressList => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_TYPE')
+  String? get addrType => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_FULL')
+  String? get addrFull => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_LINE1')
+  String? get addrLine1 => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_LINE2')
+  String? get addrLine2 => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_LINE3')
+  String? get addrLine3 => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_LINE4')
+  String? get addrLine4 => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_LINE5')
+  String? get addrLine5 => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_LINE6')
+  String? get addrLine6 => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_CITY')
+  String? get addrCity => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_STATE')
+  String? get addrState => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_POSTAL_CODE')
+  String? get addrPostalCode => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_COUNTRY')
+  String? get addrCountry => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_FROM_DATE')
+  String? get addrFromDate => throw _privateConstructorUsedError;
+  @JsonKey(name: 'ADDR_THRU_DATE')
+  String? get addrThruDate => throw _privateConstructorUsedError;
   @JsonKey(name: 'PHONE_LIST')
   List<SenzingPhoneNumber>? get phoneList => throw _privateConstructorUsedError;
+  @JsonKey(name: 'PHONE_TYPE')
+  String? get phoneType => throw _privateConstructorUsedError;
+  @JsonKey(name: 'PHONE_NUMBER')
+  String? get phoneNumber => throw _privateConstructorUsedError;
+  @JsonKey(name: 'PHONE_FROM_DATE')
+  String? get phoneFromDate => throw _privateConstructorUsedError;
+  @JsonKey(name: 'PHONE_THRU_DATE')
+  String? get phoneThruDate => throw _privateConstructorUsedError;
   @JsonKey(name: 'GENDER')
   String? get gender => throw _privateConstructorUsedError;
   @JsonKey(name: 'DATE_OF_BIRTH')
@@ -211,8 +315,34 @@ abstract class $SenzingPersonCopyWith<$Res> {
       {@JsonKey(name: 'DATA_SOURCE') String? dataSource,
       @JsonKey(name: 'RECORD_ID') String? recordId,
       @JsonKey(name: 'NAME_LIST') List<SenzingName>? nameList,
+      @JsonKey(name: 'NAME_TYPE') String? nameType,
+      @JsonKey(name: 'NAME_FULL') String? nameFull,
+      @JsonKey(name: 'NAME_ORG') String? nameOrg,
+      @JsonKey(name: 'NAME_LAST') String? nameLast,
+      @JsonKey(name: 'NAME_FIRST') String? nameFirst,
+      @JsonKey(name: 'NAME_MIDDLE') String? nameMiddle,
+      @JsonKey(name: 'NAME_PREFIX') String? namePrefix,
+      @JsonKey(name: 'NAME_SUFFIX') String? nameSuffix,
       @JsonKey(name: 'ADDRESS_LIST') List<SenzingAddress>? addressList,
+      @JsonKey(name: 'ADDR_TYPE') String? addrType,
+      @JsonKey(name: 'ADDR_FULL') String? addrFull,
+      @JsonKey(name: 'ADDR_LINE1') String? addrLine1,
+      @JsonKey(name: 'ADDR_LINE2') String? addrLine2,
+      @JsonKey(name: 'ADDR_LINE3') String? addrLine3,
+      @JsonKey(name: 'ADDR_LINE4') String? addrLine4,
+      @JsonKey(name: 'ADDR_LINE5') String? addrLine5,
+      @JsonKey(name: 'ADDR_LINE6') String? addrLine6,
+      @JsonKey(name: 'ADDR_CITY') String? addrCity,
+      @JsonKey(name: 'ADDR_STATE') String? addrState,
+      @JsonKey(name: 'ADDR_POSTAL_CODE') String? addrPostalCode,
+      @JsonKey(name: 'ADDR_COUNTRY') String? addrCountry,
+      @JsonKey(name: 'ADDR_FROM_DATE') String? addrFromDate,
+      @JsonKey(name: 'ADDR_THRU_DATE') String? addrThruDate,
       @JsonKey(name: 'PHONE_LIST') List<SenzingPhoneNumber>? phoneList,
+      @JsonKey(name: 'PHONE_TYPE') String? phoneType,
+      @JsonKey(name: 'PHONE_NUMBER') String? phoneNumber,
+      @JsonKey(name: 'PHONE_FROM_DATE') String? phoneFromDate,
+      @JsonKey(name: 'PHONE_THRU_DATE') String? phoneThruDate,
       @JsonKey(name: 'GENDER') String? gender,
       @JsonKey(name: 'DATE_OF_BIRTH') String? dateOfBirth,
       @JsonKey(name: 'DATE_OF_DEATH') String? dateOfDeath,
@@ -264,8 +394,34 @@ class _$SenzingPersonCopyWithImpl<$Res>
     Object? dataSource = freezed,
     Object? recordId = freezed,
     Object? nameList = freezed,
+    Object? nameType = freezed,
+    Object? nameFull = freezed,
+    Object? nameOrg = freezed,
+    Object? nameLast = freezed,
+    Object? nameFirst = freezed,
+    Object? nameMiddle = freezed,
+    Object? namePrefix = freezed,
+    Object? nameSuffix = freezed,
     Object? addressList = freezed,
+    Object? addrType = freezed,
+    Object? addrFull = freezed,
+    Object? addrLine1 = freezed,
+    Object? addrLine2 = freezed,
+    Object? addrLine3 = freezed,
+    Object? addrLine4 = freezed,
+    Object? addrLine5 = freezed,
+    Object? addrLine6 = freezed,
+    Object? addrCity = freezed,
+    Object? addrState = freezed,
+    Object? addrPostalCode = freezed,
+    Object? addrCountry = freezed,
+    Object? addrFromDate = freezed,
+    Object? addrThruDate = freezed,
     Object? phoneList = freezed,
+    Object? phoneType = freezed,
+    Object? phoneNumber = freezed,
+    Object? phoneFromDate = freezed,
+    Object? phoneThruDate = freezed,
     Object? gender = freezed,
     Object? dateOfBirth = freezed,
     Object? dateOfDeath = freezed,
@@ -315,14 +471,118 @@ class _$SenzingPersonCopyWithImpl<$Res>
           ? _value.nameList
           : nameList // ignore: cast_nullable_to_non_nullable
               as List<SenzingName>?,
+      nameType: nameType == freezed
+          ? _value.nameType
+          : nameType // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameFull: nameFull == freezed
+          ? _value.nameFull
+          : nameFull // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameOrg: nameOrg == freezed
+          ? _value.nameOrg
+          : nameOrg // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameLast: nameLast == freezed
+          ? _value.nameLast
+          : nameLast // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameFirst: nameFirst == freezed
+          ? _value.nameFirst
+          : nameFirst // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameMiddle: nameMiddle == freezed
+          ? _value.nameMiddle
+          : nameMiddle // ignore: cast_nullable_to_non_nullable
+              as String?,
+      namePrefix: namePrefix == freezed
+          ? _value.namePrefix
+          : namePrefix // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameSuffix: nameSuffix == freezed
+          ? _value.nameSuffix
+          : nameSuffix // ignore: cast_nullable_to_non_nullable
+              as String?,
       addressList: addressList == freezed
           ? _value.addressList
           : addressList // ignore: cast_nullable_to_non_nullable
               as List<SenzingAddress>?,
+      addrType: addrType == freezed
+          ? _value.addrType
+          : addrType // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrFull: addrFull == freezed
+          ? _value.addrFull
+          : addrFull // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine1: addrLine1 == freezed
+          ? _value.addrLine1
+          : addrLine1 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine2: addrLine2 == freezed
+          ? _value.addrLine2
+          : addrLine2 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine3: addrLine3 == freezed
+          ? _value.addrLine3
+          : addrLine3 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine4: addrLine4 == freezed
+          ? _value.addrLine4
+          : addrLine4 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine5: addrLine5 == freezed
+          ? _value.addrLine5
+          : addrLine5 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine6: addrLine6 == freezed
+          ? _value.addrLine6
+          : addrLine6 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrCity: addrCity == freezed
+          ? _value.addrCity
+          : addrCity // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrState: addrState == freezed
+          ? _value.addrState
+          : addrState // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrPostalCode: addrPostalCode == freezed
+          ? _value.addrPostalCode
+          : addrPostalCode // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrCountry: addrCountry == freezed
+          ? _value.addrCountry
+          : addrCountry // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrFromDate: addrFromDate == freezed
+          ? _value.addrFromDate
+          : addrFromDate // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrThruDate: addrThruDate == freezed
+          ? _value.addrThruDate
+          : addrThruDate // ignore: cast_nullable_to_non_nullable
+              as String?,
       phoneList: phoneList == freezed
           ? _value.phoneList
           : phoneList // ignore: cast_nullable_to_non_nullable
               as List<SenzingPhoneNumber>?,
+      phoneType: phoneType == freezed
+          ? _value.phoneType
+          : phoneType // ignore: cast_nullable_to_non_nullable
+              as String?,
+      phoneNumber: phoneNumber == freezed
+          ? _value.phoneNumber
+          : phoneNumber // ignore: cast_nullable_to_non_nullable
+              as String?,
+      phoneFromDate: phoneFromDate == freezed
+          ? _value.phoneFromDate
+          : phoneFromDate // ignore: cast_nullable_to_non_nullable
+              as String?,
+      phoneThruDate: phoneThruDate == freezed
+          ? _value.phoneThruDate
+          : phoneThruDate // ignore: cast_nullable_to_non_nullable
+              as String?,
       gender: gender == freezed
           ? _value.gender
           : gender // ignore: cast_nullable_to_non_nullable
@@ -478,8 +738,34 @@ abstract class _$SenzingPersonCopyWith<$Res>
       {@JsonKey(name: 'DATA_SOURCE') String? dataSource,
       @JsonKey(name: 'RECORD_ID') String? recordId,
       @JsonKey(name: 'NAME_LIST') List<SenzingName>? nameList,
+      @JsonKey(name: 'NAME_TYPE') String? nameType,
+      @JsonKey(name: 'NAME_FULL') String? nameFull,
+      @JsonKey(name: 'NAME_ORG') String? nameOrg,
+      @JsonKey(name: 'NAME_LAST') String? nameLast,
+      @JsonKey(name: 'NAME_FIRST') String? nameFirst,
+      @JsonKey(name: 'NAME_MIDDLE') String? nameMiddle,
+      @JsonKey(name: 'NAME_PREFIX') String? namePrefix,
+      @JsonKey(name: 'NAME_SUFFIX') String? nameSuffix,
       @JsonKey(name: 'ADDRESS_LIST') List<SenzingAddress>? addressList,
+      @JsonKey(name: 'ADDR_TYPE') String? addrType,
+      @JsonKey(name: 'ADDR_FULL') String? addrFull,
+      @JsonKey(name: 'ADDR_LINE1') String? addrLine1,
+      @JsonKey(name: 'ADDR_LINE2') String? addrLine2,
+      @JsonKey(name: 'ADDR_LINE3') String? addrLine3,
+      @JsonKey(name: 'ADDR_LINE4') String? addrLine4,
+      @JsonKey(name: 'ADDR_LINE5') String? addrLine5,
+      @JsonKey(name: 'ADDR_LINE6') String? addrLine6,
+      @JsonKey(name: 'ADDR_CITY') String? addrCity,
+      @JsonKey(name: 'ADDR_STATE') String? addrState,
+      @JsonKey(name: 'ADDR_POSTAL_CODE') String? addrPostalCode,
+      @JsonKey(name: 'ADDR_COUNTRY') String? addrCountry,
+      @JsonKey(name: 'ADDR_FROM_DATE') String? addrFromDate,
+      @JsonKey(name: 'ADDR_THRU_DATE') String? addrThruDate,
       @JsonKey(name: 'PHONE_LIST') List<SenzingPhoneNumber>? phoneList,
+      @JsonKey(name: 'PHONE_TYPE') String? phoneType,
+      @JsonKey(name: 'PHONE_NUMBER') String? phoneNumber,
+      @JsonKey(name: 'PHONE_FROM_DATE') String? phoneFromDate,
+      @JsonKey(name: 'PHONE_THRU_DATE') String? phoneThruDate,
       @JsonKey(name: 'GENDER') String? gender,
       @JsonKey(name: 'DATE_OF_BIRTH') String? dateOfBirth,
       @JsonKey(name: 'DATE_OF_DEATH') String? dateOfDeath,
@@ -533,8 +819,34 @@ class __$SenzingPersonCopyWithImpl<$Res>
     Object? dataSource = freezed,
     Object? recordId = freezed,
     Object? nameList = freezed,
+    Object? nameType = freezed,
+    Object? nameFull = freezed,
+    Object? nameOrg = freezed,
+    Object? nameLast = freezed,
+    Object? nameFirst = freezed,
+    Object? nameMiddle = freezed,
+    Object? namePrefix = freezed,
+    Object? nameSuffix = freezed,
     Object? addressList = freezed,
+    Object? addrType = freezed,
+    Object? addrFull = freezed,
+    Object? addrLine1 = freezed,
+    Object? addrLine2 = freezed,
+    Object? addrLine3 = freezed,
+    Object? addrLine4 = freezed,
+    Object? addrLine5 = freezed,
+    Object? addrLine6 = freezed,
+    Object? addrCity = freezed,
+    Object? addrState = freezed,
+    Object? addrPostalCode = freezed,
+    Object? addrCountry = freezed,
+    Object? addrFromDate = freezed,
+    Object? addrThruDate = freezed,
     Object? phoneList = freezed,
+    Object? phoneType = freezed,
+    Object? phoneNumber = freezed,
+    Object? phoneFromDate = freezed,
+    Object? phoneThruDate = freezed,
     Object? gender = freezed,
     Object? dateOfBirth = freezed,
     Object? dateOfDeath = freezed,
@@ -584,14 +896,118 @@ class __$SenzingPersonCopyWithImpl<$Res>
           ? _value.nameList
           : nameList // ignore: cast_nullable_to_non_nullable
               as List<SenzingName>?,
+      nameType: nameType == freezed
+          ? _value.nameType
+          : nameType // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameFull: nameFull == freezed
+          ? _value.nameFull
+          : nameFull // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameOrg: nameOrg == freezed
+          ? _value.nameOrg
+          : nameOrg // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameLast: nameLast == freezed
+          ? _value.nameLast
+          : nameLast // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameFirst: nameFirst == freezed
+          ? _value.nameFirst
+          : nameFirst // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameMiddle: nameMiddle == freezed
+          ? _value.nameMiddle
+          : nameMiddle // ignore: cast_nullable_to_non_nullable
+              as String?,
+      namePrefix: namePrefix == freezed
+          ? _value.namePrefix
+          : namePrefix // ignore: cast_nullable_to_non_nullable
+              as String?,
+      nameSuffix: nameSuffix == freezed
+          ? _value.nameSuffix
+          : nameSuffix // ignore: cast_nullable_to_non_nullable
+              as String?,
       addressList: addressList == freezed
           ? _value.addressList
           : addressList // ignore: cast_nullable_to_non_nullable
               as List<SenzingAddress>?,
+      addrType: addrType == freezed
+          ? _value.addrType
+          : addrType // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrFull: addrFull == freezed
+          ? _value.addrFull
+          : addrFull // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine1: addrLine1 == freezed
+          ? _value.addrLine1
+          : addrLine1 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine2: addrLine2 == freezed
+          ? _value.addrLine2
+          : addrLine2 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine3: addrLine3 == freezed
+          ? _value.addrLine3
+          : addrLine3 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine4: addrLine4 == freezed
+          ? _value.addrLine4
+          : addrLine4 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine5: addrLine5 == freezed
+          ? _value.addrLine5
+          : addrLine5 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrLine6: addrLine6 == freezed
+          ? _value.addrLine6
+          : addrLine6 // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrCity: addrCity == freezed
+          ? _value.addrCity
+          : addrCity // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrState: addrState == freezed
+          ? _value.addrState
+          : addrState // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrPostalCode: addrPostalCode == freezed
+          ? _value.addrPostalCode
+          : addrPostalCode // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrCountry: addrCountry == freezed
+          ? _value.addrCountry
+          : addrCountry // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrFromDate: addrFromDate == freezed
+          ? _value.addrFromDate
+          : addrFromDate // ignore: cast_nullable_to_non_nullable
+              as String?,
+      addrThruDate: addrThruDate == freezed
+          ? _value.addrThruDate
+          : addrThruDate // ignore: cast_nullable_to_non_nullable
+              as String?,
       phoneList: phoneList == freezed
           ? _value.phoneList
           : phoneList // ignore: cast_nullable_to_non_nullable
               as List<SenzingPhoneNumber>?,
+      phoneType: phoneType == freezed
+          ? _value.phoneType
+          : phoneType // ignore: cast_nullable_to_non_nullable
+              as String?,
+      phoneNumber: phoneNumber == freezed
+          ? _value.phoneNumber
+          : phoneNumber // ignore: cast_nullable_to_non_nullable
+              as String?,
+      phoneFromDate: phoneFromDate == freezed
+          ? _value.phoneFromDate
+          : phoneFromDate // ignore: cast_nullable_to_non_nullable
+              as String?,
+      phoneThruDate: phoneThruDate == freezed
+          ? _value.phoneThruDate
+          : phoneThruDate // ignore: cast_nullable_to_non_nullable
+              as String?,
       gender: gender == freezed
           ? _value.gender
           : gender // ignore: cast_nullable_to_non_nullable
@@ -743,8 +1159,34 @@ class _$_SenzingPerson extends _SenzingPerson {
       {@JsonKey(name: 'DATA_SOURCE') this.dataSource,
       @JsonKey(name: 'RECORD_ID') this.recordId,
       @JsonKey(name: 'NAME_LIST') this.nameList,
+      @JsonKey(name: 'NAME_TYPE') this.nameType,
+      @JsonKey(name: 'NAME_FULL') this.nameFull,
+      @JsonKey(name: 'NAME_ORG') this.nameOrg,
+      @JsonKey(name: 'NAME_LAST') this.nameLast,
+      @JsonKey(name: 'NAME_FIRST') this.nameFirst,
+      @JsonKey(name: 'NAME_MIDDLE') this.nameMiddle,
+      @JsonKey(name: 'NAME_PREFIX') this.namePrefix,
+      @JsonKey(name: 'NAME_SUFFIX') this.nameSuffix,
       @JsonKey(name: 'ADDRESS_LIST') this.addressList,
+      @JsonKey(name: 'ADDR_TYPE') this.addrType,
+      @JsonKey(name: 'ADDR_FULL') this.addrFull,
+      @JsonKey(name: 'ADDR_LINE1') this.addrLine1,
+      @JsonKey(name: 'ADDR_LINE2') this.addrLine2,
+      @JsonKey(name: 'ADDR_LINE3') this.addrLine3,
+      @JsonKey(name: 'ADDR_LINE4') this.addrLine4,
+      @JsonKey(name: 'ADDR_LINE5') this.addrLine5,
+      @JsonKey(name: 'ADDR_LINE6') this.addrLine6,
+      @JsonKey(name: 'ADDR_CITY') this.addrCity,
+      @JsonKey(name: 'ADDR_STATE') this.addrState,
+      @JsonKey(name: 'ADDR_POSTAL_CODE') this.addrPostalCode,
+      @JsonKey(name: 'ADDR_COUNTRY') this.addrCountry,
+      @JsonKey(name: 'ADDR_FROM_DATE') this.addrFromDate,
+      @JsonKey(name: 'ADDR_THRU_DATE') this.addrThruDate,
       @JsonKey(name: 'PHONE_LIST') this.phoneList,
+      @JsonKey(name: 'PHONE_TYPE') this.phoneType,
+      @JsonKey(name: 'PHONE_NUMBER') this.phoneNumber,
+      @JsonKey(name: 'PHONE_FROM_DATE') this.phoneFromDate,
+      @JsonKey(name: 'PHONE_THRU_DATE') this.phoneThruDate,
       @JsonKey(name: 'GENDER') this.gender,
       @JsonKey(name: 'DATE_OF_BIRTH') this.dateOfBirth,
       @JsonKey(name: 'DATE_OF_DEATH') this.dateOfDeath,
@@ -795,11 +1237,89 @@ class _$_SenzingPerson extends _SenzingPerson {
   @JsonKey(name: 'NAME_LIST')
   final List<SenzingName>? nameList;
   @override
+  @JsonKey(name: 'NAME_TYPE')
+  final String? nameType;
+  @override
+  @JsonKey(name: 'NAME_FULL')
+  final String? nameFull;
+  @override
+  @JsonKey(name: 'NAME_ORG')
+  final String? nameOrg;
+  @override
+  @JsonKey(name: 'NAME_LAST')
+  final String? nameLast;
+  @override
+  @JsonKey(name: 'NAME_FIRST')
+  final String? nameFirst;
+  @override
+  @JsonKey(name: 'NAME_MIDDLE')
+  final String? nameMiddle;
+  @override
+  @JsonKey(name: 'NAME_PREFIX')
+  final String? namePrefix;
+  @override
+  @JsonKey(name: 'NAME_SUFFIX')
+  final String? nameSuffix;
+  @override
   @JsonKey(name: 'ADDRESS_LIST')
   final List<SenzingAddress>? addressList;
   @override
+  @JsonKey(name: 'ADDR_TYPE')
+  final String? addrType;
+  @override
+  @JsonKey(name: 'ADDR_FULL')
+  final String? addrFull;
+  @override
+  @JsonKey(name: 'ADDR_LINE1')
+  final String? addrLine1;
+  @override
+  @JsonKey(name: 'ADDR_LINE2')
+  final String? addrLine2;
+  @override
+  @JsonKey(name: 'ADDR_LINE3')
+  final String? addrLine3;
+  @override
+  @JsonKey(name: 'ADDR_LINE4')
+  final String? addrLine4;
+  @override
+  @JsonKey(name: 'ADDR_LINE5')
+  final String? addrLine5;
+  @override
+  @JsonKey(name: 'ADDR_LINE6')
+  final String? addrLine6;
+  @override
+  @JsonKey(name: 'ADDR_CITY')
+  final String? addrCity;
+  @override
+  @JsonKey(name: 'ADDR_STATE')
+  final String? addrState;
+  @override
+  @JsonKey(name: 'ADDR_POSTAL_CODE')
+  final String? addrPostalCode;
+  @override
+  @JsonKey(name: 'ADDR_COUNTRY')
+  final String? addrCountry;
+  @override
+  @JsonKey(name: 'ADDR_FROM_DATE')
+  final String? addrFromDate;
+  @override
+  @JsonKey(name: 'ADDR_THRU_DATE')
+  final String? addrThruDate;
+  @override
   @JsonKey(name: 'PHONE_LIST')
   final List<SenzingPhoneNumber>? phoneList;
+  @override
+  @JsonKey(name: 'PHONE_TYPE')
+  final String? phoneType;
+  @override
+  @JsonKey(name: 'PHONE_NUMBER')
+  final String? phoneNumber;
+  @override
+  @JsonKey(name: 'PHONE_FROM_DATE')
+  final String? phoneFromDate;
+  @override
+  @JsonKey(name: 'PHONE_THRU_DATE')
+  final String? phoneThruDate;
   @override
   @JsonKey(name: 'GENDER')
   final String? gender;
@@ -908,7 +1428,7 @@ class _$_SenzingPerson extends _SenzingPerson {
 
   @override
   String toString() {
-    return 'SenzingPerson(dataSource: $dataSource, recordId: $recordId, nameList: $nameList, addressList: $addressList, phoneList: $phoneList, gender: $gender, dateOfBirth: $dateOfBirth, dateOfDeath: $dateOfDeath, nationality: $nationality, citizenship: $citizenship, placeOfBirth: $placeOfBirth, recordType: $recordType, registrationDate: $registrationDate, registrationCountry: $registrationCountry, passportNumber: $passportNumber, passportCountry: $passportCountry, driversLicenseNumber: $driversLicenseNumber, driversLicenseState: $driversLicenseState, ssnNumber: $ssnNumber, ssnLast4: $ssnLast4, nationalIdNumber: $nationalIdNumber, nationalIdCountry: $nationalIdCountry, taxIdType: $taxIdType, taxIdNumber: $taxIdNumber, taxIdCountry: $taxIdCountry, otherIdType: $otherIdType, otherIdNumber: $otherIdNumber, otherIdCountry: $otherIdCountry, trustedIdType: $trustedIdType, trustedIdNumber: $trustedIdNumber, socialHandle: $socialHandle, entityType: $entityType, srccode: $srccode, ccAccountNumber: $ccAccountNumber, accountNumber: $accountNumber, dunsNumber: $dunsNumber, npiNumber: $npiNumber, leiNumber: $leiNumber, dsrcAction: $dsrcAction, entityid: $entityid)';
+    return 'SenzingPerson(dataSource: $dataSource, recordId: $recordId, nameList: $nameList, nameType: $nameType, nameFull: $nameFull, nameOrg: $nameOrg, nameLast: $nameLast, nameFirst: $nameFirst, nameMiddle: $nameMiddle, namePrefix: $namePrefix, nameSuffix: $nameSuffix, addressList: $addressList, addrType: $addrType, addrFull: $addrFull, addrLine1: $addrLine1, addrLine2: $addrLine2, addrLine3: $addrLine3, addrLine4: $addrLine4, addrLine5: $addrLine5, addrLine6: $addrLine6, addrCity: $addrCity, addrState: $addrState, addrPostalCode: $addrPostalCode, addrCountry: $addrCountry, addrFromDate: $addrFromDate, addrThruDate: $addrThruDate, phoneList: $phoneList, phoneType: $phoneType, phoneNumber: $phoneNumber, phoneFromDate: $phoneFromDate, phoneThruDate: $phoneThruDate, gender: $gender, dateOfBirth: $dateOfBirth, dateOfDeath: $dateOfDeath, nationality: $nationality, citizenship: $citizenship, placeOfBirth: $placeOfBirth, recordType: $recordType, registrationDate: $registrationDate, registrationCountry: $registrationCountry, passportNumber: $passportNumber, passportCountry: $passportCountry, driversLicenseNumber: $driversLicenseNumber, driversLicenseState: $driversLicenseState, ssnNumber: $ssnNumber, ssnLast4: $ssnLast4, nationalIdNumber: $nationalIdNumber, nationalIdCountry: $nationalIdCountry, taxIdType: $taxIdType, taxIdNumber: $taxIdNumber, taxIdCountry: $taxIdCountry, otherIdType: $otherIdType, otherIdNumber: $otherIdNumber, otherIdCountry: $otherIdCountry, trustedIdType: $trustedIdType, trustedIdNumber: $trustedIdNumber, socialHandle: $socialHandle, entityType: $entityType, srccode: $srccode, ccAccountNumber: $ccAccountNumber, accountNumber: $accountNumber, dunsNumber: $dunsNumber, npiNumber: $npiNumber, leiNumber: $leiNumber, dsrcAction: $dsrcAction, entityid: $entityid)';
   }
 
   @override
@@ -924,62 +1444,88 @@ class _$_SenzingPerson extends _SenzingPerson {
             (identical(other.nameList, nameList) ||
                 const DeepCollectionEquality()
                     .equals(other.nameList, nameList)) &&
+            (identical(other.nameType, nameType) ||
+                const DeepCollectionEquality()
+                    .equals(other.nameType, nameType)) &&
+            (identical(other.nameFull, nameFull) ||
+                const DeepCollectionEquality()
+                    .equals(other.nameFull, nameFull)) &&
+            (identical(other.nameOrg, nameOrg) ||
+                const DeepCollectionEquality()
+                    .equals(other.nameOrg, nameOrg)) &&
+            (identical(other.nameLast, nameLast) ||
+                const DeepCollectionEquality()
+                    .equals(other.nameLast, nameLast)) &&
+            (identical(other.nameFirst, nameFirst) ||
+                const DeepCollectionEquality()
+                    .equals(other.nameFirst, nameFirst)) &&
+            (identical(other.nameMiddle, nameMiddle) ||
+                const DeepCollectionEquality()
+                    .equals(other.nameMiddle, nameMiddle)) &&
+            (identical(other.namePrefix, namePrefix) ||
+                const DeepCollectionEquality()
+                    .equals(other.namePrefix, namePrefix)) &&
+            (identical(other.nameSuffix, nameSuffix) ||
+                const DeepCollectionEquality()
+                    .equals(other.nameSuffix, nameSuffix)) &&
             (identical(other.addressList, addressList) ||
                 const DeepCollectionEquality()
                     .equals(other.addressList, addressList)) &&
-            (identical(other.phoneList, phoneList) ||
+            (identical(other.addrType, addrType) ||
                 const DeepCollectionEquality()
-                    .equals(other.phoneList, phoneList)) &&
-            (identical(other.gender, gender) ||
-                const DeepCollectionEquality().equals(other.gender, gender)) &&
-            (identical(other.dateOfBirth, dateOfBirth) ||
+                    .equals(other.addrType, addrType)) &&
+            (identical(other.addrFull, addrFull) ||
                 const DeepCollectionEquality()
-                    .equals(other.dateOfBirth, dateOfBirth)) &&
-            (identical(other.dateOfDeath, dateOfDeath) ||
+                    .equals(other.addrFull, addrFull)) &&
+            (identical(other.addrLine1, addrLine1) ||
                 const DeepCollectionEquality()
-                    .equals(other.dateOfDeath, dateOfDeath)) &&
-            (identical(other.nationality, nationality) ||
+                    .equals(other.addrLine1, addrLine1)) &&
+            (identical(other.addrLine2, addrLine2) ||
                 const DeepCollectionEquality()
-                    .equals(other.nationality, nationality)) &&
-            (identical(other.citizenship, citizenship) ||
+                    .equals(other.addrLine2, addrLine2)) &&
+            (identical(other.addrLine3, addrLine3) ||
                 const DeepCollectionEquality()
-                    .equals(other.citizenship, citizenship)) &&
-            (identical(other.placeOfBirth, placeOfBirth) ||
+                    .equals(other.addrLine3, addrLine3)) &&
+            (identical(other.addrLine4, addrLine4) ||
                 const DeepCollectionEquality()
-                    .equals(other.placeOfBirth, placeOfBirth)) &&
-            (identical(other.recordType, recordType) ||
+                    .equals(other.addrLine4, addrLine4)) &&
+            (identical(other.addrLine5, addrLine5) ||
                 const DeepCollectionEquality()
-                    .equals(other.recordType, recordType)) &&
-            (identical(other.registrationDate, registrationDate) ||
+                    .equals(other.addrLine5, addrLine5)) &&
+            (identical(other.addrLine6, addrLine6) ||
                 const DeepCollectionEquality()
-                    .equals(other.registrationDate, registrationDate)) &&
-            (identical(other.registrationCountry, registrationCountry) ||
+                    .equals(other.addrLine6, addrLine6)) &&
+            (identical(other.addrCity, addrCity) ||
                 const DeepCollectionEquality()
-                    .equals(other.registrationCountry, registrationCountry)) &&
-            (identical(other.passportNumber, passportNumber) ||
-                const DeepCollectionEquality()
-                    .equals(other.passportNumber, passportNumber)) &&
-            (identical(other.passportCountry, passportCountry) ||
-                const DeepCollectionEquality()
-                    .equals(other.passportCountry, passportCountry)) &&
-            (identical(other.driversLicenseNumber, driversLicenseNumber) ||
-                const DeepCollectionEquality().equals(
-                    other.driversLicenseNumber, driversLicenseNumber)) &&
-            (identical(other.driversLicenseState, driversLicenseState) ||
-                const DeepCollectionEquality()
-                    .equals(other.driversLicenseState, driversLicenseState)) &&
-            (identical(other.ssnNumber, ssnNumber) ||
-                const DeepCollectionEquality()
-                    .equals(other.ssnNumber, ssnNumber)) &&
-            (identical(other.ssnLast4, ssnLast4) ||
-                const DeepCollectionEquality()
-                    .equals(other.ssnLast4, ssnLast4)) &&
-            (identical(other.nationalIdNumber, nationalIdNumber) ||
-                const DeepCollectionEquality()
-                    .equals(other.nationalIdNumber, nationalIdNumber)) &&
-            (identical(other.nationalIdCountry, nationalIdCountry) ||
-                const DeepCollectionEquality()
-                    .equals(other.nationalIdCountry, nationalIdCountry)) &&
+                    .equals(other.addrCity, addrCity)) &&
+            (identical(other.addrState, addrState) ||
+                const DeepCollectionEquality().equals(other.addrState, addrState)) &&
+            (identical(other.addrPostalCode, addrPostalCode) || const DeepCollectionEquality().equals(other.addrPostalCode, addrPostalCode)) &&
+            (identical(other.addrCountry, addrCountry) || const DeepCollectionEquality().equals(other.addrCountry, addrCountry)) &&
+            (identical(other.addrFromDate, addrFromDate) || const DeepCollectionEquality().equals(other.addrFromDate, addrFromDate)) &&
+            (identical(other.addrThruDate, addrThruDate) || const DeepCollectionEquality().equals(other.addrThruDate, addrThruDate)) &&
+            (identical(other.phoneList, phoneList) || const DeepCollectionEquality().equals(other.phoneList, phoneList)) &&
+            (identical(other.phoneType, phoneType) || const DeepCollectionEquality().equals(other.phoneType, phoneType)) &&
+            (identical(other.phoneNumber, phoneNumber) || const DeepCollectionEquality().equals(other.phoneNumber, phoneNumber)) &&
+            (identical(other.phoneFromDate, phoneFromDate) || const DeepCollectionEquality().equals(other.phoneFromDate, phoneFromDate)) &&
+            (identical(other.phoneThruDate, phoneThruDate) || const DeepCollectionEquality().equals(other.phoneThruDate, phoneThruDate)) &&
+            (identical(other.gender, gender) || const DeepCollectionEquality().equals(other.gender, gender)) &&
+            (identical(other.dateOfBirth, dateOfBirth) || const DeepCollectionEquality().equals(other.dateOfBirth, dateOfBirth)) &&
+            (identical(other.dateOfDeath, dateOfDeath) || const DeepCollectionEquality().equals(other.dateOfDeath, dateOfDeath)) &&
+            (identical(other.nationality, nationality) || const DeepCollectionEquality().equals(other.nationality, nationality)) &&
+            (identical(other.citizenship, citizenship) || const DeepCollectionEquality().equals(other.citizenship, citizenship)) &&
+            (identical(other.placeOfBirth, placeOfBirth) || const DeepCollectionEquality().equals(other.placeOfBirth, placeOfBirth)) &&
+            (identical(other.recordType, recordType) || const DeepCollectionEquality().equals(other.recordType, recordType)) &&
+            (identical(other.registrationDate, registrationDate) || const DeepCollectionEquality().equals(other.registrationDate, registrationDate)) &&
+            (identical(other.registrationCountry, registrationCountry) || const DeepCollectionEquality().equals(other.registrationCountry, registrationCountry)) &&
+            (identical(other.passportNumber, passportNumber) || const DeepCollectionEquality().equals(other.passportNumber, passportNumber)) &&
+            (identical(other.passportCountry, passportCountry) || const DeepCollectionEquality().equals(other.passportCountry, passportCountry)) &&
+            (identical(other.driversLicenseNumber, driversLicenseNumber) || const DeepCollectionEquality().equals(other.driversLicenseNumber, driversLicenseNumber)) &&
+            (identical(other.driversLicenseState, driversLicenseState) || const DeepCollectionEquality().equals(other.driversLicenseState, driversLicenseState)) &&
+            (identical(other.ssnNumber, ssnNumber) || const DeepCollectionEquality().equals(other.ssnNumber, ssnNumber)) &&
+            (identical(other.ssnLast4, ssnLast4) || const DeepCollectionEquality().equals(other.ssnLast4, ssnLast4)) &&
+            (identical(other.nationalIdNumber, nationalIdNumber) || const DeepCollectionEquality().equals(other.nationalIdNumber, nationalIdNumber)) &&
+            (identical(other.nationalIdCountry, nationalIdCountry) || const DeepCollectionEquality().equals(other.nationalIdCountry, nationalIdCountry)) &&
             (identical(other.taxIdType, taxIdType) || const DeepCollectionEquality().equals(other.taxIdType, taxIdType)) &&
             (identical(other.taxIdNumber, taxIdNumber) || const DeepCollectionEquality().equals(other.taxIdNumber, taxIdNumber)) &&
             (identical(other.taxIdCountry, taxIdCountry) || const DeepCollectionEquality().equals(other.taxIdCountry, taxIdCountry)) &&
@@ -1006,8 +1552,34 @@ class _$_SenzingPerson extends _SenzingPerson {
       const DeepCollectionEquality().hash(dataSource) ^
       const DeepCollectionEquality().hash(recordId) ^
       const DeepCollectionEquality().hash(nameList) ^
+      const DeepCollectionEquality().hash(nameType) ^
+      const DeepCollectionEquality().hash(nameFull) ^
+      const DeepCollectionEquality().hash(nameOrg) ^
+      const DeepCollectionEquality().hash(nameLast) ^
+      const DeepCollectionEquality().hash(nameFirst) ^
+      const DeepCollectionEquality().hash(nameMiddle) ^
+      const DeepCollectionEquality().hash(namePrefix) ^
+      const DeepCollectionEquality().hash(nameSuffix) ^
       const DeepCollectionEquality().hash(addressList) ^
+      const DeepCollectionEquality().hash(addrType) ^
+      const DeepCollectionEquality().hash(addrFull) ^
+      const DeepCollectionEquality().hash(addrLine1) ^
+      const DeepCollectionEquality().hash(addrLine2) ^
+      const DeepCollectionEquality().hash(addrLine3) ^
+      const DeepCollectionEquality().hash(addrLine4) ^
+      const DeepCollectionEquality().hash(addrLine5) ^
+      const DeepCollectionEquality().hash(addrLine6) ^
+      const DeepCollectionEquality().hash(addrCity) ^
+      const DeepCollectionEquality().hash(addrState) ^
+      const DeepCollectionEquality().hash(addrPostalCode) ^
+      const DeepCollectionEquality().hash(addrCountry) ^
+      const DeepCollectionEquality().hash(addrFromDate) ^
+      const DeepCollectionEquality().hash(addrThruDate) ^
       const DeepCollectionEquality().hash(phoneList) ^
+      const DeepCollectionEquality().hash(phoneType) ^
+      const DeepCollectionEquality().hash(phoneNumber) ^
+      const DeepCollectionEquality().hash(phoneFromDate) ^
+      const DeepCollectionEquality().hash(phoneThruDate) ^
       const DeepCollectionEquality().hash(gender) ^
       const DeepCollectionEquality().hash(dateOfBirth) ^
       const DeepCollectionEquality().hash(dateOfDeath) ^
@@ -1060,8 +1632,34 @@ abstract class _SenzingPerson extends SenzingPerson {
       {@JsonKey(name: 'DATA_SOURCE') String? dataSource,
       @JsonKey(name: 'RECORD_ID') String? recordId,
       @JsonKey(name: 'NAME_LIST') List<SenzingName>? nameList,
+      @JsonKey(name: 'NAME_TYPE') String? nameType,
+      @JsonKey(name: 'NAME_FULL') String? nameFull,
+      @JsonKey(name: 'NAME_ORG') String? nameOrg,
+      @JsonKey(name: 'NAME_LAST') String? nameLast,
+      @JsonKey(name: 'NAME_FIRST') String? nameFirst,
+      @JsonKey(name: 'NAME_MIDDLE') String? nameMiddle,
+      @JsonKey(name: 'NAME_PREFIX') String? namePrefix,
+      @JsonKey(name: 'NAME_SUFFIX') String? nameSuffix,
       @JsonKey(name: 'ADDRESS_LIST') List<SenzingAddress>? addressList,
+      @JsonKey(name: 'ADDR_TYPE') String? addrType,
+      @JsonKey(name: 'ADDR_FULL') String? addrFull,
+      @JsonKey(name: 'ADDR_LINE1') String? addrLine1,
+      @JsonKey(name: 'ADDR_LINE2') String? addrLine2,
+      @JsonKey(name: 'ADDR_LINE3') String? addrLine3,
+      @JsonKey(name: 'ADDR_LINE4') String? addrLine4,
+      @JsonKey(name: 'ADDR_LINE5') String? addrLine5,
+      @JsonKey(name: 'ADDR_LINE6') String? addrLine6,
+      @JsonKey(name: 'ADDR_CITY') String? addrCity,
+      @JsonKey(name: 'ADDR_STATE') String? addrState,
+      @JsonKey(name: 'ADDR_POSTAL_CODE') String? addrPostalCode,
+      @JsonKey(name: 'ADDR_COUNTRY') String? addrCountry,
+      @JsonKey(name: 'ADDR_FROM_DATE') String? addrFromDate,
+      @JsonKey(name: 'ADDR_THRU_DATE') String? addrThruDate,
       @JsonKey(name: 'PHONE_LIST') List<SenzingPhoneNumber>? phoneList,
+      @JsonKey(name: 'PHONE_TYPE') String? phoneType,
+      @JsonKey(name: 'PHONE_NUMBER') String? phoneNumber,
+      @JsonKey(name: 'PHONE_FROM_DATE') String? phoneFromDate,
+      @JsonKey(name: 'PHONE_THRU_DATE') String? phoneThruDate,
       @JsonKey(name: 'GENDER') String? gender,
       @JsonKey(name: 'DATE_OF_BIRTH') String? dateOfBirth,
       @JsonKey(name: 'DATE_OF_DEATH') String? dateOfDeath,
@@ -1112,11 +1710,89 @@ abstract class _SenzingPerson extends SenzingPerson {
   @JsonKey(name: 'NAME_LIST')
   List<SenzingName>? get nameList => throw _privateConstructorUsedError;
   @override
+  @JsonKey(name: 'NAME_TYPE')
+  String? get nameType => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'NAME_FULL')
+  String? get nameFull => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'NAME_ORG')
+  String? get nameOrg => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'NAME_LAST')
+  String? get nameLast => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'NAME_FIRST')
+  String? get nameFirst => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'NAME_MIDDLE')
+  String? get nameMiddle => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'NAME_PREFIX')
+  String? get namePrefix => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'NAME_SUFFIX')
+  String? get nameSuffix => throw _privateConstructorUsedError;
+  @override
   @JsonKey(name: 'ADDRESS_LIST')
   List<SenzingAddress>? get addressList => throw _privateConstructorUsedError;
   @override
+  @JsonKey(name: 'ADDR_TYPE')
+  String? get addrType => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_FULL')
+  String? get addrFull => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_LINE1')
+  String? get addrLine1 => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_LINE2')
+  String? get addrLine2 => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_LINE3')
+  String? get addrLine3 => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_LINE4')
+  String? get addrLine4 => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_LINE5')
+  String? get addrLine5 => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_LINE6')
+  String? get addrLine6 => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_CITY')
+  String? get addrCity => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_STATE')
+  String? get addrState => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_POSTAL_CODE')
+  String? get addrPostalCode => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_COUNTRY')
+  String? get addrCountry => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_FROM_DATE')
+  String? get addrFromDate => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'ADDR_THRU_DATE')
+  String? get addrThruDate => throw _privateConstructorUsedError;
+  @override
   @JsonKey(name: 'PHONE_LIST')
   List<SenzingPhoneNumber>? get phoneList => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'PHONE_TYPE')
+  String? get phoneType => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'PHONE_NUMBER')
+  String? get phoneNumber => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'PHONE_FROM_DATE')
+  String? get phoneFromDate => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(name: 'PHONE_THRU_DATE')
+  String? get phoneThruDate => throw _privateConstructorUsedError;
   @override
   @JsonKey(name: 'GENDER')
   String? get gender => throw _privateConstructorUsedError;
