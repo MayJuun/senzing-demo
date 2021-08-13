@@ -1,15 +1,25 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:collection/collection.dart';
 import 'package:fhir/r4.dart';
 import 'package:fhir_to_senzing/examples/short_test.dart';
-import 'senzing_person.dart';
+import 'examples/loadtest-dataset-1M copy.dart';
 import 'examples/short_fhir_to_senzing.dart';
+import 'models/models.dart';
 
 void main() async {
-  await ingestSenzingAndOutputSenzing();
-  await ingestSenzingAndOutputFhir();
-  await ingestFhirAndOutputFhir();
+  // await ingestSenzingAndOutputSenzing();
+  // await ingestSenzingAndOutputFhir();
+  // await ingestFhirAndOutputFhir();
+  for (var p in shortTest) {
+    final tempPatient = SenzingPerson.fromJson(p).toFhirPatient();
+    if (tempPatient != null) {
+      print(SenzingPerson.fromFhir(tempPatient).toJson());
+      print(DeepCollectionEquality()
+          .equals(SenzingPerson.fromFhir(tempPatient).toJson(), p));
+    }
+  }
 }
 
 Future<void> ingestSenzingAndOutputFhir() async {

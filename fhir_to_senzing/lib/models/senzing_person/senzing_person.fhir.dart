@@ -16,7 +16,7 @@ SenzingPerson _$SenzingPersonFromFhir(Patient patient) {
         ? 'Female'
         : patient.gender == PatientGender.male
             ? 'Male'
-            : 'Other',
+            : 'N/A',
     dateOfBirth: patient.birthDate?.toString(),
     dateOfDeath: patient.deceasedDateTime?.toString(),
     nationality: null,
@@ -54,6 +54,91 @@ SenzingPerson _$SenzingPersonFromFhir(Patient patient) {
   );
 }
 
+Identifier? _passportIdentifier(SenzingPerson instance) => instance
+                .passportNumber ==
+            null &&
+        instance.passportCountry == null
+    ? null
+    : Identifier(
+        type: CodeableConcept(coding: [
+          Coding(
+              system: FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'),
+              code: Code('PPN'),
+              display: 'Passport Number'),
+        ]),
+        system: instance.passportCountry == null ||
+                (instance.passportCountry!.length != 2 &&
+                    instance.passportCountry!.length != 3)
+            ? null
+            : FhirUri('http://hl7.org/fhir/sid/passport-' +
+                (instance.passportCountry!.length == 3
+                    ? instance.passportCountry!.toLowerCase()
+                    : countryCodes[instance.passportCountry!.toLowerCase()] ??
+                        '')),
+        value: instance.passportNumber,
+      );
+
+Identifier? _driversLicenseIdentifier(SenzingPerson instance) => instance
+                .driversLicenseNumber ==
+            null &&
+        instance.driversLicenseState == null
+    ? null
+    : Identifier(
+        type: CodeableConcept(coding: [
+          Coding(
+              system: FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'),
+              code: Code('DL'),
+              display: 'Driver\'s license number'),
+        ]),
+        system: instance.driversLicenseState == null ||
+                licenseStateToUri[
+                        instance.driversLicenseState!.toUpperCase()] ==
+                    null
+            ? null
+            : FhirUri(
+                licenseStateToUri[instance.driversLicenseState!.toUpperCase()]),
+        value: instance.driversLicenseNumber,
+      );
+
+Identifier? _ssnIdentifier(SenzingPerson instance) =>
+    instance.ssnNumber == null && instance.ssnLast4 == null
+        ? null
+        : Identifier(
+            type: CodeableConcept(coding: [
+              Coding(
+                  system:
+                      FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'),
+                  code: Code('SS'),
+                  display: 'Social Security number'),
+            ]),
+            system: FhirUri('http://hl7.org/fhir/sid/us-ssn'),
+            value: instance.taxIdNumber,
+          );
+
+Identifier? _taxIdIdentifier(SenzingPerson instance) => instance.taxIdNumber ==
+            null &&
+        instance.taxIdCountry == null &&
+        instance.taxIdType == null
+    ? null
+    : Identifier(
+        type: CodeableConcept(coding: [
+          Coding(
+              system: FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'),
+              code: Code('TAX'),
+              display: 'Tax ID number'),
+        ]),
+        system: instance.taxIdCountry == null ||
+                (instance.taxIdCountry!.length != 2 &&
+                    instance.taxIdCountry!.length != 3)
+            ? null
+            : FhirUri('http://hl7.org/fhir/sid/taxid-' +
+                (instance.taxIdCountry!.length == 3
+                    ? instance.taxIdCountry!.toLowerCase()
+                    : countryCodes[instance.taxIdCountry!.toLowerCase()] ??
+                        '')),
+        value: instance.taxIdNumber,
+      );
+
 Patient _$ToFhirPatient(SenzingPerson instance) {
   /// Get the list of names, addresses & telecoms if they exist
   final List<HumanName> nameList = [];
@@ -86,6 +171,19 @@ Patient _$ToFhirPatient(SenzingPerson instance) {
     contactPointList.add(instance.toFhirContactPointFromInstance()!);
   }
 
+  final List<Identifier> identifierList = <Identifier>[];
+  [
+    _passportIdentifier,
+    _driversLicenseIdentifier,
+    _ssnIdentifier,
+    _taxIdIdentifier
+  ].forEach((fxn) {
+    final newIdentifier = fxn(instance);
+    if (newIdentifier != null) {
+      identifierList.add(newIdentifier);
+    }
+  });
+
   return Patient(
     id: instance.recordId == null ? null : Id(instance.recordId!),
 
@@ -111,27 +209,7 @@ Patient _$ToFhirPatient(SenzingPerson instance) {
   );
 }
 
-SenzingName _$SenzingNameFromFhir(HumanName humanName) => SenzingName(
-      nameType: humanName.use?.toString(),
-      nameFull: humanName.text,
-      nameOrg: null,
-      nameLast: humanName.family,
-      nameFirst:
-          humanName.given?.isNotEmpty ?? false ? humanName.given!.first : null,
-      nameMiddle:
-          humanName.given?.isNotEmpty ?? false ? humanName.given!.first : null,
-      namePrefix: humanName.prefix?.isNotEmpty ?? false
-          ? humanName.prefix!.first
-          : null,
-      nameSuffix: humanName.suffix?.isNotEmpty ?? false
-          ? humanName.suffix!.first
-          : null,
-    );
-
-HumanName? _$ToFhirHumanNameFromInstance(SenzingPerson instance) =>
-    _$ToFhirHumanName(instance);
-
-HumanName? _$ToFhirHumanName(dynamic instance) {
+HumanName? _$ToFhirHumanName(SenzingPerson instance) {
   if (instance.nameFirst == null &&
       instance.nameMiddle == null &&
       instance.nameType == null &&
@@ -170,47 +248,7 @@ const _$HumanNameUseEnumMap = {
   HumanNameUse.unknown: 'unknown',
 };
 
-SenzingAddress _$SenzingAddressFromFhir(Address address) => SenzingAddress(
-      addrType: address.use?.toString(),
-      addrFull: address.text,
-      addrLine1: address.line?.isNotEmpty ?? false ? address.line!.first : null,
-      addrLine2: address.line == null
-          ? null
-          : address.line!.length > 1
-              ? address.line![1]
-              : null,
-      addrLine3: address.line == null
-          ? null
-          : address.line!.length > 2
-              ? address.line![2]
-              : null,
-      addrLine4: address.line == null
-          ? null
-          : address.line!.length > 3
-              ? address.line![3]
-              : null,
-      addrLine5: address.line == null
-          ? null
-          : address.line!.length > 4
-              ? address.line![4]
-              : null,
-      addrLine6: address.line == null
-          ? null
-          : address.line!.length > 5
-              ? address.line![5]
-              : null,
-      addrCity: address.city,
-      addrState: address.state,
-      addrPostalCode: address.postalCode,
-      addrCountry: address.country,
-      addrFromDate: address.period?.start?.toString(),
-      addrThruDate: address.period?.end?.toString(),
-    );
-
-Address? _$ToFhirAddressFromInstance(SenzingPerson instance) =>
-    _$ToFhirAddress(instance);
-
-Address? _$ToFhirAddress(dynamic instance) {
+Address? _$ToFhirAddress(SenzingPerson instance) {
   if (instance.addrLine1 == null &&
       instance.addrLine2 == null &&
       instance.addrLine3 == null &&
@@ -258,18 +296,7 @@ Address? _$ToFhirAddress(dynamic instance) {
   }
 }
 
-SenzingPhoneNumber _$SenzingPhoneNumberFromFhir(ContactPoint contactPoint) =>
-    SenzingPhoneNumber(
-      phoneType: contactPoint.use?.toString(),
-      phoneNumber: contactPoint.value,
-      phoneFromDate: contactPoint.period?.start?.toString(),
-      phoneThruDate: contactPoint.period?.end?.toString(),
-    );
-
-ContactPoint? _$ToFhirContactPointFromInstance(SenzingPerson instance) =>
-    _$ToFhirContactPoint(instance);
-
-ContactPoint? _$ToFhirContactPoint(dynamic instance) =>
+ContactPoint? _$ToFhirContactPoint(SenzingPerson instance) =>
     instance.phoneType == null &&
             instance.phoneNumber == null &&
             instance.phoneFromDate == null &&

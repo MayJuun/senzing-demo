@@ -1,7 +1,9 @@
-import 'dart:convert';
-
 import 'package:fhir/r4.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+
+import '../models.dart';
+import 'country_codes.dart';
+import 'state_license.dart';
 
 part 'senzing_person.freezed.dart';
 part 'senzing_person.g.dart';
@@ -96,91 +98,15 @@ class SenzingPerson with _$SenzingPerson {
   /// Method to Create a single HumanName from this instance of a Senzing
   /// Person (note, this is not the method that returns a list of HumanNames
   /// if they exist, that is done in the SenzingName Class)
-  HumanName? toFhirHumanNameFromInstance() =>
-      _$ToFhirHumanNameFromInstance(this);
+  HumanName? toFhirHumanNameFromInstance() => _$ToFhirHumanName(this);
 
   /// Method to Create a single Address from this instance of a Senzing
   /// Person (note, this is not the method that returns a list of Addresses
   /// if they exist, that is done in the SenzingAddress Class)
-  Address? toFhirAddressFromInstance() => _$ToFhirAddressFromInstance(this);
+  Address? toFhirAddressFromInstance() => _$ToFhirAddress(this);
 
   /// Method to Create a single ContactPoint from this instance of a Senzing
   /// Person (note, this is not the method that returns a list of ContactPoints
   /// if they exist, that is done in the SenzingPhoneNumber Class)
-  ContactPoint? toFhirContactPointFromInstance() =>
-      _$ToFhirContactPointFromInstance(this);
-}
-
-@freezed
-class SenzingName with _$SenzingName {
-  SenzingName._();
-
-  factory SenzingName({
-    @JsonKey(name: 'NAME_TYPE') String? nameType,
-    @JsonKey(name: 'NAME_FULL') String? nameFull,
-    @JsonKey(name: 'NAME_ORG') String? nameOrg,
-    @JsonKey(name: 'NAME_LAST') String? nameLast,
-    @JsonKey(name: 'NAME_FIRST') String? nameFirst,
-    @JsonKey(name: 'NAME_MIDDLE') String? nameMiddle,
-    @JsonKey(name: 'NAME_PREFIX') String? namePrefix,
-    @JsonKey(name: 'NAME_SUFFIX') String? nameSuffix,
-  }) = _SenzingName;
-
-  factory SenzingName.fromJson(Map<String, dynamic> json) =>
-      _$SenzingNameFromJson(json);
-
-  factory SenzingName.fromFhir(HumanName humanName) =>
-      _$SenzingNameFromFhir(humanName);
-
-  HumanName? toFhirHumanName() => _$ToFhirHumanName(this);
-}
-
-@freezed
-class SenzingAddress with _$SenzingAddress {
-  SenzingAddress._();
-
-  factory SenzingAddress({
-    @JsonKey(name: 'ADDR_TYPE') String? addrType,
-    @JsonKey(name: 'ADDR_FULL') String? addrFull,
-    @JsonKey(name: 'ADDR_LINE1') String? addrLine1,
-    @JsonKey(name: 'ADDR_LINE2') String? addrLine2,
-    @JsonKey(name: 'ADDR_LINE3') String? addrLine3,
-    @JsonKey(name: 'ADDR_LINE4') String? addrLine4,
-    @JsonKey(name: 'ADDR_LINE5') String? addrLine5,
-    @JsonKey(name: 'ADDR_LINE6') String? addrLine6,
-    @JsonKey(name: 'ADDR_CITY') String? addrCity,
-    @JsonKey(name: 'ADDR_STATE') String? addrState,
-    @JsonKey(name: 'ADDR_POSTAL_CODE') String? addrPostalCode,
-    @JsonKey(name: 'ADDR_COUNTRY') String? addrCountry,
-    @JsonKey(name: 'ADDR_FROM_DATE') String? addrFromDate,
-    @JsonKey(name: 'ADDR_THRU_DATE') String? addrThruDate,
-  }) = _SenzingAddress;
-
-  factory SenzingAddress.fromJson(Map<String, dynamic> json) =>
-      _$SenzingAddressFromJson(json);
-
-  factory SenzingAddress.fromFhir(Address address) =>
-      _$SenzingAddressFromFhir(address);
-
-  Address? toFhirAddress() => _$ToFhirAddress(this);
-}
-
-@freezed
-class SenzingPhoneNumber with _$SenzingPhoneNumber {
-  SenzingPhoneNumber._();
-
-  factory SenzingPhoneNumber({
-    @JsonKey(name: 'PHONE_TYPE') String? phoneType,
-    @JsonKey(name: 'PHONE_NUMBER') String? phoneNumber,
-    @JsonKey(name: 'PHONE_FROM_DATE') String? phoneFromDate,
-    @JsonKey(name: 'PHONE_THRU_DATE') String? phoneThruDate,
-  }) = _SenzingPhoneNumber;
-
-  factory SenzingPhoneNumber.fromJson(Map<String, dynamic> json) =>
-      _$SenzingPhoneNumberFromJson(json);
-
-  factory SenzingPhoneNumber.fromFhir(ContactPoint contactPoint) =>
-      _$SenzingPhoneNumberFromFhir(contactPoint);
-
-  ContactPoint? toFhirContactPoint() => _$ToFhirContactPoint(this);
+  ContactPoint? toFhirContactPointFromInstance() => _$ToFhirContactPoint(this);
 }
