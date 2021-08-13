@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:collection/collection.dart';
 import 'package:fhir/r4.dart';
 import 'package:fhir_to_senzing/examples/short_test.dart';
-import 'examples/loadtest-dataset-1M copy.dart';
+import 'examples/senzing_people_list.dart';
 import 'examples/short_fhir_to_senzing.dart';
 import 'models/models.dart';
 
@@ -12,15 +12,23 @@ void main() async {
   // await ingestSenzingAndOutputSenzing();
   // await ingestSenzingAndOutputFhir();
   // await ingestFhirAndOutputFhir();
-  // for (var p in senzingPeopleList) {
-  for (var p in shortTest) {
-    final tempPatient = SenzingPerson.fromJson(p).toFhirPatient();
+  var i = 0;
+  var j = 0;
+  for (var p in senzingPeopleList) {
+    i++;
+    final senzingPatient = SenzingPerson.fromJson(p);
+    final tempPatient = senzingPatient.toFhirPatient();
     if (tempPatient != null) {
-      print(SenzingPerson.fromFhir(tempPatient).toJson());
-      print(DeepCollectionEquality()
-          .equals(SenzingPerson.fromFhir(tempPatient).toJson(), p));
+      if (!DeepCollectionEquality()
+          .equals(SenzingPerson.fromFhir(tempPatient).toJson(), p)) {
+        j++;
+        // print(senzingPatient.toJson());
+        // print(SenzingPerson.fromFhir(tempPatient).toJson());
+      }
     }
   }
+  print('i: $i');
+  print('j: $j');
 }
 
 Future<void> ingestSenzingAndOutputFhir() async {

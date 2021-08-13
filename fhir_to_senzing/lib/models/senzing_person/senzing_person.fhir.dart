@@ -207,7 +207,7 @@ Identifier? _ssnIdentifier(SenzingPerson instance) =>
                   display: 'Social Security number'),
             ]),
             system: FhirUri('http://hl7.org/fhir/sid/us-ssn'),
-            value: instance.taxIdNumber,
+            value: instance.ssnNumber ?? instance.ssnLast4,
           );
 
 List<String?> _getTaxId(List<Identifier>? identifierList) {
@@ -308,6 +308,8 @@ Patient _$ToFhirPatient(SenzingPerson instance) {
 
     /// Only include if name list is not empty
     name: nameList.isEmpty ? null : nameList,
+
+    identifier: identifierList,
 
     /// Only include if address list is not empty
     address: addressList.isEmpty ? null : addressList,
