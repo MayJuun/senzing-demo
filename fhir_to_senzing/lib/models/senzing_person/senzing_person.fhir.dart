@@ -107,11 +107,17 @@ List<String?> _getPassport(List<Identifier>? identifierList) {
     return [
       identifierList[index].value,
       identifierList[index]
-          .system
-          ?.toString()
-          .split('passport-')
-          .last
-          .toUpperCase(),
+                  .system
+                  ?.toString()
+                  .contains('hl7.org/fhir/sid/passport-') ??
+              false
+          ? identifierList[index]
+              .system
+              ?.toString()
+              .split('hl7.org/fhir/sid/passport-')
+              .last
+              .toUpperCase()
+          : null,
     ];
   }
 }

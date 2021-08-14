@@ -37,6 +37,24 @@ SenzingAddress _$SenzingAddressFromFhir(Address address) => SenzingAddress(
       addrThruDate: address.period?.end?.toString(),
     );
 
+String? addressUseToType(AddressUse? use) {
+  if (use == null) {
+    return null;
+  } else if (use == AddressUse.home) {
+    return 'home';
+  } else if (use == AddressUse.work) {
+    return 'work';
+  } else if (use == AddressUse.temp) {
+    return 'temp';
+  } else if (use == AddressUse.old) {
+    return 'old';
+  } else if (use == AddressUse.billing) {
+    return 'bill';
+  } else {
+    return null;
+  }
+}
+
 Address? _$ToFhirAddress(SenzingAddress instance) {
   if (instance.addrLine1 == null &&
       instance.addrLine2 == null &&
@@ -82,5 +100,23 @@ Address? _$ToFhirAddress(SenzingAddress instance) {
               'end': instance.addrThruDate ?? null,
             }
     });
+  }
+}
+
+String? addressTypeToUse(String? type) {
+  if (type == null) {
+    return null;
+  } else if (type.toLowerCase().contains('home')) {
+    return 'home';
+  } else if (type.toLowerCase().contains('work')) {
+    return 'work';
+  } else if (type.toLowerCase().contains('temp')) {
+    return 'temp';
+  } else if (type.toLowerCase().contains('old')) {
+    return 'old';
+  } else if (type.toLowerCase().contains('bill')) {
+    return 'bill';
+  } else {
+    return null;
   }
 }

@@ -1,4 +1,4 @@
-//ignore_for_file: invalid_annotation_target
+// ignore_for_file: invalid_annotation_target
 
 import 'package:fhir/r4.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

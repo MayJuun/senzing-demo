@@ -1,7 +1,8 @@
 part of 'senzing_name.dart';
 
 SenzingName _$SenzingNameFromFhir(HumanName humanName) => SenzingName(
-      nameType: humanName.use?.toString(),
+      nameType:
+          humanName.use == null ? null : _$HumanNameUseEnumMap[humanName.use],
       nameFull: humanName.text,
       nameOrg: null,
       nameLast: humanName.family,
