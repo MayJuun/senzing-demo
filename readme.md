@@ -64,3 +64,17 @@ Ubuntu 20.04 Xenial
 - Install `VNC Viewer`
 - Point to 'Localhost: 5901'
 
+## Synthea to Senzing
+
+  - This branch is to show how to use this to create patients using synthea, and transform them into Senzing patients.
+  - You can try and use the senzing directory in this repo, although it may not work properly
+  - If it doesn't, you can follow the [instructions](https://github.com/synthetichealth/synthea)
+  - Briefly
+    1. Run the following: ```$ git clone https://github.com/synthetichealth/synthea.git```
+    2. Go to the following directory: ```synthea/src/main/resources```
+    3. Open the file synthea.properties
+    4. Change the line ```exporter.fhir.bulk_data = false``` to ```exporter.fhir.bulk_data = true```
+    5. Return to the primary synthea directory, and run: ```$ ./run_synthea -p 10``` (the number after the p is how many patients you want to generate) 
+      - the first time this command downloads a number of dependencies, but gets quicker after that.
+      - also, there are ways to construct certain patient populations at the github instructions link above
+    6. Find the file ```synthea/output/fhir/Patient.ndjson```, and copy it into ```fhir_to_senzing/lib/new_test_data```
