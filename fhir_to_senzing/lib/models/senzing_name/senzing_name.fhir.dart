@@ -19,7 +19,7 @@ SenzingName _$SenzingNameFromFhir(HumanName humanName) => SenzingName(
           : null,
     );
 
-HumanName? _$ToFhirHumanName(dynamic instance) {
+HumanName? _$ToFhirHumanName(SenzingName instance) {
   if (instance.nameFirst == null &&
       instance.nameMiddle == null &&
       instance.nameType == null &&

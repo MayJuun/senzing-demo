@@ -122,12 +122,16 @@ Identifier? _passportIdentifier(SenzingPerson instance) => instance
         instance.passportCountry == null
     ? null
     : Identifier(
-        type: CodeableConcept(coding: [
-          Coding(
-              system: FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'),
-              code: Code('PPN'),
-              display: 'Passport Number'),
-        ]),
+        type: CodeableConcept(
+          coding: [
+            Coding(
+                system:
+                    FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'),
+                code: Code('PPN'),
+                display: 'Passport Number'),
+          ],
+          text: 'Passport Number',
+        ),
         system: instance.passportCountry == null ||
                 (instance.passportCountry!.length != 2 &&
                     instance.passportCountry!.length != 3)
@@ -164,12 +168,16 @@ Identifier? _driversLicenseIdentifier(SenzingPerson instance) => instance
         instance.driversLicenseState == null
     ? null
     : Identifier(
-        type: CodeableConcept(coding: [
-          Coding(
-              system: FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'),
-              code: Code('DL'),
-              display: 'Driver\'s license number'),
-        ]),
+        type: CodeableConcept(
+          coding: [
+            Coding(
+                system:
+                    FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'),
+                code: Code('DL'),
+                display: 'Driver\'s license number'),
+          ],
+          text: 'Driver\'s License',
+        ),
         system: instance.driversLicenseState == null ||
                 licenseStateToUri[
                         instance.driversLicenseState!.toUpperCase()] ==
@@ -199,13 +207,16 @@ Identifier? _ssnIdentifier(SenzingPerson instance) =>
     instance.ssnNumber == null && instance.ssnLast4 == null
         ? null
         : Identifier(
-            type: CodeableConcept(coding: [
-              Coding(
-                  system:
-                      FhirUri('http://terminology.hl7.org/CodeSystem/v2-0203'),
-                  code: Code('SS'),
-                  display: 'Social Security number'),
-            ]),
+            type: CodeableConcept(
+              coding: [
+                Coding(
+                    system: FhirUri(
+                        'http://terminology.hl7.org/CodeSystem/v2-0203'),
+                    code: Code('SS'),
+                    display: 'Social Security number'),
+              ],
+              text: 'Social Security Number',
+            ),
             system: FhirUri('http://hl7.org/fhir/sid/us-ssn'),
             value: instance.ssnNumber ?? instance.ssnLast4,
           );

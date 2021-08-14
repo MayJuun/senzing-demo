@@ -37,7 +37,7 @@ SenzingAddress _$SenzingAddressFromFhir(Address address) => SenzingAddress(
       addrThruDate: address.period?.end?.toString(),
     );
 
-Address? _$ToFhirAddress(dynamic instance) {
+Address? _$ToFhirAddress(SenzingAddress instance) {
   if (instance.addrLine1 == null &&
       instance.addrLine2 == null &&
       instance.addrLine3 == null &&

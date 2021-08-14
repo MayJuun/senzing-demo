@@ -95,7 +95,7 @@ class SenzingPerson with _$SenzingPerson {
       _$SenzingPersonFromFhir(patient);
 
   /// Method to create a FHIR Patient from this instance of a Senzing Person
-  Patient? toFhirPatient() => _$ToFhirPatient(this);
+  Patient toFhirPatient() => _$ToFhirPatient(this);
 
   /// Method to Create a single HumanName from this instance of a Senzing
   /// Person (note, this is not the method that returns a list of HumanNames
