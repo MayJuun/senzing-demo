@@ -5,6 +5,7 @@ environment:
 
 dependencies:
   collection: ^1.15.0
+  csv: ^5.0.0
   fhir: ^0.4.7
   fhir_bulk: ^0.4.4
   freezed_annotation: ^0.14.2

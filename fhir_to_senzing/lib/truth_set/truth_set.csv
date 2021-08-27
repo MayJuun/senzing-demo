@@ -1,0 +1,91 @@
+CLUSTER_ID,RECORD_ID,PRIMARY_NAME_LAST,PRIMARY_NAME_FIRST,PRIMARY_NAME_MIDDLE,GENDER,DATE_OF_BIRTH,PASSPORT_NUMBER,PASSPORT_COUNTRY,DRIVERS_LICENSE_NUMBER,DRIVERS_LICENSE_STATE,SSN_NUMBER,SSN_LAST4,NATIONAL_ID_NUMBER,NATIONAL_ID_COUNTRY,HOME_ADDR_LINE1,HOME_ADDR_CITY,HOME_ADDR_STATE,HOME_ADDR_POSTAL_CODE,HOME_ADDR_COUNTRY,HOME_PHONE_NUMBER,CELL_PHONE_NUMBER,EMAIL_ADDRESS
+TI-1000-1,1001,Smith,Robert,,,12/11/78,,,,,,,,,"123 Main Street, Las Vegas NV 89132",,,,,702-919-1300,,bsmith@work.com
+TI-1000-1,1002,Smith,Bob,,,11/12/78,,,,,,,,,1515 Adela Lane,Las Vegas,NV,89111,,,702-919-1300,
+TI-1000-1,1003,Smith,Bob,J,,12/11/78,,,,,,,,,,,,,,,,bsmith@work.com
+TI-1000-1,1004,Smith,B,,,,,,,,,,,,1515 Adela Ln,Las Vegas,NV,89132,,,,bsmith@work.com
+TI-1000-1,1005,Smith,Rob,E,,,,,112233,NV,,,,,123 E Main St,Henderson,NV,89132,,,,
+TI-1015-1,1009,Kusha,Edward,,,3/1/70,,,,,294-66-9999,,,,1304 Poppy Hills Dr,Blacklick,OH,43004,,,,Kusha123@hmail.com
+TI-1015-1,1010,Kusha,Eddie,,,Mar 1 1970,,,,,,,,,1304 Poppy Hills Dr,Blacklick,OHIO,,,,,
+TI-1015-2,1011,Knight,Jed,,,3/1/70,,,,,,,,,1602 Brenville Pl,San Francisco,CA,94105,,,,
+TI-1015-3,1015,Kusha,Mary,,,10/27/76,,,,,293-90-9090,,,,1304 Poppy Hills Dr,Blacklick,OH,43004,,512-353-8633,,Kusha123@hmail.com
+TI-1015-3,1016,Kusha,Marie,,,10/27/76,,,,,,,,,1304 Poppy Hills Dr,,,43004,,,,
+TI-1015-3,1017,Kusha,Mary,,,,,,,,293-90-9090,,,,,,,,,,,
+TI-1015-3,1018,Kusha,Marie,,,10/28/76,,,,,,,,,,,,,,512-353-8633,,
+TI-1015-4,1019,Kusha,Mark,,,9/28/97,,,,,,,,,1304 Poppy Hills Dr,Blacklick,OH,43004,,,,Kusha123@hmail.com
+TI-1015-5,1020,Kusha,Marsha,,,9/28/97,,,,,201-77-7719,,,,1304 Poppy Hills Dr,Blacklick,OH,43004,,,,Kusha123@hmail.com
+TI-1017-1,1022,Antoun,Mohamed,,,1/7/80,,,,,,,,,,,,,,,,
+TI-1017-1,1023,Antoun,Muhammed,,,1/7/80,,,,,,,,,,,,,,,,
+TI-1017-2,1025,Anderson,Darla,,,1/7/80,,,,,,,,,,,,,,,,
+TI-1017-3,1026,Anderson,Darlene,,,1/7/80,,,,,,,,,,,,,,,,
+TI-1020-1,1028,Dobbins Jr,David,,,,,,,,,,,,1450 N City Rd Suite 900,Arlington,VA,23208,,,,
+TI-1021-1,1030,Garski,Luis,,,3/25/89,,,,,,,,,445 Overpass Rd,San Ramon,CA,927230000,,,,
+TI-1021-1,1031,Garsky,Louis,,,3/25/89,,,,,,,,,445 Overpass Rd San Ramon,,,,,,,
+TI-1022-1,1032,Shaw,Daniella,,,20/8/1991,,,,,,,,,,,,,,202-321-3212,,
+TI-1022-1,1033,Daniella,Shaw,,,8/20/91,,,,,,,,,80 Delaware Ave SE Washington DC 40040,,,,,321-3212,,
+TI-1023-1,1034,Medina Sentosa,Maria Luis,,,11/21/73,,,,,,,,,"9304 W. 15th St La Blanca, FL 60527",,,,,,,Maria Sentosa<msentosa@fmail.com>
+TI-1023-1,1035,M Sentosa,Maria Luis,,,11/12/73,,,,,,,,,"9304 W. 15th St La Blanca, FL 60527",,,,,,,
+TI-1023-1,1036,Sentosa,Maria Luis,,,11/12/73,,,,,,,,,"9304 W. 15th St La Blanca, FL 60527",,,,,,,
+TI-1024-1,1039,Smith,John,,M,10/10/70,,,,,,,,,"3212 W. 32nd St Palm Harbor, FL 60527",,,,,,,
+TI-1024-2,1040,Smith,John,,,3/15/90,,,,,,,,,"3212 W. 32nd St Palm Harbor, FL 60527",,,,,,,
+TI-1025-1,1043,Smith,Patrick,,,10/10/70,10251111,US,,,,,,,"3212 W. 32nd St Palm Harbor, FL 60527",,,,,,,
+TI-1025-2,1044,Smith,Patricia,,,3/15/90,10252222,US,,,,,,,"3212 W. 32nd St Palm Harbor, FL 60527",,,,,,,
+TI-1025-1,1045,Smith,Pat,,,,10251111,,,,,,,,"3212 W. 32nd St Palm Harbor, FL 60527",,,,,,,
+TI-1025-2,1046,Smith,Pat,,,,10252222,USA,,,,,,,"3212 W. 32nd St Palm Harbor, FL 60527",,,,,,,
+TI-1027-1,1047,Thompson,Zara,,,,,,,,,,,,,,,,,,,sthomp45@fmail.com
+TI-1027-1,1048,Tompson,Sarah,,,,,,,,,,,,,,,,,,,sthomp45@fmail.com
+TI-1027-1,1049,Thompson,Sahra,,,,,,,,,,,,,,,,,,,sthomp45@fmail.com
+TI-1028-1,1050,Toulouse,Lee,,,2/1/85,483290175,USA,,,,,,,,,,,,,,
+TI-1028-1,1051,Toulouse,Leigh,,,1/2/85,483290175,US,,,,,,,,,,,,,,
+TI-1028-1,1052,Toulouse,Lea,,,,483290175,US,,,,,,,,,,,,,,
+TI-1029-1,1053,Smith,Beau,,,,72129291,CA,,,,,,,"6371 E Foothill Dr, Orroville, CA",,,,,,,
+TI-1029-2,1054,Smith,Magdalena,,,24-May-11,,,93939211,CA,,,,,"6371 E Foothill Dr, Orroville, CA 95915",,,,,,,
+TI-1029-1,1055,,Beau,,,,72129291,CAN,,,,,,,"6371 E Foothill Dr, 95915",,,,,,,
+TI-1029-2,1056,Jones,Magdalena,,,5/24/11,,,93939211,CA,,,,,"6371 E Foothill Dr, Orroville, CA",,,,,,,
+TI-1030-1,1057,Jones,Jay,,,,,,,,,,,,,,,,,,,jjones@jones.com
+TI-1030-2,1058,Jay,Jones,,,,,,,,,,,,,,,,,,,"""Jay Jones"" <jjones@fmail.com>"
+TI-1031-1,1059,Roderick,Ray,,,,,,,,,,,,,,,,,971-421-8250,,
+TI-1031-1,1060,Roderick,R,,,,,,,,,,,,,,,,,9714218250,,
+TI-1031-2,1061,Andreason,,,,,,,,,,,,,,,,,,,(807) 422-9031,
+TI-1031-2,1062,Andreason,,,,,,,,,,,,,,,,,,807-422-9031,,
+TI-1032-1,1063,Mooney,Susan,,,6/15/98,,,,,,,,,,,,,,,,
+TI-1032-1,1064,Mooney,Susanne,,,6/15/98,1231345345,US,,,,,,,,,,,,,,
+TI-1032-1,1065,Mooney,Susan,,,,1231345345,US,8923322,OR,,,,,,,,,,,,
+TI-1032-1,1066,Mooney,Susan,,,,,,8923322,OR,521-21-2123,,,,,,,,,,,
+TI-1032-1,1067,Moonie,Susan,,,,,,,,521212123,,,,"638 Downey St, Salem, OR",,,,,,,
+TI-1032-1,1068,Moony,Susan,,,,,,,,,,,,"Adventura Aparments 638 Downey St, Salem, OR",,,,,,,
+TI-2003-1,1069,王杰,,,M,9/14/93,,,,,,,832721,,12 Constitution Street,,,,,,,
+TI-2003-1,1070,Wang,Jie,,Male,9/14/93,,,,,,,832721,Hong Kong,12 Constitution Street,,,,,,,
+TI-2003-2,1071,王伟,,,F,9/14/97,,,,,,,7123833,China,"169 3rd Ave. Camden, NJ 08030",,,,,,,
+TI-2003-2,1072,Wang,Wei,,Female,9/14/97,,,,,,,7123833,China,"169 3rd Ave. Camden, NJ 08030",,,,,,,
+TI-2003-3,1073,张伟,,,M,8/2/06,,,,,,,,,"173 John Lane, Camden, NJ 08030",,,,,,,
+TI-2003-3,1074,Zhang,Wei,,Male,2/8/06,,,,,,,,,"173 John Lane, 08030",,,,,,,
+TI-2003-4,1075,张秀英,,,F,2/4/31,,,,,,,,,"329 Leatherwood Street, Las Vegas, 89117",,,,,,,
+TI-2003-4,1076,Zhang,Xiu Ying,,Female,4/2/31,,,,,,,,,"329 Leatherwood Street, Las Vegas, NV",,,,,,,
+TI-2003-5,1077,刘杰,,,F,6/25/08,,,,,,,,,37 Campfire St.,,,,,,,
+TI-2003-5,1078,Liu,Jie,,Unknown,25-Jun-08,,,,,,,,,37 Campfire St.,,,,,,,
+TI-2004-1,1079,Brown,Jeffrey,,U,6/21/82,,,,,,3241,,,,,,,,,,
+TI-2004-1,1080,Brown Jr,Geoffrey,,M,6/21/82,,,,,,3241,,,,,,,,,,
+TI-1034-1,1081,Frankens,George,,,15-Mar-92,234456456,DE,,,,,,,"Ansbacher Strasse 23, 56422 Dusseldorf",,,56244,,,,
+TI-1034-1,1082,Frankens,Georg,,,15-Mar-92,234456456,Germany,,,,,,,23 Ansbacher Street,Dusseldorf,,56244,Germany,,,
+TI-1034-2,1083,Klempski,Morris,,,17-May-90,34543555,CA,,,,,,,"Skyline Apartments, 705 Sheppard Ave",Toronto,,M1S 1T4,,,,
+TI-1034-2,1084,Klempsky,Morrie,,,17-May-90,34543555,Canada,,,,,,,705 Sheppard Ave,Toronto,,M1S 1T4,CAN,,,
+TI-1034-3,1085,D'esquire,Ellie,,,19-Feb-91,,,,,,,,,,,,,,0352 6553537,,dellie@fmail.com
+TI-1034-3,1086,Desqueir,Ellie,,,19-Feb-91,,,,,,,,,,,,,,#ERROR!,,dellie@fmail.com
+TI-1035-1,1087,Wiest,George,,M,3/12/87,,,,,,,,,,,,,,702-221-2412,,pfranks@ishmail.com
+TI-1035-1,1088,Weest,George,,F,3/12/87,,,,,,,,,,,,,,221-2412,,pfranks@ishmail.com
+TI-1035-3,1089,Klein,Morris I,,,4/12/82,,,,,,,,,,,,,,,,
+TI-1035-4,1090,Klein,Morris II,,,4/12/82,,,,,,,,,,,,,,,,
+TI-1035-5,1091,Ohare,Ellie,,,8/15/67,,,,,,,,,,,,,,0352 6553537,,ellie.ohare@fmail.com
+TI-1035-5,1092,O'hare,Ellie,,,8/15/67,,,,,,,,,,,,,,#ERROR!,,ellie.ohare@fmail.com
+TI-1036-1,1093,Anderson,Amanda,,,3/12/87,,,73423499,MN,,,,,,,,,,,,
+TI-1036-1,1094,Jones,Amanda,,,3/12/87,,,73423499,MN,,,,,,,,,,,,
+TI-1036-3,1095,Aguilar,Juan,,Male,4/12/82,,,234234455,MN,,,,,,,,,,,,
+TI-1036-3,1096,Aguilar,Juann,,n/a,4/12/82,,,234234455,MN,,,,,,,,,,,,
+TI-1037-1,1097,Sanchez,Marie,,,,,,,,,,,,P.O. Box 12987,Andersonville,IL,60611,,,982-122-2332,mickey@mmail.com
+TI-1037-1,1098,Sanchez Mendoza,Marie,,,,,,,,,,,,PO BOX 12987,Chicago,IL,60611,,,656-237-2191,mickey@mmail.com
+TI-1037-3,1099,Aguilar,Anna Maria,,Female,,,,,,,,,,1812 Overture way,Chicago,IL,,,,818-291-2881,mouse@mmail.com
+TI-1037-3,1100,Aguilar,Anna,Marie,Unknown,,,,,,,,,,9881 Freedom way,Chicago,IL,,,,818-291-2881,mouse@mmail.com
+TI-1038-1,1101,Miller,Mark,,,,,,,,,,,,,,,,,,,mark@marksfoods.com
+TI-1038-1,1102,Milner,Mark,,,,,,,,,,,,,,,,,,,mark@marksfoods.com
+TI-1038-3,1103,Becker,Anabella,,U,,,,823123,TX,,,,,,,,,,,,
+TI-1038-3,1104,Becker,Annabelle,,F,,,,823123,Texas,,,,,,,,,,,,
