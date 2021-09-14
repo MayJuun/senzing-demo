@@ -138,3 +138,6 @@
 {"DATA_SOURCE": "Patient_List_3","NAME_LAST":"Smith","NAME_FIRST":"Pat","ADDR_LINE1":"3212 W. 32nd St Palm Harbor, FL 60527","GENDER":"N/A"}
 {"DATA_SOURCE": "Patient_List_3","NAME_LAST":"Smith","NAME_FIRST":"Pat","ADDR_LINE1":"3212 W. 32nd St Palm Harbor, FL 60527","GENDER":"N/A","PASSPORT_COUNTRY":"USA"}
 {"DATA_SOURCE": "Patient_List_3","NAME_LAST":"Thompson","NAME_FIRST":"Zara","PHONE_LIST":[],"GENDER":"N/A"}
+{"DATA_SOURCE": "Deceased_List_1","NAME_LAST":"Kusha","NAME_FIRST":"Eddie","ADDR_LINE1":"1304 Poppy Hills Dr","ADDR_CITY":"Blacklick","ADDR_STATE":"OHIO","GENDER":"N/A","DATE_OF_BIRTH":"Mar 1 1970", "DATE_OF_DEATH":"Mar 28 2021"}
+{"DATA_SOURCE": "Deceased_List_1","NAME_LAST":"Anderson","NAME_FIRST":"Darla","GENDER":"N/A","DATE_OF_BIRTH":"1/7/80", "DATE_OF_DEATH":"Jan 10 2021"}
+{"DATA_SOURCE": "Deceased_List_1","NAME_LAST":"Smith","NAME_FIRST":"John","ADDR_LINE1":"3212 W. 32nd St Palm Harbor, FL 60527","GENDER":"N/A","DATE_OF_BIRTH":"3/15/90", "DATE_OF_DEATH":"May 6 2021"}
