@@ -44,7 +44,7 @@ Ubuntu 20.04 Xenial
    - `save`
    - `(y/n)` type 'y'
  - Grab the ndjson file with the FHIR-Compliant data from the storage bucket `curl -o demo.json https://storage.googleapis.com/senzing-fhir-test/demo-set.ndjson`
- - Load the file with `python3 G2Loader.py -f demo-set.ndjson`
+ - Load the file with `python3 G2Loader.py -f demo.json`
 
 
 ## Synthea<sup>TM</sup> to Senzing
