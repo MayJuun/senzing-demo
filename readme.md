@@ -41,7 +41,8 @@ Ubuntu 20.04 Xenial
    - `addDataSource {"dataSource":"Patient_List_2"}`
    - `addDataSource {"dataSource":"Patient_List_3"}`
    - `addDataSource {"dataSource":"Deceased_List_1"}`
-   - Save!
+   - `save`
+   - `(y/n)` type 'y'
  - Grab the ndjson file with the FHIR-Compliant data from the storage bucket `curl -o demo.json https://storage.googleapis.com/senzing-fhir-test/demo-set.ndjson`
  - Load the file with `python3 G2Loader.py -f demo-set.ndjson`
 
