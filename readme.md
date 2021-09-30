@@ -30,39 +30,21 @@ Ubuntu 20.04 Xenial
  - AWS deployment script included in this repo as `aws-startup-script.sh`
  - GCP deployment script included in this repo as `gcp-startup-script.sh`
 
-### Other Attributes:
- - Display Device is enabled, as we want to use screen sharing/recording tools (vnc, etc.)
-
 ### Other Notes:
- - This infra setup takes about 10-15 mins (as we have a desktop environment, and a VNC server to install/configure), so please allow yourself some time to deploy this when giving a demo (also a good time to hydrate).
+ - This infra setup takes about 10-15 mins, so please allow yourself some time to deploy this when giving a demo (also a good time to hydrate).
 
-## VNC Instructions (how to screen share your new cloud VM) - GCP Only
+## Import FHIR-Compliant Data into Senzing App
+ - After Docker Containers are up, ssh into the `senzing-ssh` container with `docker exec -it senzing-sshd /bin/bash`
+ - Navigate to the config tools directory for senzing with `cd /opt/senzing/g2/python/`
+ - Add data sources for FHIR-compliant patient lists with the Config Tool python file `python3 G2ConfigTool.py`
+   - `addDataSource {"dataSource":"Patient_List_1"}`
+   - `addDataSource {"dataSource":"Patient_List_2"}`
+   - `addDataSource {"dataSource":"Patient_List_3"}`
+   - `addDataSource {"dataSource":"Deceased_List_1"}`
+   - Save!
+ - Grab the ndjson file with the FHIR-Compliant data from the storage bucket `curl -o demo.json https://storage.googleapis.com/senzing-fhir-test/demo-set.ndjson`
+ - Load the file with `python3 G2Loader.py -f demo-set.ndjson`
 
-(Server)
- - Login as root with `sudo su -`
- - Run command `tightvncserver`
- - Set/Confirm password: `s3NZ1nG`
- - Answer 'n' for the view-only pw question
- - Edit file with nano `nano /root/.vnc/xstartup`
-   - Paste the following there:
-     ```
-     #!/bin/sh
-     autocutsel -fork
-     xrdb $HOME/.Xresources
-     xsetroot -solid grey
-     export XKL_XMODMAP_DISABLE=1
-     export XDG_CURRENT_DESKTOP="GNOME-Flashback:Unity"
-     export XDG_MENU_PREFIX="gnome-flashback-"
-     unset DBUS_SESSION_BUS_ADDRESS
-     gnome-session --session=gnome-flashback-metacity --disable-acceleration-check --debug &
-     ```
- - Exit out of file
- - Kill the vnc server `vncserver -kill :1`
- - Start vnc server again with `vncserver -geometry 1024x640`
-
-(Client - MacOS Only)
-- Install `VNC Viewer`
-- Point to 'Localhost: 5901'
 
 ## Synthea<sup>TM</sup> to Senzing
 
