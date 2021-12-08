@@ -49,6 +49,11 @@ cd ~/synthea.git/synthea
 # Generate 100 patients for JSON file
 ./run_synthea -p 100
 
+# Clone Senzing-Mapper GH repo
+mkdir --parents ~/senzing-mapper.git
+cd ~/senzing-mapper.git
+git clone  --recurse-submodules https://github.com/Senzing/mapper-base.git
+
 # Clone senzing GH repo
 mkdir --parents ${GIT_ACCOUNT_DIR}
 cd  ${GIT_ACCOUNT_DIR}
